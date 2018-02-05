@@ -1,0 +1,6 @@
+﻿//Launch a Application 
+
+TypeText  windowsKey,r
+TypeText "snpcmnt",returnKey
+
+

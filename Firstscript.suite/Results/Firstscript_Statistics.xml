@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="SNPCMNT_Utilities">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-02-05 11:21:21 +0530</FirstRun>
+  <LastRun>2018-02-05 11:21:21 +0530</LastRun>
+  <TotalTimeOnSuccess>0.922000</TotalTimeOnSuccess>
+ </script>
+</statistics>

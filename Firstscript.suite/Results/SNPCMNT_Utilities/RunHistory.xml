@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="SNPCMNT_Utilities">
+ <run>
+  <RunDate>2018-02-05 11:21:21.613 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.922000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180205_112121.613/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

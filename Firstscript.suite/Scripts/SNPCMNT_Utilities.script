@@ -1,0 +1,15 @@
+﻿click "Area"
+wait 2
+repeat until  (ImageFound( (text:"TSORG")))
+	
+	TypeText  pageDown
+	log "verift exist image is found or not"
+	(*if(ImageFound("Area_Drag"))
+		Exit repeat
+		
+	end if*)
+	
+end repeat
+click  FoundImageLocation()
+
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="SNPCMNT_Utilities.script" package="Firstscript.suite" timestamp="2018-02-05 11:21:21.613 +0530"
+ tests="1" successes="1" errors="0" time="0.922000">
+  <properties>
+   <property name="RunDate" value="2018-02-05 11:21:21.613 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="SNPCMNT_Utilities.script" assertions="1" successes="1" errors="0" time="0.906">
+  </testcase>
+ </testsuite>
+</testsuites>
