@@ -55,16 +55,20 @@ function loginIntoApp userName, passWord,domain
 	if SR=domain
 	then
 		LogSuccess "Domain field is dithered"
-		else
+	else
 		LogError "Enter Domain"		
 	end if	
 end loginIntoApp
 
-on clickOKButtonLogin
+(* Click on OK Button- login dialog *)
 
-	click(text:"OK",ValidWords:"OK",IgnoreSpaces:"YES",searchRectangle:(698,339,916,558))
+function clickOKButtonLogin
 
-end clickOKLoginDialog
+	put ImageLocation("TextBox_Domain") into DomainLoc
+	put DomainLoc+(1,70) into OK
+	click OK
+	
+end clickOKButtonLogin
 
 
 

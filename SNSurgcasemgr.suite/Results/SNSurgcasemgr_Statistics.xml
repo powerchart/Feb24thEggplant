@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0"?>
 <statistics>
+ <script name="TestScript">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-02-05 15:33:09 +0530</FirstRun>
+  <LastRun>2018-02-05 15:33:09 +0530</LastRun>
+  <TotalTimeOnSuccess>13.549000</TotalTimeOnSuccess>
+ </script>
  <script name="Utilities">
   <LastStatus>Success</LastStatus>
-  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfRuns>5</NumberOfRuns>
   <NumberOfFails>0</NumberOfFails>
   <FirstRun>2018-02-05 10:11:54 +0530</FirstRun>
-  <LastRun>2018-02-05 14:37:13 +0530</LastRun>
-  <TotalTimeOnSuccess>1.628000</TotalTimeOnSuccess>
+  <LastRun>2018-02-05 15:17:31 +0530</LastRun>
+  <TotalTimeOnSuccess>1.998000</TotalTimeOnSuccess>
  </script>
 </statistics>
