@@ -1,0 +1,10 @@
+﻿(* Launch SNSurgcasemgr.exe *)
+
+log Utilities.lauchApplication ("C:\Program Files\Cerner\snsurgcasemgr.exe")
+
+
+(* Wait Unitl Login window displays *)
+
+log Utilities.waitForLoginWindow(20)
+
+

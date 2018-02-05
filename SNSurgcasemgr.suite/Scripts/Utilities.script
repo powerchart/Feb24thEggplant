@@ -1,0 +1,64 @@
+﻿(* Launch an applicatiion *)
+
+function lauchApplication appPath
+
+	//* Open Run Window
+	
+	TypeText windowsKey ,"r"
+	WaitFor 8.0, "Textbox_OpenRunDialog"
+	
+	click "Textbox_OpenRunDialog"
+	
+	TypeText controlKey & a & backspace	
+	
+	//*Enter aplication full Path and Enter
+	
+	TypeText appPath,returnKey
+	
+end lauchApplication
+
+(* Wait until login dialog displays  *)
+
+function waitForLoginWindow waitTime
+	WaitFor waitTime, "Tag_Username"
+	if ImageFound("Tag_Username")
+	then
+		LogSuccess "login window displays"
+		
+	else
+		LogError "Not launched"
+	end if
+	
+end waitForLoginWindow
+
+(* Enter Username, Password and domain *)
+
+function loginIntoApp userName, passWord,domain
+
+	//* Enter Username
+	click "TextBox_userName"
+	TypeText userName
+	
+	//*Enter passWord
+	Click "TextBox_passWord"
+	TypeText passWord
+	
+	//*Check Text
+	
+	put ImageLocation("TextBox_Domain") into DomainLoc
+	insert DomainLoc+(-23,29) into SR
+	log SR
+	insert DomainLoc+(35,4) into SR
+	log SR
+	log ReadText(SR)
+	set the searchRectangle to ()
+	
+	
+	
+	
+	
+	
+	
+	
+end loginIntoApp
+
