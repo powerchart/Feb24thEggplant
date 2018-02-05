@@ -8,3 +8,7 @@ log Utilities.lauchApplication ("C:\Program Files\Cerner\snsurgcasemgr.exe")
 log Utilities.waitForLoginWindow(20)
 
 
+
+log Utilities.loginIntoApp("BUILD01","cerner01","solm64")
+
+log Utilities.clickOKButtonLogin

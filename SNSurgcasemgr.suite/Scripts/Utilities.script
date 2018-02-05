@@ -43,22 +43,28 @@ function loginIntoApp userName, passWord,domain
 	Click "TextBox_passWord"
 	TypeText passWord
 	
-	//*Check Text
+	//*Check Domain field is dithered
 	
 	put ImageLocation("TextBox_Domain") into DomainLoc
-	insert DomainLoc+(-23,29) into SR
+	insert DomainLoc+(-29,29) into SR
 	log SR
-	insert DomainLoc+(35,4) into SR
+	insert DomainLoc+(45,4) into SR
 	log SR
-	log ReadText(SR)
+	put  ReadText(SR) into SR
 	set the searchRectangle to ()
-	
-	
-	
-	
-	
-	
-	
-	
+	if SR=domain
+	then
+		LogSuccess "Domain field is dithered"
+		else
+		LogError "Enter Domain"		
+	end if	
 end loginIntoApp
+
+on clickOKButtonLogin
+
+	click(text:"OK",ValidWords:"OK",IgnoreSpaces:"YES",searchRectangle:(698,339,916,558))
+
+end clickOKLoginDialog
+
+
 
