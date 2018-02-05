@@ -1,0 +1,19 @@
+﻿2018-02-05 16:58:49.835 +0530	START		Running new.script
+2018-02-05 16:58:50.058 +0530	click	Search_img_desktop	at (114, 1001)	2	on_new	new.script
+2018-02-05 16:58:50.900 +0530	typetext		powerchart[returnKey]	3	on_new	new.script
+2018-02-05 16:58:52.287 +0530	imagelocation	cerner_login_refimg	at (429, 325)	4	on_new	new.script
+2018-02-05 16:58:52.292 +0530	Log		(429,325)	5	on_new	new.script
+2018-02-05 16:58:52.446 +0530	click		at (569, 435)	7	on_new	new.script
+2018-02-05 16:58:53.263 +0530	typetext		AMRDDBA3	8	on_new	new.script
+2018-02-05 16:58:54.046 +0530	click		at (569, 485)	10	on_new	new.script
+2018-02-05 16:58:54.821 +0530	typetext		cerner	11	on_new	new.script
+2018-02-05 16:58:55.581 +0530	readtext		(559,539,652,557)
+2018-02-05 16:58:55.583 +0530	Log		SOLGM	16	on_new	new.script
+2018-02-05 16:58:55.698 +0530	click	login_ok_button	at (592, 593)	18	on_new	new.script
+2018-02-05 16:59:15.802 +0530	click	search_pat_field	at (1165, 191)	45	on_new	new.script
+2018-02-05 16:59:16.617 +0530	typetext		test, ak[returnKey]	46	on_new	new.script
+2018-02-05 16:59:17.326 +0530	imagelocation	refimg1	at (37, 61)	56	on_new	new.script
+2018-02-05 16:59:17.329 +0530	Log		(37,61)	57	on_new	new.script
+2018-02-05 16:59:17.336 +0530	Exception		Image Property List did not contain "ImageName" property	60	on_new	new.script
+2018-02-05 16:59:17.392 +0530	EndTestCase		(Duration:"27.55", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 16:58:49 +0530", Successes:"0", TestCase:"new.script", Warnings:"0")
+2018-02-05 16:59:17.531 +0530	FAILURE	Screen_Error.png	Error Running Script Command click Error - Image Property List did not contain "ImageName" property -- Execution Time 0:00:28 new.script

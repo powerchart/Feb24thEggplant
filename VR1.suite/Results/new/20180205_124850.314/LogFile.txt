@@ -1,0 +1,22 @@
+﻿2018-02-05 12:48:50.322 +0530	START		Running new.script
+2018-02-05 12:48:50.518 +0530	click	Search_img_desktop	at (114, 1001)	2	on_new	new.script
+2018-02-05 12:48:51.398 +0530	typetext		powerchart[returnKey]	3	on_new	new.script
+2018-02-05 12:48:53.127 +0530	imagelocation	cerner_login_refimg	at (429, 325)	4	on_new	new.script
+2018-02-05 12:48:53.131 +0530	Log		(429,325)	5	on_new	new.script
+2018-02-05 12:48:53.224 +0530	click		at (569, 435)	7	on_new	new.script
+2018-02-05 12:48:54.085 +0530	typetext		AMRDDBA3	8	on_new	new.script
+2018-02-05 12:48:54.877 +0530	click		at (569, 485)	10	on_new	new.script
+2018-02-05 12:48:55.674 +0530	typetext		cerner	11	on_new	new.script
+2018-02-05 12:48:56.431 +0530	readtext		(559,539,652,557)
+2018-02-05 12:48:56.435 +0530	Log		SOLGM	16	on_new	new.script
+2018-02-05 12:48:56.552 +0530	click	login_ok_button	at (592, 593)	18	on_new	new.script
+2018-02-05 12:49:01.060 +0530	waitfor	Error_A	found at (438, 364)	24	on_new	new.script
+2018-02-05 12:49:01.079 +0530	imagelocation	error_A	at (438, 364)	25	on_new	new.script
+2018-02-05 12:49:01.096 +0530	imagelocation	error_B	at (816, 385)	26	on_new	new.script
+2018-02-05 12:49:01.100 +0530	Log		(438,364,816,385)	27	on_new	new.script
+2018-02-05 12:49:01.174 +0530	readtext		(438,364,816,385)
+2018-02-05 12:49:01.176 +0530	Log		The action you attempted to take was not successful.	29	on_new	new.script
+2018-02-05 12:49:01.356 +0530	click	search_pat_field	at (1165, 191)	42	on_new	new.script
+2018-02-05 12:49:02.205 +0530	typetext		test, ak[returnKey]	43	on_new	new.script
+2018-02-05 12:49:02.257 +0530	EndTestCase		(Duration:"11.931", Errors:"0", Exceptions:"0", StartTime:"2018-02-05 12:48:50 +0530", Successes:"1", TestCase:"new.script", Warnings:"0")
+2018-02-05 12:49:02.329 +0530	SUCCESS		Execution Time 0:00:12 new.script

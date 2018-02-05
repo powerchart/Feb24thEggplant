@@ -1,0 +1,6 @@
+﻿2018-02-05 12:52:06.567 +0530	START		Running new.script
+2018-02-05 12:52:06.795 +0530	click	Search_img_desktop	at (114, 1001)	2	on_new	new.script
+2018-02-05 12:52:07.684 +0530	typetext		powerchart[returnKey]	3	on_new	new.script
+2018-02-05 12:52:12.618 +0530	Exception	cerner_login_refimg	Unable To Find Image "cerner_login_refimg"	4	on_new	new.script
+2018-02-05 12:52:12.702 +0530	EndTestCase		(Duration:"6.127", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 12:52:06 +0530", Successes:"0", TestCase:"new.script", Warnings:"0")
+2018-02-05 12:52:12.706 +0530	ABORTED		Execution Time 0:00:06 new.script

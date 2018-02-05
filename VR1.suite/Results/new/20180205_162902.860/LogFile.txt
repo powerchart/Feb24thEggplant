@@ -1,0 +1,25 @@
+﻿2018-02-05 16:29:02.867 +0530	START		Running new.script
+2018-02-05 16:29:03.108 +0530	click	Search_img_desktop	at (114, 1001)	2	on_new	new.script
+2018-02-05 16:29:03.952 +0530	typetext		powerchart[returnKey]	3	on_new	new.script
+2018-02-05 16:29:06.663 +0530	imagelocation	cerner_login_refimg	at (429, 325)	4	on_new	new.script
+2018-02-05 16:29:06.666 +0530	Log		(429,325)	5	on_new	new.script
+2018-02-05 16:29:06.753 +0530	click		at (569, 435)	7	on_new	new.script
+2018-02-05 16:29:07.570 +0530	typetext		AMRDDBA3	8	on_new	new.script
+2018-02-05 16:29:08.354 +0530	click		at (569, 485)	10	on_new	new.script
+2018-02-05 16:29:09.131 +0530	typetext		cerner	11	on_new	new.script
+2018-02-05 16:29:09.876 +0530	readtext		(559,539,652,557)
+2018-02-05 16:29:09.881 +0530	Log		SOLGM	16	on_new	new.script
+2018-02-05 16:29:09.996 +0530	click	login_ok_button	at (592, 593)	18	on_new	new.script
+2018-02-05 16:29:16.737 +0530	waitfor	Error_A	found at (438, 364)	24	on_new	new.script
+2018-02-05 16:29:16.803 +0530	imagelocation	error_A	at (438, 364)	25	on_new	new.script
+2018-02-05 16:29:16.870 +0530	imagelocation	error_B	at (816, 385)	26	on_new	new.script
+2018-02-05 16:29:16.873 +0530	Log		(438,364,816,385)	27	on_new	new.script
+2018-02-05 16:29:16.982 +0530	readtext		(438,364,816,385)
+2018-02-05 16:29:16.985 +0530	Log		The action you attempted to take was not successful.	29	on_new	new.script
+2018-02-05 16:29:17.122 +0530	click	search_pat_field	at (1165, 191)	43	on_new	new.script
+2018-02-05 16:29:17.938 +0530	typetext		test, ak[returnKey]	44	on_new	new.script
+2018-02-05 16:29:18.644 +0530	imagelocation	refimg1	at (37, 61)	50	on_new	new.script
+2018-02-05 16:29:18.646 +0530	Log		(37,61)	51	on_new	new.script
+2018-02-05 16:29:18.654 +0530	Exception		Image Property List did not contain "ImageName" property	54	on_new	new.script
+2018-02-05 16:29:18.712 +0530	EndTestCase		(Duration:"15.839", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 16:29:02 +0530", Successes:"0", TestCase:"new.script", Warnings:"0")
+2018-02-05 16:29:18.847 +0530	FAILURE	Screen_Error.png	Error Running Script Command click Error - Image Property List did not contain "ImageName" property -- Execution Time 0:00:16 new.script

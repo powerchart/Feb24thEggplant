@@ -21,13 +21,54 @@ else
 	typetext "solm64"
 	click "login_ok_button"
 end if
-
-insert Error_A+Error_B into Errorloc
-put ReadText(Errorloc) into errormsg
-if (errormsg="the action you attempted to take was not successful")
+if ImageFound(20, "error_A")
+(*insert ImageLocation("error_A") into Errorloc
+	insert ImageLocation("error_B")into Errorloc
+	log Errorloc
+	put ReadText(Errorloc) into errormsg
+	log errormsg
+	if (errormsg="the action you attempted to take was not successful")*)
 	click "error_close"
+	if ImageFound(20, "PVAPP_warning_A")
+	(*insert ImageLocation("PVAPP_warning_A")into PVAPPloc
+insert ImageLocation("PVAPP_warning_B")into PVAPPloc
+			put ReadText(PVAPPloc) into PVAPPmsg
+			log PVAPPmsg
+			if(PVAPPmsg="PVAPP")*)
+		click "PVAPP_ok"
+	else
+		click "search_pat_field"
+		typetext "test, ak", returnKey
+	end if
+	
 else
 	click "search_pat_field"
-	typetext "test, ak"
+	typetext "test, ak", returnKey
 end if
+
+
+(*else
+	click "search_pat_field"
+	typetext "test, ak", returnKey*)
+if ImageFound(20, "rect_A")
+	Click (Text:"Admitting Physician"),searchRectangle:(("rect_A","rect_B"))
+	Click "relationship_ok"
+else
+	put ImageLocation("refimg1") into refimg1
+	log refimg1
+	insert refimg1 +(-34,116) into SR4	
+	insert refimg1+(207,300) into SR4
+	(*put ReadText (SR4) into Var1
+	log var1*)
+	
+	Click ("MenuAll")
+	typetext "mar"
+	insert refimg1 +(-30,215) into SR5
+	insert refimg1+(147,880) into SR5
+	Click ("MAR")
+end if
+
+
+
+
 

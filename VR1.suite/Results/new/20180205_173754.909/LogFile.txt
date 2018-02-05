@@ -1,0 +1,22 @@
+﻿2018-02-05 17:37:54.915 +0530	START		Running new.script
+2018-02-05 17:37:55.198 +0530	click	Search_img_desktop	at (114, 1001)	2	on_new	new.script
+2018-02-05 17:37:56.043 +0530	typetext		powerchart[returnKey]	3	on_new	new.script
+2018-02-05 17:37:57.420 +0530	imagelocation	cerner_login_refimg	at (429, 325)	4	on_new	new.script
+2018-02-05 17:37:57.423 +0530	Log		(429,325)	5	on_new	new.script
+2018-02-05 17:37:57.510 +0530	click		at (569, 435)	7	on_new	new.script
+2018-02-05 17:37:58.363 +0530	typetext		AMRDDBA3	8	on_new	new.script
+2018-02-05 17:37:59.147 +0530	click		at (569, 485)	10	on_new	new.script
+2018-02-05 17:37:59.923 +0530	typetext		cerner	11	on_new	new.script
+2018-02-05 17:38:00.669 +0530	readtext		(559,539,652,557)
+2018-02-05 17:38:00.674 +0530	Log		SOLGM	16	on_new	new.script
+2018-02-05 17:38:00.784 +0530	click	login_ok_button	at (592, 593)	18	on_new	new.script
+2018-02-05 17:38:05.532 +0530	imagefound	error_A	found at (438, 364)	24	on_new	new.script
+2018-02-05 17:38:05.733 +0530	click	error_close	at (791, 503)	31	on_new	new.script
+2018-02-05 17:38:06.430 +0530	imagefound	PVAPP_warning_A	found at (416, 441)	32	on_new	new.script
+2018-02-05 17:38:06.551 +0530	click	PVAPP_ok	at (818, 577)	38	on_new	new.script
+2018-02-05 17:38:26.597 +0530	imagefound	rect_A	Unable to Find Image rect_A within 20.00 seconds	53	on_new	new.script
+2018-02-05 17:38:26.611 +0530	imagelocation	refimg1	at (37, 61)	57	on_new	new.script
+2018-02-05 17:38:26.614 +0530	Log		(37,61)	58	on_new	new.script
+2018-02-05 17:38:32.935 +0530	Exception	MenuAll	No Image Found On Screen: "MenuAll"	64	on_new	new.script
+2018-02-05 17:38:33.051 +0530	EndTestCase		(Duration:"38.13", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 17:37:54 +0530", Successes:"0", TestCase:"new.script", Warnings:"0")
+2018-02-05 17:38:33.054 +0530	ABORTED		Execution Time 0:00:39 new.script

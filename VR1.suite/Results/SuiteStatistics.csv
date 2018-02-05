@@ -1,2 +1,2 @@
 ﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
-new,Success,4,3,2018-02-05 10:42:03 +0530,2018-02-05 10:56:27 +0530,0:00:06
+new,Failure,19,16,2018-02-05 10:42:03 +0530,2018-02-05 17:19:09 +0530,0:00:10

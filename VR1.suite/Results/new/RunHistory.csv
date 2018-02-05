@@ -3,3 +3,23 @@
 2018-02-05 10:49:14.707 +0530,"Failure",0:00:00,1,0,0,"20180205_104914.707/LogFile.txt","","SenseTalk Compiler Exception -- in new:\nSyntax Error at line 23: Syntax Error - can't understand [end of line] at or near character 491",0
 2018-02-05 10:49:49.555 +0530,"Failure",0:00:06,1,0,1,"20180205_104949.555/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: 552",0
 2018-02-05 10:56:27.760 +0530,"Success",0:00:06,0,0,0,"20180205_105627.760/LogFile.txt","","",1
+2018-02-05 12:09:03.728 +0530,"Failure",0:00:05,1,0,0,"20180205_120903.728/LogFile.txt","","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'Error_B' and 'Error_A'",0
+2018-02-05 12:10:29.400 +0530,"Failure",0:00:09,1,0,0,"20180205_121029.400/LogFile.txt","","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'Error_B' and 'Error_A'",0
+2018-02-05 12:45:42.151 +0530,"Success",0:00:12,0,0,0,"20180205_124542.151/LogFile.txt","","",1
+2018-02-05 12:47:24.933 +0530,"Running",0:00:00,0,0,0,"20180205_124724.933/LogFile.txt","","",0
+2018-02-05 12:48:50.314 +0530,"Success",0:00:11,0,0,0,"20180205_124850.314/LogFile.txt","","",1
+2018-02-05 12:52:06.563 +0530,"Running",0:00:00,0,0,0,"20180205_125206.563/LogFile.txt","","",0
+2018-02-05 15:31:41.189 +0530,"Running",0:00:00,0,0,0,"20180205_153141.189/LogFile.txt","","",0
+2018-02-05 15:35:00.193 +0530,"Failure",0:00:37,1,0,0,"20180205_153500.193/LogFile.txt","","Image Not Found -- click Error - Unable To Find Image: rect_A",0
+2018-02-05 15:39:58.056 +0530,"Running",0:00:00,0,0,0,"20180205_153958.056/LogFile.txt","","",0
+2018-02-05 15:41:28.046 +0530,"Failure",0:00:31,1,0,1,"20180205_154128.046/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""Error_A"" within 20.00 seconds",0
+2018-02-05 15:43:02.673 +0530,"Failure",0:00:11,1,0,0,"20180205_154302.673/LogFile.txt","","STInvalidBoolean -- Value 'rect_A' is not TRUE, FALSE, YES, NO, ON, OFF or empty",0
+2018-02-05 15:44:07.358 +0530,"Failure",0:00:11,1,0,1,"20180205_154407.358/LogFile.txt","","Error Running Script Command -- click Error - Image Property List did not contain ""ImageName"" property",0
+2018-02-05 16:29:02.860 +0530,"Failure",0:00:15,1,0,1,"20180205_162902.860/LogFile.txt","","Error Running Script Command -- click Error - Image Property List did not contain ""ImageName"" property",0
+2018-02-05 16:38:04.205 +0530,"Running",0:00:00,0,0,0,"20180205_163804.205/LogFile.txt","","",0
+2018-02-05 16:52:11.528 +0530,"Failure",0:00:00,1,0,0,"20180205_165211.528/LogFile.txt","","SenseTalk Compiler Exception -- in new:\nSyntax Error at line 71: Syntax Error - can't understand [end of script] at or near character 1697",0
+2018-02-05 16:58:49.829 +0530,"Failure",0:00:27,1,0,1,"20180205_165849.829/LogFile.txt","","Error Running Script Command -- click Error - Image Property List did not contain ""ImageName"" property",0
+2018-02-05 17:04:15.821 +0530,"Failure",0:00:47,1,0,1,"20180205_170415.821/LogFile.txt","","Error Running Script Command -- click Error - Image Property List did not contain ""ImageName"" property",0
+2018-02-05 17:10:47.507 +0530,"Failure",0:00:47,1,0,1,"20180205_171047.507/LogFile.txt","","Error Running Script Command -- click Error - Image Property List did not contain ""ImageName"" property",0
+2018-02-05 17:13:07.736 +0530,"Failure",0:00:00,1,0,0,"20180205_171307.736/LogFile.txt","","SenseTalk Compiler Exception -- in new:\nSyntax Error at line 42: Syntax Error - can't understand ""else"" at or near character 1092",0
+2018-02-05 17:19:09.220 +0530,"Failure",0:00:46,1,0,1,"20180205_171909.220/LogFile.txt","","Error Running Script Command -- click Error - Image Property List did not contain ""ImageName"" property",0
