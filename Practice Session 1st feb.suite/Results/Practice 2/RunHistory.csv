@@ -1,0 +1,12 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-02-01 11:42:04.496 +0530,"Success",0:00:02,0,0,0,"20180201_114204.496/LogFile.txt","","",1
+2018-02-01 11:45:24.298 +0530,"Success",0:00:01,0,0,0,"20180201_114524.298/LogFile.txt","","",1
+2018-02-01 11:52:35.033 +0530,"Success",0:00:02,0,0,0,"20180201_115235.033/LogFile.txt","","",1
+2018-02-01 11:56:21.843 +0530,"Success",0:00:05,0,0,0,"20180201_115621.843/LogFile.txt","","",1
+2018-02-01 14:36:17.193 +0530,"Success",0:00:09,0,0,0,"20180201_143617.193/LogFile.txt","","",1
+2018-02-01 14:43:30.559 +0530,"Failure",0:00:00,1,0,0,"20180201_144330.559/LogFile.txt","","SenseTalk Compiler Exception -- in practice_2:\nSyntax Error at line 30: Syntax Error - can't understand [end of line] at or near character 407",0
+2018-02-01 14:43:47.184 +0530,"Failure",0:00:00,1,0,0,"20180201_144347.184/LogFile.txt","","SenseTalk Compiler Exception -- in practice_2:\nSyntax Error at line 30: Syntax Error - can't understand [end of line] at or near character 407",0
+2018-02-01 14:44:06.121 +0530,"Failure",0:00:00,1,0,0,"20180201_144406.121/LogFile.txt","","SenseTalk Compiler Exception -- in practice_2:\nSyntax Error at line 30: Syntax Error - can't understand [end of line] at or near character 407",0
+2018-02-05 10:31:45.616 +0530,"Failure",0:00:00,1,0,1,"20180205_103145.616/LogFile.txt","","File Not Found -- doubleclick Error - Could Not Open Image: Google chrome",0
+2018-02-05 10:34:38.125 +0530,"Failure",0:00:00,1,0,1,"20180205_103438.125/LogFile.txt","","File Not Found -- doubleclick Error - Could Not Open Image: Google chrome",0
+2018-02-05 10:35:08.547 +0530,"Failure",0:00:00,1,0,1,"20180205_103508.547/LogFile.txt","","File Not Found -- doubleclick Error - Could Not Open Image: Google chrome",0

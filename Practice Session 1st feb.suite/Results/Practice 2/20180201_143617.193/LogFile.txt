@@ -1,0 +1,10 @@
+﻿2018-02-01 14:36:17.224 +0530	START		Running Practice 2.script
+2018-02-01 14:36:17.678 +0530	doubleclick	Google chrome	at (32, 436)	1	on_practice_2	Practice 2.script
+2018-02-01 14:36:19.084 +0530	waitfor	Refresh	found at (76, 42)	3	on_practice_2	Practice 2.script
+2018-02-01 14:36:19.615 +0530	typetext		wikipedia[returnKey]	10	on_practice_2	Practice 2.script
+2018-02-01 14:36:21.318 +0530	waitfor	(TEXT:"Wikipedia")	found at (146, 47)	14	on_practice_2	Practice 2.script
+2018-02-01 14:36:24.084 +0530	click	(TEXT:"Wikipedia")	at (204, 290)	17	on_practice_2	Practice 2.script
+2018-02-01 14:36:25.693 +0530	imagefound	Textbox	found at (599, 576)	23	on_practice_2	Practice 2.script
+2018-02-01 14:36:25.943 +0530	click	Textbox	at (599, 576)	25	on_practice_2	Practice 2.script
+2018-02-01 14:36:26.803 +0530	EndTestCase		(Duration:"9.563", Errors:"0", Exceptions:"0", StartTime:"2018-02-01 14:36:17 +0530", Successes:"1", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-01 14:36:27.099 +0530	SUCCESS		Execution Time 0:00:09 Practice 2.script

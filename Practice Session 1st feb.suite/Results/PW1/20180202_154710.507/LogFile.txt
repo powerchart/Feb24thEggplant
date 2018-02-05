@@ -1,0 +1,4 @@
+﻿2018-02-02 15:47:10.554 +0530	START		Running PW1.script
+2018-02-02 15:47:10.742 +0530	keydown		[windowsKey]R	1	on_pw1	PW1.script
+2018-02-02 15:47:11.929 +0530	EndTestCase		(Duration:"1.359", Errors:"0", Exceptions:"0", StartTime:"2018-02-02 15:47:10 +0530", Successes:"1", TestCase:"PW1.script", Warnings:"0")
+2018-02-02 15:47:12.086 +0530	SUCCESS		Execution Time 0:00:01 PW1.script

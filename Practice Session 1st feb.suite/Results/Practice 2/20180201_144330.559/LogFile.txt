@@ -1,0 +1,3 @@
+﻿2018-02-01 14:43:30.605 +0530	START		Running Practice 2.script
+2018-02-01 14:43:30.637 +0530	EndTestCase		(Duration:"-0", Errors:"1", Exceptions:"0", StartTime:"2018-02-01 14:43:30 +0530", Successes:"0", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-01 14:43:31.215 +0530	FAILURE	Screen_Error.png	SenseTalk Compiler Exception in practice_2:\nSyntax Error at line 30: Syntax Error - can't understand [end of line] at or near character 407 -- Execution Time 0:00:00 Practice 2.script

@@ -1,0 +1,8 @@
+﻿2018-02-01 11:56:21.874 +0530	START		Running Practice 2.script
+2018-02-01 11:56:22.374 +0530	doubleclick	Google chrome	at (32, 436)	1	on_practice_2	Practice 2.script
+2018-02-01 11:56:24.015 +0530	waitfor	Refresh	found at (76, 42)	3	on_practice_2	Practice 2.script
+2018-02-01 11:56:24.452 +0530	typetext		wikipedia[returnKey]	7	on_practice_2	Practice 2.script
+2018-02-01 11:56:26.249 +0530	imagelocation	All	at (169, 207)	9	on_practice_2	Practice 2.script
+2018-02-01 11:56:26.265 +0530	Log		(169,207)	11	on_practice_2	Practice 2.script
+2018-02-01 11:56:26.968 +0530	EndTestCase		(Duration:"5.078", Errors:"0", Exceptions:"0", StartTime:"2018-02-01 11:56:21 +0530", Successes:"1", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-01 11:56:27.124 +0530	SUCCESS		Execution Time 0:00:05 Practice 2.script

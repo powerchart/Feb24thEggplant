@@ -1,0 +1,86 @@
+﻿DoubleClick "Google chrome" 
+WaitFor 4, "Refresh"
+
+set thesearchRectangle to ("Refresh","Favourate icon")
+
+
+
+
+TypeText "wikipedia",returnKey
+
+
+
+WaitFor 5, (Text:"Wikipedia")
+
+
+Click (Text:"Wikipedia", searchRectangle:(153,217,760,348))
+
+
+
+
+
+If ImageFound(5, "Textbox")
+then
+	Click "Textbox"
+	
+End if
+
+TypeText "The Big Bang Theory Season 11"
+
+
+Click (Text:"The Big Bang Theory (season 11)", searchRectangle:(396,562,790,963))
+
+
+wait 5
+KeyDown controlKey & f
+KeyUp controlKey & f
+
+
+TypeText "Ratings",returnKey
+
+
+
+Repeat until ImageFound(10, "TheBigBangTheoryimage")
+	TypeText pageUp
+End repeat
+
+
+Click (Text:"Ratings", searchRectangle:(176,297,381,581))
+
+
+
+
+
+put ImageLocation("Ratings") into RatingLoc
+put "The Proposal Proposal" into NameSearch
+Log RatingLoc
+
+
+insert RatingLoc+(22,80) into SR
+Log SR
+insert RatingLoc+(235,450) into SR
+Log SR
+Wait 2
+Log ReadText(SR)
+
+put ImageLocation(Text:NameSearch,searchRectangle:SR) into NameLocation
+Log NameLocation
+
+insert NameLocation+(291,-12) into NumLocation
+insert NameLocation+(405,12) into NumLocation
+log NumLocation
+put ReadText(NumLocation) into Avg
+
+if Avg = "2.6/11" then
+	LogSuccess "Done"
+else
+	LogError "Error"
+	
+end if
+
+
+
+
+
+
+

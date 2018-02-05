@@ -1,0 +1,6 @@
+﻿2018-02-05 10:16:57.149 +0530	START		Running PW1.script
+2018-02-05 10:16:57.383 +0530	typetext		[windowsKey]r	1	on_pw1	C://userprofiles01/XDdata01/ht049330/Desktop/eggplant/Practice Session 1st feb.suite/Scripts/PW1.script
+2018-02-05 10:16:58.602 +0530	typetext		POWERCHART[returnKey]	3	on_pw1	C://userprofiles01/XDdata01/ht049330/Desktop/eggplant/Practice Session 1st feb.suite/Scripts/PW1.script
+2018-02-05 10:16:58.618 +0530	Exception	Username1	Could Not Open Image: Username1	5	on_pw1	C://userprofiles01/XDdata01/ht049330/Desktop/eggplant/Practice Session 1st feb.suite/Scripts/PW1.script
+2018-02-05 10:16:59.086 +0530	EndTestCase		(Duration:"1.922", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 10:16:57 +0530", Successes:"0", TestCase:"PW1.script", Warnings:"0")
+2018-02-05 10:16:59.446 +0530	FAILURE	Screen_Error.png	File Not Found click Error - Could Not Open Image: Username1 -- Execution Time 0:00:02 PW1.script

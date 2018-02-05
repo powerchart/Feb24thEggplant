@@ -1,0 +1,11 @@
+﻿2018-02-02 16:07:53.900 +0530	START		Running PW1.script
+2018-02-02 16:07:54.619 +0530	click	Start Button	at (15, 1010)	1	on_pw1	PW1.script
+2018-02-02 16:07:56.025 +0530	typetext		POWERCHART[returnKey]	2	on_pw1	PW1.script
+2018-02-02 16:07:57.040 +0530	click	Username1	at (590, 445)	4	on_pw1	PW1.script
+2018-02-02 16:07:57.806 +0530	typetext		[controlKey]a	6	on_pw1	PW1.script
+2018-02-02 16:07:58.556 +0530	typetext		[backspace]	7	on_pw1	PW1.script
+2018-02-02 16:07:59.634 +0530	typetext		AUTOICU1	8	on_pw1	PW1.script
+2018-02-02 16:08:00.400 +0530	typetext		[tab]	9	on_pw1	PW1.script
+2018-02-02 16:08:01.306 +0530	typetext		cerner	10	on_pw1	PW1.script
+2018-02-02 16:08:02.494 +0530	EndTestCase		(Duration:"8.579", Errors:"0", Exceptions:"0", StartTime:"2018-02-02 16:07:53 +0530", Successes:"1", TestCase:"PW1.script", Warnings:"0")
+2018-02-02 16:08:02.712 +0530	SUCCESS		Execution Time 0:00:09 PW1.script

@@ -1,0 +1,5 @@
+﻿2018-02-02 15:52:24.592 +0530	START		Running PW1.script
+2018-02-02 15:52:25.139 +0530	click	Start Button	at (15, 1010)	1	on_pw1	PW1.script
+2018-02-02 15:52:26.357 +0530	typetext		POWERCHART[returnKey]	2	on_pw1	PW1.script
+2018-02-02 15:52:27.514 +0530	EndTestCase		(Duration:"2.907", Errors:"0", Exceptions:"0", StartTime:"2018-02-02 15:52:24 +0530", Successes:"1", TestCase:"PW1.script", Warnings:"0")
+2018-02-02 15:52:27.654 +0530	SUCCESS		Execution Time 0:00:03 PW1.script

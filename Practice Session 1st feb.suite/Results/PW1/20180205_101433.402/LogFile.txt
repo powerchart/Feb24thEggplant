@@ -1,0 +1,4 @@
+﻿2018-02-05 10:14:33.417 +0530	START		Running PW1.script
+2018-02-05 10:14:33.574 +0530	Exception	Start Button	Could Not Open Image: Start Button	1	on_pw1	C://userprofiles01/XDdata01/ht049330/Desktop/eggplant/Practice Session 1st feb.suite/Scripts/PW1.script
+2018-02-05 10:14:33.949 +0530	EndTestCase		(Duration:"0.516", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 10:14:33 +0530", Successes:"0", TestCase:"PW1.script", Warnings:"0")
+2018-02-05 10:14:34.339 +0530	FAILURE	Screen_Error.png	File Not Found click Error - Could Not Open Image: Start Button -- Execution Time 0:00:00 PW1.script
