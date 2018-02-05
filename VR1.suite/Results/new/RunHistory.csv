@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-02-05 10:42:03.705 +0530,"Failure",0:00:00,1,0,0,"20180205_104203.705/LogFile.txt","","SenseTalk Compiler Exception -- in new:\nSyntax Error at line 22: Syntax Error - can't understand [end of line] at or near character 480",0
+2018-02-05 10:49:14.707 +0530,"Failure",0:00:00,1,0,0,"20180205_104914.707/LogFile.txt","","SenseTalk Compiler Exception -- in new:\nSyntax Error at line 23: Syntax Error - can't understand [end of line] at or near character 491",0
+2018-02-05 10:49:49.555 +0530,"Failure",0:00:06,1,0,1,"20180205_104949.555/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: 552",0
+2018-02-05 10:56:27.760 +0530,"Success",0:00:06,0,0,0,"20180205_105627.760/LogFile.txt","","",1

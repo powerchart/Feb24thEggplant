@@ -1,0 +1,3 @@
+﻿2018-02-05 10:42:03.717 +0530	START		Running new.script
+2018-02-05 10:42:03.729 +0530	EndTestCase		(Duration:"0.004", Errors:"1", Exceptions:"0", StartTime:"2018-02-05 10:42:03 +0530", Successes:"0", TestCase:"new.script", Warnings:"0")
+2018-02-05 10:42:03.998 +0530	FAILURE	Screen_Error.png	SenseTalk Compiler Exception in new:\nSyntax Error at line 22: Syntax Error - can't understand [end of line] at or near character 480 -- Execution Time 0:00:00 new.script

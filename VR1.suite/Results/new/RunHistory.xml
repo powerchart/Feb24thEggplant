@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<runHistory script="new">
+ <run>
+  <RunDate>2018-02-05 10:42:03.705 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.024000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180205_104203.705/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in new:
+Syntax Error at line 22: Syntax Error - can&#x27;t understand [end of line] at or near character 480</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-05 10:49:14.707 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.016000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180205_104914.707/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in new:
+Syntax Error at line 23: Syntax Error - can&#x27;t understand [end of line] at or near character 491</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-05 10:49:49.555 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>6.611000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180205_104949.555/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: 552</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-05 10:56:27.760 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>6.325000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180205_105627.760/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

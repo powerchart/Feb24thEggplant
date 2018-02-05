@@ -1,0 +1,33 @@
+﻿
+click "Search_img_desktop"
+typetext "powerchart", returnKey
+put ImageLocation("cerner_login_refimg") into refimgloc
+log refimgloc
+insert refimgloc + (140,110) into SR
+click (SR)
+typetext "AMRDDBA3"
+insert refimgloc + (140,160) into SR2
+Click (SR2)
+typetext "cerner"
+insert refimgloc +(130,214) into SR3
+insert refimgloc+(223,232) into SR3
+
+put ReadText (SR3) into domain
+log domain
+if (domain=solgm)
+	Click "login_ok_button"
+else
+	click(SR3)
+	typetext "solm64"
+	click "login_ok_button"
+end if
+
+insert Error_A+Error_B into Errorloc
+put ReadText(Errorloc) into errormsg
+if (errormsg="the action you attempted to take was not successful")
+	click "error_close"
+else
+	click "search_pat_field"
+	typetext "test, ak"
+end if
+
