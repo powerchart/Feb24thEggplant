@@ -1,0 +1,37 @@
+﻿if imagefound(10,"icon_win-search") then
+	click  "icon_win-search"
+else
+	log"search not found"
+end if
+
+TypeText "chrome"
+
+if imagefound(10,"icon_chrome") then
+	click  "icon_chrome"
+	else
+	log"chrome not found"
+end if
+log "chrome screeen launched"
+waitfor 10,"button_Images"
+click"button_Images"
+
+log "google images"
+
+click"image_GoogleImages"
+typetext "autocar-india",returnKey
+log"autocar videos"
+waitfor 10,"tab_Videos"
+click "tab_Videos"
+click(Image:"link_AutocarIndiaYouTube")
+waitfor 10,"link_AutocarIndiaYouTube"
+log "viewing passat review video"
+
+click(Image:"icon_youtube", WaitFor:4)
+click "button_youtubesearch"
+TypeText "volkswagon passat",returnKey
+waitfor 10, "link_2017VolkswagenPassatIFirstDrive"
+click "link_2017VolkswagenPassatIFirstDrive"
+log"video is playing"
+
+
+

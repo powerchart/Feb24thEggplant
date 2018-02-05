@@ -1,0 +1,3 @@
+﻿2018-01-31 09:54:28.880 +0530	START		Running eggplant/test.script
+2018-01-31 09:54:29.129 +0530	EndTestCase		(Duration:"0.249", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 09:54:28 +0530", Successes:"1", TestCase:"eggplant/test.script", Warnings:"0")
+2018-01-31 09:54:29.176 +0530	SUCCESS		Execution Time 0:00:01 eggplant/test.script

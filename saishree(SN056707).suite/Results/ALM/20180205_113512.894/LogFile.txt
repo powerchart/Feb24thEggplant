@@ -1,0 +1,24 @@
+﻿2018-02-05 11:35:12.901 +0530	START		Running ALM.script
+2018-02-05 11:35:13.044 +0530	imagefound	icon_win-search	found at (74, 1004)	4	on_alm	ALM.script
+2018-02-05 11:35:13.220 +0530	click	icon_win-search	at (74, 1004)	5	on_alm	ALM.script
+2018-02-05 11:35:14.307 +0530	typetext		powerchart	10	on_alm	ALM.script
+2018-02-05 11:35:15.606 +0530	imagefound	icon_powerchart	found at (74, 407)	12	on_alm	ALM.script
+2018-02-05 11:35:15.799 +0530	click	icon_powerchart	at (74, 407)	13	on_alm	ALM.script
+2018-02-05 11:35:15.800 +0530	Log		login screeen launched	17	on_alm	ALM.script
+2018-02-05 11:35:17.591 +0530	waitfor	button_Username	found at (626, 429)	18	on_alm	ALM.script
+2018-02-05 11:35:17.840 +0530	doubleclick	button_Username	at (626, 429)	20	on_alm	ALM.script
+2018-02-05 11:35:18.893 +0530	typetext		rm031596	21	on_alm	ALM.script
+2018-02-05 11:35:18.940 +0530	imagefound	button_Password	found at (570, 487)	22	on_alm	ALM.script
+2018-02-05 11:35:19.789 +0530	click	button_Password	at (570, 487)	23	on_alm	ALM.script
+2018-02-05 11:35:20.712 +0530	typetext		cerner	28	on_alm	ALM.script
+2018-02-05 11:35:21.588 +0530	click	button_ok.png	at (597, 594)	29	on_alm	ALM.script
+2018-02-05 11:35:21.591 +0530	Log		successful login	30	on_alm	ALM.script
+2018-02-05 11:35:24.128 +0530	imagefound	window_powerchart-rm031596	found at (325, 10)	32	on_alm	ALM.script
+2018-02-05 11:35:24.293 +0530	click	window_powerchart-rm031596	at (325, 10)	33	on_alm	ALM.script
+2018-02-05 11:35:24.297 +0530	LogSuccess		lauched the page	34	on_alm	ALM.script
+2018-02-05 11:35:29.356 +0530	waitfor	tab_Communicate	found at (870, 117)	43	on_alm	ALM.script
+2018-02-05 11:35:29.503 +0530	click	tab_Communicate	at (870, 117)	44	on_alm	ALM.script
+2018-02-05 11:35:30.551 +0530	click	(TEXT:"message")	at (832, 140)	45	on_alm	ALM.script
+2018-02-05 11:35:45.645 +0530	imagefound	field_patient	Unable to Find Image field_patient within 15.00 seconds	46	on_alm	ALM.script
+2018-02-05 11:36:14.316 +0530	EndTestCase		(Duration:"61.413", Errors:"1", Exceptions:"0", StartTime:"2018-02-05 11:35:12 +0530", Successes:"1", TestCase:"ALM.script", Warnings:"0")
+2018-02-05 11:36:14.319 +0530	ABORTED		Execution Time 0:01:02 ALM.script

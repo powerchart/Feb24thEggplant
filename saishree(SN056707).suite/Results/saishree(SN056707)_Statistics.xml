@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="eggplant/action">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 09:54:43 +0530</FirstRun>
+  <LastRun>2018-01-31 10:52:54 +0530</LastRun>
+  <TotalTimeOnSuccess>0.187000</TotalTimeOnSuccess>
+ </script>
+ <script name="eggplant/test">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 09:51:06 +0530</FirstRun>
+  <LastRun>2018-01-31 10:48:52 +0530</LastRun>
+  <TotalTimeOnSuccess>2.358000</TotalTimeOnSuccess>
+ </script>
+ <script name="notepad">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2018-01-29 17:34:25 +0530</FirstRun>
+  <LastRun>2018-01-29 17:45:36 +0530</LastRun>
+  <TotalTimeOnSuccess>21.971000</TotalTimeOnSuccess>
+ </script>
+ <script name="powerchart-login">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>11</NumberOfRuns>
+  <NumberOfFails>7</NumberOfFails>
+  <FirstRun>2018-01-29 11:39:43 +0530</FirstRun>
+  <LastRun>2018-01-30 09:21:44 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="practice">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-29 16:44:46 +0530</FirstRun>
+  <LastRun>2018-01-29 16:44:46 +0530</LastRun>
+  <TotalTimeOnSuccess>22.690000</TotalTimeOnSuccess>
+ </script>
+ <script name="prefmaint">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>12</NumberOfRuns>
+  <NumberOfFails>8</NumberOfFails>
+  <FirstRun>2018-01-29 12:20:52 +0530</FirstRun>
+  <LastRun>2018-02-02 15:14:14 +0530</LastRun>
+  <TotalTimeOnSuccess>32.660000</TotalTimeOnSuccess>
+ </script>
+ <script name="eggplant/cerner-webpage">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>6</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-29 17:11:05 +0530</FirstRun>
+  <LastRun>2018-01-31 10:02:26 +0530</LastRun>
+  <TotalTimeOnSuccess>147.318000</TotalTimeOnSuccess>
+ </script>
+ <script name="cerner_page">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 10:07:28 +0530</FirstRun>
+  <LastRun>2018-01-31 10:07:28 +0530</LastRun>
+  <TotalTimeOnSuccess>2.375000</TotalTimeOnSuccess>
+ </script>
+ <script name="powerchart1">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2018-01-30 15:22:36 +0530</FirstRun>
+  <LastRun>2018-01-30 17:44:39 +0530</LastRun>
+  <TotalTimeOnSuccess>17.080000</TotalTimeOnSuccess>
+ </script>
+ <script name="ALM">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>7</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2018-02-02 16:29:32 +0530</FirstRun>
+  <LastRun>2018-02-05 11:41:46 +0530</LastRun>
+  <TotalTimeOnSuccess>264.593000</TotalTimeOnSuccess>
+ </script>
+</statistics>

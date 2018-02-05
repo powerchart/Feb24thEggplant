@@ -1,0 +1,24 @@
+﻿Run "powerchart/login"
+LogSuccess "login ran successfully"
+
+Run "powerchart/message-center"
+LogSuccess "message centre ran"
+
+
+put ("image_click", "image_win-search") into seachlist
+
+ImageFound(10, ", "icon_win-home",)
+click item 2  of seachlist
+
+(*
+put EveryImageLocation("icon_desktop-chrome") into var
+log var
+if ImageFound(5, "icon_desktop-chrome")then
+	doubleclick item 2 of var 
+	LogSuccess "google launched"
+	
+else
+	LogError "error in logging"
+end if	
+	
+*)

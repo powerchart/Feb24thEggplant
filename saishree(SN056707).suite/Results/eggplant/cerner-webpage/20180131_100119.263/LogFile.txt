@@ -1,0 +1,19 @@
+﻿2018-01-31 10:01:19.263 +0530	START		Running eggplant/cerner-webpage.script
+2018-01-31 10:01:19.466 +0530	imagefound	icon_win-search	found at (74, 1004)	1	on_cerner_page	cerner_page.script
+2018-01-31 10:01:19.638 +0530	click	icon_win-search	at (74, 1004)	2	on_cerner_page	cerner_page.script
+2018-01-31 10:01:20.591 +0530	typetext		internet	7	on_cerner_page	cerner_page.script
+2018-01-31 10:01:21.357 +0530	imagefound	image_IE	found at (77, 413)	9	on_cerner_page	cerner_page.script
+2018-01-31 10:01:21.513 +0530	click	image_IE	at (77, 413)	10	on_cerner_page	cerner_page.script
+2018-01-31 10:01:23.451 +0530	click	tab_googlesearch	at (250, 56)	2	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:24.623 +0530	typetext		www.cerner.com[returnKey]	3	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:34.624 +0530	Log		cerner home page launched	5	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:34.765 +0530	click	tab_menu-list	at (1091, 110)	6	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:35.890 +0530	waitfor	button_cerner-search	found at (766, 124)	7	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:36.015 +0530	click	button_cerner-search	at (766, 124)	9	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:37.312 +0530	typetext		clinical solutions[returnKey]	10	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:37.312 +0530	Log		searching for clinicalsearch	11	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:42.531 +0530	doubleclick	image_click	at (26, 825)	13	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:43.235 +0530	scrollwheeldown		moved 5	15	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:43.235 +0530	Log		successfully read the page	17	on_eggplant_cerner_webpage	eggplant/cerner-webpage.script
+2018-01-31 10:01:43.344 +0530	EndTestCase		(Duration:"24.065", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 10:01:19 +0530", Successes:"1", TestCase:"eggplant/cerner-webpage.script", Warnings:"0")
+2018-01-31 10:01:43.375 +0530	SUCCESS		Execution Time 0:00:24 eggplant/cerner-webpage.script

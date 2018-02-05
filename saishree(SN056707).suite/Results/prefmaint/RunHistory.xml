@@ -1,0 +1,183 @@
+﻿<?xml version="1.0"?>
+<runHistory script="prefmaint">
+ <run>
+  <RunDate>2018-01-29 12:20:52.815 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>15.583000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_122052.815/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:31:22.916 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180129_123122.916/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:35:08.320 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>49.025000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_123508.320/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- waitfor Error - Unable To Find Any Image On Screen &quot;P-Application&quot; within 10.00 seconds</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:39:18.686 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>29.990000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_123918.686/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: </ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:40:31.887 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>32.479000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_124031.887/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: </ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 14:00:20.340 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.829000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_140020.340/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 14:01:06.032 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>12.283000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_140106.032/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 14:02:10.930 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>16.596000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_140210.930/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: </ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 14:04:47.495 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>17.971000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_140447.495/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 15:02:20.295 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>25.988000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_150220.295/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 15:58:50.391 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>22.409000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_155850.391/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: buuton_close</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-02 14:38:23.483 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180202_143823.483/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-02 15:08:16.825 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180202_150816.825/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-02 15:13:07.198 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>32.660000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180202_151307.198/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-02 15:14:14.487 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>20.910000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180202_151414.487/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Command: &#x27;wiatfor&#x27;</ErrorMessage>
+ </run>
+</runHistory>

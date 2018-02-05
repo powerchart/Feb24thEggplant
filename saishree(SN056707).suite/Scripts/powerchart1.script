@@ -1,0 +1,64 @@
+﻿if imagefound(10,"icon_win-search") then
+	click  "icon_win-search"
+else
+	log"search not found"
+end if
+
+TypeText "powerchart"
+
+if imagefound(10,"icon_powerchart") then
+	click  "icon_powerchart"
+else
+	log"powerchart not found"
+end if
+log "login screeen launched"
+waitfor 20,"button_Username"
+put system into password
+put system into username
+doubleclick "button_Username"
+typetext username
+if imagefound(10,"button_Password") then
+	click "button_Password"
+else
+	log"password not found"
+end if
+typetext password
+click "button_ok.png"
+log "successful login"
+waitfor 20, "menu_Patient"
+click"menu_Patient"
+click "list_Search"
+
+waitfor 10,"field_LastName"
+click"field_LastName"
+typetext "james"
+click"button_psearch" 
+click"field_JAMESMIKE"
+doubleclick "field_BaselineWest"
+log "james is logged in"
+//allergy
+waitfor 10,"navigator_Allergies"
+click"navigator_Allergies"
+waitfor 10,"button_alergy-add"
+click"button_alergy-add"
+waitfor 10,"button_allergy-Search"
+
+typetext"ben"
+click"button_allergy-Search"
+waitfor 20,"list_BENEFIX"
+doubleclick"list_BENEFIX" 
+waitfor 10,"dropdown_Category"
+click "dropdown_Category"
+click"list_category-Environment"
+click "dropdown_Severity"
+click "list_severity-Moderate"
+click"dropdown_Infosource" 
+click"list_source-PatientSurvey" 
+click"dropdown_Onset"
+click "list_onset-Before"
+click"button_Cancel" "button_allergy-add"
+
+
+
+
+

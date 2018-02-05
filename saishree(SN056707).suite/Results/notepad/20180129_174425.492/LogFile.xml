@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="notepad.script" package="saishree(SN056707).suite" timestamp="2018-01-29 17:44:25.492 +0530"
+ tests="1" successes="1" errors="0" time="10.845000">
+  <properties>
+   <property name="RunDate" value="2018-01-29 17:44:25.492 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="notepad.script" assertions="1" successes="1" errors="0" time="10.829">
+  </testcase>
+ </testsuite>
+</testsuites>

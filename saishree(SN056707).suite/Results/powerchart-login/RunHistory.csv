@@ -1,0 +1,16 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-01-29 11:39:43.261 +0530,"Success",0:00:19,0,0,0,"20180129_113943.261/LogFile.txt","","",1
+2018-01-29 12:03:06.227 +0530,"Running",0:00:00,0,0,0,"20180129_120306.227/LogFile.txt","","",0
+2018-01-29 12:04:42.907 +0530,"Success",0:00:35,0,0,0,"20180129_120442.907/LogFile.txt","","",1
+2018-01-29 12:10:26.120 +0530,"Running",0:00:00,0,0,0,"20180129_121026.120/LogFile.txt","","",0
+2018-01-29 12:11:58.011 +0530,"Success",0:00:29,0,0,0,"20180129_121158.011/LogFile.txt","","",1
+2018-01-29 12:42:50.124 +0530,"Failure",0:00:50,1,0,1,"20180129_124250.124/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""PC-MessageCenter"" within 10.00 seconds",0
+2018-01-29 12:45:34.947 +0530,"Failure",0:00:38,1,0,1,"20180129_124534.947/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""PC-Username"" within 10.00 seconds",0
+2018-01-29 12:46:29.836 +0530,"Success",0:00:26,0,0,0,"20180129_124629.836/LogFile.txt","","",1
+2018-01-29 13:56:32.190 +0530,"Failure",0:00:18,1,0,1,"20180129_135632.190/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: okay-1",0
+2018-01-29 13:57:24.547 +0530,"Running",0:00:00,0,0,0,"20180129_135724.547/LogFile.txt","","",0
+2018-01-29 13:58:05.669 +0530,"Failure",0:00:08,1,0,1,"20180129_135805.669/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: button_ok",0
+2018-01-29 13:59:18.036 +0530,"Failure",0:00:07,1,0,1,"20180129_135918.036/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: label_MessageCenter",0
+2018-01-29 14:08:55.065 +0530,"Failure",0:00:08,1,0,1,"20180129_140855.065/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: label_MessageCenter",0
+2018-01-30 09:20:18.469 +0530,"Running",0:00:00,0,0,0,"20180130_092018.469/LogFile.txt","","",0
+2018-01-30 09:21:44.728 +0530,"Failure",0:00:10,1,0,1,"20180130_092144.728/LogFile.txt","","File Not Found -- waitfor Error - Could Not Open Image: Patient",0

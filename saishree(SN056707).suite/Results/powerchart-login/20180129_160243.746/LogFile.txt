@@ -1,0 +1,26 @@
+﻿2018-01-29 16:02:43.746 +0530	START		Running powerchart-login.script
+2018-01-29 16:02:43.887 +0530	imagefound	icon_win-search	found at (74, 1004)	1	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:44.043 +0530	click	icon_win-search	at (74, 1004)	2	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:45.059 +0530	typetext		powerchart	7	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:45.903 +0530	imagefound	icon_powerchart	found at (74, 407)	9	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:46.059 +0530	click	icon_powerchart	at (74, 407)	10	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:46.059 +0530	Log		login screeen launched	14	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:47.341 +0530	waitfor	button_Username	found at (626, 429)	15	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:47.544 +0530	doubleclick	button_Username	at (626, 429)	18	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:48.435 +0530	typetext		system	19	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:48.497 +0530	imagefound	button_Password	found at (570, 487)	20	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:49.341 +0530	click	button_Password	at (570, 487)	21	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:50.247 +0530	typetext		system	25	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:51.138 +0530	click	button_ok.png	at (597, 594)	26	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:51.138 +0530	Log		successful login	27	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:51.294 +0530	capturescreen	loginscreen.png		28	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:53.919 +0530	click	menu_Patient	at (151, 36)	29	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:54.763 +0530	waitfor	list_Recent	found at (185, 77)	30	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:54.919 +0530	click	list_Recent	at (185, 77)	31	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:55.732 +0530	waitfor	list_1test	found at (453, 86)	32	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:55.935 +0530	doubleclick	list_1test	at (453, 86)	33	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:59.701 +0530	waitfor	icon_patient	found at (15, 161)	34	on_powerchart_login	powerchart-login.script
+2018-01-29 16:02:59.701 +0530	Log		successfully logged in to a patient	35	on_powerchart_login	powerchart-login.script
+2018-01-29 16:03:33.924 +0530	Exception	button_ok1	No Image Found On Screen: "button_ok1"	36	on_powerchart_login	powerchart-login.script
+2018-01-29 16:03:34.018 +0530	EndTestCase		(Duration:"50.272", Errors:"1", Exceptions:"1", StartTime:"2018-01-29 16:02:43 +0530", Successes:"0", TestCase:"powerchart-login.script", Warnings:"0")
+2018-01-29 16:03:34.018 +0530	ABORTED		Execution Time 0:00:51 powerchart-login.script

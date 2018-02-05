@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<runHistory script="eggplant/action">
+ <run>
+  <RunDate>2018-01-31 09:54:43.298 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.156000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_095443.298/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:48:52.306 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.015000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_104852.306/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:52:54.736 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.016000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_105254.736/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="cerner-webpage.script" package="saishree(SN056707).suite" timestamp="2018-01-29 17:27:02.630 +0530"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2018-01-29 17:27:02.630 +0530"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="cerner-webpage.script" assertions="1" successes="0" errors="1" time="2.485">
+  </testcase>
+ </testsuite>
+</testsuites>

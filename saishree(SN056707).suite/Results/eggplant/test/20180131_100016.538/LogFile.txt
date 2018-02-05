@@ -1,0 +1,7 @@
+﻿2018-01-31 10:00:16.538 +0530	START		Running eggplant/test.script
+2018-01-31 10:00:16.710 +0530	Log		good morning	2	on_eggplant_action	eggplant/action.script
+2018-01-31 10:00:16.710 +0530	LogSuccess		hello	3	on_eggplant_action	eggplant/action.script
+2018-01-31 10:00:16.725 +0530	LogSuccess		GOOD MORNING	1	on_eggplant_action2	eggplant/action2.script
+2018-01-31 10:00:16.725 +0530	Log		hello	2	on_eggplant_action2	eggplant/action2.script
+2018-01-31 10:00:16.803 +0530	EndTestCase		(Duration:"0.265", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 10:00:16 +0530", Successes:"2", TestCase:"eggplant/test.script", Warnings:"0")
+2018-01-31 10:00:16.850 +0530	SUCCESS		Execution Time 0:00:00 eggplant/test.script

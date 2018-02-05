@@ -1,0 +1,48 @@
+﻿if imagefound(10,"icon_win-search") then
+	click  "icon_win-search"
+else
+	log"search not found"
+end if
+
+TypeText "prefmaint"
+
+if imagefound(10,"icon_prefmaint") then
+	click  "icon_prefmaint"
+else
+	log"prefmaint not found"
+end if
+log "login screeen launched"
+waitfor 10,"button_Username"
+put system into password
+put system into username
+doubleclick "button_Username"
+typetext username
+if imagefound(10,"button_Password") then
+	click "button_Password"
+else
+	log"password not found"
+end if
+typetext password
+click "button_ok.png"
+log "prefmaint successsfully loggedin"
+waitfor 30,"dropdown_Application"
+click"dropdown_Application" 
+
+click(text:"PowerChart",searchrectangle:("set-rectangle_preferrence-form", "set-rectangle_Apply-reference"))
+log "application successfully loaded", "set-rectangle_preferrence-form"
+
+waitfor 30,"dropdown_Position"
+click"dropdown_Position" 
+click(image:"dropdown_position_ACDSPosition10",searchrectangle:("set-rectangle_preferrence-form", "set-rectangle_Apply-reference")) 
+
+log "position is set"
+click "button_search"
+log "search successful"
+waitfor 5,"level_Organizer"
+click"level_Organizer"
+click"button_AddPreference" 
+log "trying to add and the cancelling the preference"
+click"button_Cancel" 
+
+click"button_close"
+log "closing the application"

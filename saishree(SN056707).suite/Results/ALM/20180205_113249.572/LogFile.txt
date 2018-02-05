@@ -1,0 +1,9 @@
+﻿2018-02-05 11:32:49.579 +0530	START		Running ALM.script
+2018-02-05 11:32:49.707 +0530	imagefound	icon_win-search	found at (74, 1004)	4	on_alm	ALM.script
+2018-02-05 11:32:49.857 +0530	click	icon_win-search	at (74, 1004)	5	on_alm	ALM.script
+2018-02-05 11:32:51.010 +0530	typetext		powerchart	10	on_alm	ALM.script
+2018-02-05 11:33:01.086 +0530	imagefound	icon_powerchart	Unable to Find Image icon_powerchart within 10.00 seconds	12	on_alm	ALM.script
+2018-02-05 11:33:01.101 +0530	Log		powerchart not found	15	on_alm	ALM.script
+2018-02-05 11:33:01.102 +0530	Log		login screeen launched	17	on_alm	ALM.script
+2018-02-05 11:33:46.177 +0530	EndTestCase		(Duration:"56.595", Errors:"1", Exceptions:"0", StartTime:"2018-02-05 11:32:49 +0530", Successes:"0", TestCase:"ALM.script", Warnings:"0")
+2018-02-05 11:33:46.187 +0530	ABORTED		Execution Time 0:00:57 ALM.script

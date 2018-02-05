@@ -1,0 +1,18 @@
+﻿2018-01-30 17:43:52.831 +0530	START		Running powerchart1.script
+2018-01-30 17:43:52.971 +0530	imagefound	icon_win-search	found at (74, 1004)	1	on_powerchart1	powerchart1.script
+2018-01-30 17:43:53.128 +0530	click	icon_win-search	at (74, 1004)	2	on_powerchart1	powerchart1.script
+2018-01-30 17:43:54.175 +0530	typetext		powerchart	7	on_powerchart1	powerchart1.script
+2018-01-30 17:43:55.456 +0530	imagefound	icon_powerchart	found at (74, 407)	9	on_powerchart1	powerchart1.script
+2018-01-30 17:43:55.612 +0530	click	icon_powerchart	at (74, 407)	10	on_powerchart1	powerchart1.script
+2018-01-30 17:43:55.612 +0530	Log		login screeen launched	14	on_powerchart1	powerchart1.script
+2018-01-30 17:43:56.878 +0530	waitfor	button_Username	found at (626, 429)	15	on_powerchart1	powerchart1.script
+2018-01-30 17:43:57.097 +0530	doubleclick	button_Username	at (626, 429)	18	on_powerchart1	powerchart1.script
+2018-01-30 17:43:57.988 +0530	typetext		system	19	on_powerchart1	powerchart1.script
+2018-01-30 17:43:58.050 +0530	imagefound	button_Password	found at (570, 487)	20	on_powerchart1	powerchart1.script
+2018-01-30 17:43:58.894 +0530	click	button_Password	at (570, 487)	21	on_powerchart1	powerchart1.script
+2018-01-30 17:43:59.785 +0530	typetext		system	25	on_powerchart1	powerchart1.script
+2018-01-30 17:44:00.676 +0530	click	button_ok.png	at (597, 594)	26	on_powerchart1	powerchart1.script
+2018-01-30 17:44:00.676 +0530	Log		successful login	27	on_powerchart1	powerchart1.script
+2018-01-30 17:44:00.676 +0530	Exception		Too Few Parameters, please use waitfor time, image1[, imageX]	28	on_powerchart1	powerchart1.script
+2018-01-30 17:44:00.754 +0530	EndTestCase		(Duration:"7.923", Errors:"1", Exceptions:"1", StartTime:"2018-01-30 17:43:52 +0530", Successes:"0", TestCase:"powerchart1.script", Warnings:"0")
+2018-01-30 17:44:00.941 +0530	FAILURE	Screen_Error.png	Error Running Script Command waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX] -- Execution Time 0:00:08 powerchart1.script

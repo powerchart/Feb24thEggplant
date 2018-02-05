@@ -1,0 +1,6 @@
+﻿2018-02-05 11:32:40.881 +0530	START		Running ALM.script
+2018-02-05 11:32:41.028 +0530	imagefound	icon_win-search	found at (74, 1004)	4	on_alm	ALM.script
+2018-02-05 11:32:41.173 +0530	click	icon_win-search	at (74, 1004)	5	on_alm	ALM.script
+2018-02-05 11:32:42.251 +0530	typetext		powerchart	10	on_alm	ALM.script
+2018-02-05 11:32:42.398 +0530	EndTestCase		(Duration:"1.515", Errors:"1", Exceptions:"0", StartTime:"2018-02-05 11:32:40 +0530", Successes:"0", TestCase:"ALM.script", Warnings:"0")
+2018-02-05 11:32:42.398 +0530	ABORTED		Execution Time 0:00:02 ALM.script

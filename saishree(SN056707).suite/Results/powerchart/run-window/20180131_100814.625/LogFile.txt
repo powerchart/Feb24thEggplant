@@ -1,0 +1,5 @@
+﻿2018-01-31 10:08:14.625 +0530	START		Running powerchart/run-window.script
+2018-01-31 10:08:14.766 +0530	LogSuccess		login ran successfully	2	on_powerchart_run_window	powerchart/run-window.script
+2018-01-31 10:08:37.581 +0530	Exception	menu_View	No Image Found On Screen: "menu_View"	1	on_powerchart_message_center	powerchart/message-center.script
+2018-01-31 10:08:37.753 +0530	EndTestCase		(Duration:"23.128", Errors:"1", Exceptions:"1", StartTime:"2018-01-31 10:08:14 +0530", Successes:"1", TestCase:"powerchart/run-window.script", Warnings:"0")
+2018-01-31 10:08:37.768 +0530	ABORTED		Execution Time 0:00:23 powerchart/run-window.script

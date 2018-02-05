@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<runHistory script="powerchart1">
+ <run>
+  <RunDate>2018-01-30 15:22:36.072 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>17.080000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180130_152236.072/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 17:42:40.759 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>27.176000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180130_174240.759/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;menu_Patient&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 17:43:52.815 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.939000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180130_174352.815/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 17:44:39.790 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>44.520000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180130_174439.790/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;button_alergy-add&quot;</ErrorMessage>
+ </run>
+</runHistory>

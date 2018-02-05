@@ -1,0 +1,79 @@
+﻿2018-02-05 11:04:45.360 +0530	START		Running ALM.script
+2018-02-05 11:04:45.504 +0530	imagefound	icon_win-search	found at (74, 1004)	4	on_alm	ALM.script
+2018-02-05 11:04:45.671 +0530	click	icon_win-search	at (74, 1004)	5	on_alm	ALM.script
+2018-02-05 11:04:46.837 +0530	typetext		powerchart	10	on_alm	ALM.script
+2018-02-05 11:04:47.704 +0530	imagefound	icon_powerchart	found at (74, 407)	12	on_alm	ALM.script
+2018-02-05 11:04:47.889 +0530	click	icon_powerchart	at (74, 407)	13	on_alm	ALM.script
+2018-02-05 11:04:47.891 +0530	Log		login screeen launched	17	on_alm	ALM.script
+2018-02-05 11:04:49.280 +0530	waitfor	button_Username	found at (626, 429)	18	on_alm	ALM.script
+2018-02-05 11:04:49.503 +0530	doubleclick	button_Username	at (626, 429)	20	on_alm	ALM.script
+2018-02-05 11:04:50.609 +0530	typetext		rm031596	21	on_alm	ALM.script
+2018-02-05 11:04:50.653 +0530	imagefound	button_Password	found at (570, 487)	22	on_alm	ALM.script
+2018-02-05 11:04:51.502 +0530	click	button_Password	at (570, 487)	23	on_alm	ALM.script
+2018-02-05 11:04:52.467 +0530	typetext		cerner	28	on_alm	ALM.script
+2018-02-05 11:04:53.376 +0530	click	button_ok.png	at (597, 594)	29	on_alm	ALM.script
+2018-02-05 11:04:53.378 +0530	Log		successful login	30	on_alm	ALM.script
+2018-02-05 11:04:56.426 +0530	imagefound	window_powerchart-rm031596	found at (325, 10)	32	on_alm	ALM.script
+2018-02-05 11:04:56.612 +0530	click	window_powerchart-rm031596	at (325, 10)	33	on_alm	ALM.script
+2018-02-05 11:04:56.614 +0530	LogSuccess		lauched the page	34	on_alm	ALM.script
+2018-02-05 11:05:01.655 +0530	waitfor	tab_Communicate	found at (870, 117)	43	on_alm	ALM.script
+2018-02-05 11:05:01.814 +0530	click	tab_Communicate	at (870, 117)	44	on_alm	ALM.script
+2018-02-05 11:05:02.880 +0530	click	(TEXT:"message")	at (832, 140)	45	on_alm	ALM.script
+2018-02-05 11:05:11.411 +0530	waitfor	field_patient	found at (75, 103)	46	on_alm	ALM.script
+2018-02-05 11:05:11.530 +0530	click	field_patient	at (75, 103)	47	on_alm	ALM.script
+2018-02-05 11:05:12.418 +0530	typetext		james	48	on_alm	ALM.script
+2018-02-05 11:05:13.300 +0530	click	img_search	at (275, 102)	49	on_alm	ALM.script
+2018-02-05 11:05:20.084 +0530	imagefound	win_PatientSearch	found at (70, 18)	51	on_alm	ALM.script
+2018-02-05 11:05:20.085 +0530	Log		patient search launched	52	on_alm	ALM.script
+2018-02-05 11:05:20.422 +0530	click	patient_JAMESSTEPHEN	at (224, 140)	57	on_alm	ALM.script
+2018-02-05 11:05:21.988 +0530	click	patient_jamessetphen-chart	at (236, 557)	58	on_alm	ALM.script
+2018-02-05 11:05:22.709 +0530	keydown		[returnKey]	59	on_alm	ALM.script
+2018-02-05 11:05:23.475 +0530	keyup		[returnKey]	60	on_alm	ALM.script
+2018-02-05 11:05:23.511 +0530	waitfor	field_to	found at (76, 135)	64	on_alm	ALM.script
+2018-02-05 11:05:24.371 +0530	click	field_to	at (76, 135)	65	on_alm	ALM.script
+2018-02-05 11:05:25.310 +0530	typetext		system	66	on_alm	ALM.script
+2018-02-05 11:05:55.906 +0530	click	button_tosearch	at (736, 136)	67	on_alm	ALM.script
+2018-02-05 11:05:56.756 +0530	click	field_GeneralMessage	at (25, 338)	68	on_alm	ALM.script
+2018-02-05 11:05:58.789 +0530	typetext		hello, visit with the recent reports	69	on_alm	ALM.script
+2018-02-05 11:05:59.687 +0530	click	checkbox_include-me	at (717, 134)	70	on_alm	ALM.script
+2018-02-05 11:06:00.804 +0530	click	checkbox_PleaseCallPatientwithResults	at (20, 812)	71	on_alm	ALM.script
+2018-02-05 11:06:01.770 +0530	click	checkbox_SavetoChariAs	at (479, 197)	72	on_alm	ALM.script
+2018-02-05 11:06:02.720 +0530	click	button_Send	at (707, 874)	73	on_alm	ALM.script
+2018-02-05 11:06:04.886 +0530	click	menu_Patient	at (151, 36)	76	on_alm	ALM.script
+2018-02-05 11:06:05.706 +0530	waitfor	list_pSearch	found at (186, 59)	77	on_alm	ALM.script
+2018-02-05 11:06:05.868 +0530	click	list_pSearch	at (186, 59)	78	on_alm	ALM.script
+2018-02-05 11:06:12.438 +0530	click	field_LastName	at (32, 111)	79	on_alm	ALM.script
+2018-02-05 11:06:13.344 +0530	typetext		james	80	on_alm	ALM.script
+2018-02-05 11:06:14.211 +0530	click	button_search-key	at (66, 269)	81	on_alm	ALM.script
+2018-02-05 11:06:15.598 +0530	click	patient_JAMESSTEPHEN	at (337, 140)	83	on_alm	ALM.script
+2018-02-05 11:06:17.629 +0530	click	patient_jamessetphen-chart	at (227, 503)	84	on_alm	ALM.script
+2018-02-05 11:06:18.348 +0530	keydown		[returnKey]	85	on_alm	ALM.script
+2018-02-05 11:06:19.088 +0530	keyup		[returnKey]	86	on_alm	ALM.script
+2018-02-05 11:06:34.185 +0530	imagefound	icon_patient	Unable to Find Image icon_patient within 15.00 seconds	88	on_alm	ALM.script
+2018-02-05 11:06:34.185 +0530	Log		unsuccessful log to patient	91	on_alm	ALM.script
+2018-02-05 11:06:34.202 +0530	waitfor	menu_Communicate	found at (933, 116)	93	on_alm	ALM.script
+2018-02-05 11:06:34.340 +0530	click	menu_Communicate	at (933, 116)	94	on_alm	ALM.script
+2018-02-05 11:06:35.305 +0530	click	(TEXT:"Patient Letter")	at (905, 206)	95	on_alm	ALM.script
+2018-02-05 11:06:38.574 +0530	waitfor	window_CreateLetter	found at (147, 60)	96	on_alm	ALM.script
+2018-02-05 11:06:38.773 +0530	click	tab_ActionPane-createletter	at (326, 857)	97	on_alm	ALM.script
+2018-02-05 11:06:39.735 +0530	typetext		system[returnKey]	98	on_alm	ALM.script
+2018-02-05 11:06:40.670 +0530	click	button_ok-letter	at (939, 919)	99	on_alm	ALM.script
+2018-02-05 11:06:41.586 +0530	click	button_close	at (1255, 10)	101	on_alm	ALM.script
+2018-02-05 11:06:42.502 +0530	click	button_close	at (1255, 10)	102	on_alm	ALM.script
+2018-02-05 11:06:42.504 +0530	LogSuccess		closing done	103	on_alm	ALM.script
+2018-02-05 11:06:47.603 +0530	imagefound	icon_win-search	found at (74, 1004)	112	on_alm	ALM.script
+2018-02-05 11:06:47.746 +0530	click	icon_win-search	at (74, 1004)	113	on_alm	ALM.script
+2018-02-05 11:06:48.782 +0530	typetext		powerchart	118	on_alm	ALM.script
+2018-02-05 11:06:49.803 +0530	imagefound	icon_powerchart	found at (74, 407)	120	on_alm	ALM.script
+2018-02-05 11:06:49.992 +0530	click	icon_powerchart	at (74, 407)	121	on_alm	ALM.script
+2018-02-05 11:06:49.993 +0530	Log		login screeen launched	125	on_alm	ALM.script
+2018-02-05 11:06:51.475 +0530	waitfor	button_Username	found at (626, 429)	126	on_alm	ALM.script
+2018-02-05 11:06:51.701 +0530	doubleclick	button_Username	at (626, 429)	128	on_alm	ALM.script
+2018-02-05 11:06:52.593 +0530	typetext		system	129	on_alm	ALM.script
+2018-02-05 11:06:52.661 +0530	imagefound	button_Password	found at (570, 487)	130	on_alm	ALM.script
+2018-02-05 11:06:53.513 +0530	click	button_Password	at (570, 487)	131	on_alm	ALM.script
+2018-02-05 11:06:54.469 +0530	typetext		system	135	on_alm	ALM.script
+2018-02-05 11:06:55.380 +0530	click	button_ok.png	at (597, 594)	136	on_alm	ALM.script
+2018-02-05 11:06:55.385 +0530	Log		successful login	137	on_alm	ALM.script
+2018-02-05 11:06:55.580 +0530	EndTestCase		(Duration:"130.217", Errors:"0", Exceptions:"0", StartTime:"2018-02-05 11:04:45 +0530", Successes:"2", TestCase:"ALM.script", Warnings:"0")
+2018-02-05 11:06:55.648 +0530	SUCCESS		Execution Time 0:02:10 ALM.script

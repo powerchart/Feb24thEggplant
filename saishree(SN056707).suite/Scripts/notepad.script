@@ -1,0 +1,26 @@
+﻿if imagefound(10,"icon_win-search") then
+	click  "icon_win-search"
+else
+	log"search not found"
+end if
+
+TypeText "notepad"
+
+if imagefound(10, "icon_notepad") then
+	click  "icon_notepad"
+else
+	log"notepad not found"
+end if
+typetext "good morning!!!!!" 
+log "typing successful"
+click"menu_Format"
+click "list_font"
+click"tab_Fontstyle"
+click"button_notepad-ok"
+log "font changed"
+
+typetext "hello world"
+
+click "icon_close"
+click"tab_DontSave"
+log"notepad closed"

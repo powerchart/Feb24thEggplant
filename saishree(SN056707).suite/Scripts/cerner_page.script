@@ -1,0 +1,13 @@
+if imagefound(10,"icon_win-search") then
+	click  "icon_win-search"
+else
+	log"search not found"
+end if
+
+TypeText "internet"
+
+if imagefound(10, "image_IE") then
+	click  "image_IE"
+else
+	log"IE not found"
+end if

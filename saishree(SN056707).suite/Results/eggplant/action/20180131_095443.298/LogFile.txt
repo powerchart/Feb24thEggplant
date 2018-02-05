@@ -1,0 +1,4 @@
+﻿2018-01-31 09:54:43.298 +0530	START		Running eggplant/action.script
+2018-01-31 09:54:43.376 +0530	Log		good morning	2	on_eggplant_action	eggplant/action.script
+2018-01-31 09:54:43.454 +0530	EndTestCase		(Duration:"0.156", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 09:54:43 +0530", Successes:"1", TestCase:"eggplant/action.script", Warnings:"0")
+2018-01-31 09:54:43.563 +0530	SUCCESS		Execution Time 0:00:00 eggplant/action.script

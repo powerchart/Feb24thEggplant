@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="ALM.script" package="saishree(SN056707).suite" timestamp="2018-02-05 11:03:48.367 +0530"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2018-02-05 11:03:48.367 +0530"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="ALM.script" assertions="2" successes="1" errors="1" time="35.525">
+  </testcase>
+ </testsuite>
+</testsuites>

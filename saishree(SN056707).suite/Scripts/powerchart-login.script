@@ -1,0 +1,76 @@
+﻿if imagefound(10,"icon_win-search") then
+	click  "icon_win-search"
+else
+	log"search not found"
+end if
+
+TypeText "powerchart"
+
+if imagefound(10,"icon_powerchart") then
+	click  "icon_powerchart"
+else
+	log"powerchart not found"
+end if
+log "login screeen launched"
+waitfor 20,"button_Username"
+put system into password
+put system into username
+doubleclick "button_Username"
+typetext username
+if imagefound(10,"button_Password") then
+	click "button_Password"
+else
+	log"password not found"
+end if
+typetext password
+click "button_ok.png"
+log "successful login"
+capturescreen(name:"loginscreen")
+click"menu_Patient"
+waitfor 20,"list_Recent"
+click"list_Recent" 
+waitfor 20,"list_1test"
+doubleclick"list_1test"
+waitfor 60,"icon_patient"
+if imagefound(60,"icon_patient") then
+	log "successfully logged in to a patient"
+else
+	log"unsuccessful log to patient"
+end if
+
+
+//click "button_ok1"
+click"menu_View"
+WaitFor 20, "list_MessageCenter"
+click "list_MessageCenter"
+waitfor 20,"label_Communicate"
+click"label_Communicate"
+waitfor 10,"field_patient"
+click"field_patient"
+typetext "1"
+click "button_patient-search"
+waitfor 5,"list_1.patient"
+
+click"list_1.patient"
+click"button_okay" 
+
+
+waitfor 20,"field_to"
+click"field_to"
+typetext "roe"
+click"button_tosearch"
+click"field_GeneralMessage"
+typetext "hello, visit with the recent reports"
+click"checkbox_include-me" 
+click"checkbox_PatientSummary"
+click "button_Cancel"
+click"button_Yes"
+log "communication launched successfully"
+
+click"button_close"
+log"closed siccessfully"
+
+
+
+
+

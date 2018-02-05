@@ -1,0 +1,4 @@
+﻿Run "eggplant/action"
+
+Run "eggplant/action2"
+RunWithNewResults "eggplant/action","eggplant/action2"

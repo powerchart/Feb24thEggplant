@@ -1,0 +1,28 @@
+﻿2018-02-02 16:29:32.289 +0530	START		Running ALM.script
+2018-02-02 16:29:32.414 +0530	imagefound	icon_win-search	found at (74, 1004)	4	on_alm	ALM.script
+2018-02-02 16:29:32.586 +0530	click	icon_win-search	at (74, 1004)	5	on_alm	ALM.script
+2018-02-02 16:29:33.618 +0530	typetext		powerchart	10	on_alm	ALM.script
+2018-02-02 16:29:35.312 +0530	imagefound	icon_powerchart	found at (74, 407)	12	on_alm	ALM.script
+2018-02-02 16:29:35.468 +0530	click	icon_powerchart	at (74, 407)	13	on_alm	ALM.script
+2018-02-02 16:29:35.468 +0530	Log		login screeen launched	17	on_alm	ALM.script
+2018-02-02 16:29:36.734 +0530	waitfor	button_Username	found at (626, 429)	18	on_alm	ALM.script
+2018-02-02 16:29:36.937 +0530	doubleclick	button_Username	at (626, 429)	20	on_alm	ALM.script
+2018-02-02 16:29:37.906 +0530	typetext		rm031596	21	on_alm	ALM.script
+2018-02-02 16:29:37.968 +0530	imagefound	button_Password	found at (570, 487)	22	on_alm	ALM.script
+2018-02-02 16:29:38.812 +0530	click	button_Password	at (570, 487)	23	on_alm	ALM.script
+2018-02-02 16:29:39.703 +0530	typetext		cerner	27	on_alm	ALM.script
+2018-02-02 16:29:40.594 +0530	click	button_ok.png	at (597, 594)	28	on_alm	ALM.script
+2018-02-02 16:29:40.594 +0530	Log		successful login	29	on_alm	ALM.script
+2018-02-02 16:29:43.344 +0530	waitfor	tab_Communicate	found at (870, 90)	31	on_alm	ALM.script
+2018-02-02 16:29:43.484 +0530	click	tab_Communicate	at (870, 90)	32	on_alm	ALM.script
+2018-02-02 16:29:44.922 +0530	click	(TEXT:"message")	at (832, 113)	33	on_alm	ALM.script
+2018-02-02 16:29:53.642 +0530	waitfor	field_patient	found at (315, 148)	34	on_alm	ALM.script
+2018-02-02 16:29:53.798 +0530	click	field_patient	at (315, 148)	35	on_alm	ALM.script
+2018-02-02 16:29:54.658 +0530	typetext		james	36	on_alm	ALM.script
+2018-02-02 16:29:55.533 +0530	click	img_search	at (515, 146)	37	on_alm	ALM.script
+2018-02-02 16:30:02.830 +0530	imagefound	win_PatientSearch	found at (90, 66)	39	on_alm	ALM.script
+2018-02-02 16:30:02.830 +0530	Log		patient search launched	40	on_alm	ALM.script
+2018-02-02 16:30:02.971 +0530	click	patient_JAMESSTEPHEN	at (357, 188)	45	on_alm	ALM.script
+2018-02-02 16:30:02.987 +0530	Exception	retunkey	Could Not Open Image: retunkey	46	on_alm	ALM.script
+2018-02-02 16:30:03.112 +0530	EndTestCase		(Duration:"30.823", Errors:"1", Exceptions:"1", StartTime:"2018-02-02 16:29:32 +0530", Successes:"0", TestCase:"ALM.script", Warnings:"0")
+2018-02-02 16:30:03.252 +0530	FAILURE	Screen_Error.png	File Not Found click Error - Could Not Open Image: retunkey -- Execution Time 0:00:31 ALM.script

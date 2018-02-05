@@ -1,0 +1,19 @@
+﻿run "cerner_page"
+LogSuccess "successfully logged to cerner"
+
+click"tab_googlesearch"
+typetext "www.cerner.com",returnkey
+wait 10
+log "cerner home page launched"
+click "tab_menu-list"
+waitfor 20,"button_cerner-search"
+
+click "button_cerner-search"
+typetext "clinical solutions",returnkey
+log"searching for clinicalsearch"
+wait 5
+doubleclick "image_click"
+//scrolling the page
+ScrollWheelDown 5
+
+log "successfully read the page"

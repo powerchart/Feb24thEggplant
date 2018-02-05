@@ -1,0 +1,183 @@
+﻿<?xml version="1.0"?>
+<runHistory script="powerchart-login">
+ <run>
+  <RunDate>2018-01-29 11:39:43.261 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>19.659000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_113943.261/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:03:06.227 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180129_120306.227/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:04:42.907 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>35.648000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_120442.907/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:10:26.120 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180129_121026.120/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:11:58.011 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>29.452000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_121158.011/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:42:50.124 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>50.762000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_124250.124/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- waitfor Error - Unable To Find Any Image On Screen &quot;PC-MessageCenter&quot; within 10.00 seconds</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:45:34.947 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>38.027000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_124534.947/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- waitfor Error - Unable To Find Any Image On Screen &quot;PC-Username&quot; within 10.00 seconds</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 12:46:29.836 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>26.465000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_124629.836/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 13:56:32.190 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>18.932000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_135632.190/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: okay-1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 13:57:24.547 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180129_135724.547/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 13:58:05.669 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>8.907000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_135805.669/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- click Error - Could Not Open Image: button_ok</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 13:59:18.036 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>7.845000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_135918.036/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: label_MessageCenter</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 14:08:55.065 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>8.720000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_140855.065/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: label_MessageCenter</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 09:20:18.469 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180130_092018.469/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 09:21:44.728 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>10.407000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180130_092144.728/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- waitfor Error - Could Not Open Image: Patient</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,19 @@
+﻿2018-01-29 12:39:18.691 +0530	START		Running prefmaint.script
+2018-01-29 12:39:18.818 +0530	imagefound	win-search	found at (74, 1004)	1	on_prefmaint	prefmaint.script
+2018-01-29 12:39:18.971 +0530	click	win-search	at (74, 1004)	2	on_prefmaint	prefmaint.script
+2018-01-29 12:39:20.022 +0530	typetext		prefmaint	7	on_prefmaint	prefmaint.script
+2018-01-29 12:39:24.726 +0530	imagefound	prefmaint-icon	found at (83, 250)	9	on_prefmaint	prefmaint.script
+2018-01-29 12:39:24.908 +0530	click	prefmaint-icon	at (83, 250)	10	on_prefmaint	prefmaint.script
+2018-01-29 12:39:24.909 +0530	Log		login screeen launched	14	on_prefmaint	prefmaint.script
+2018-01-29 12:39:30.598 +0530	waitfor	PC-Username	found at (626, 429)	15	on_prefmaint	prefmaint.script
+2018-01-29 12:39:30.862 +0530	doubleclick	PC-Username	at (626, 429)	18	on_prefmaint	prefmaint.script
+2018-01-29 12:39:31.795 +0530	typetext		system	19	on_prefmaint	prefmaint.script
+2018-01-29 12:39:31.905 +0530	imagefound	PC-Password	found at (570, 487)	20	on_prefmaint	prefmaint.script
+2018-01-29 12:39:32.721 +0530	click	PC-Password	at (570, 487)	21	on_prefmaint	prefmaint.script
+2018-01-29 12:39:33.659 +0530	typetext		system	25	on_prefmaint	prefmaint.script
+2018-01-29 12:39:34.564 +0530	click	okay-1	at (597, 594)	26	on_prefmaint	prefmaint.script
+2018-01-29 12:39:34.566 +0530	Log		prefmaint successsfully loggedin	27	on_prefmaint	prefmaint.script
+2018-01-29 12:39:48.623 +0530	waitfor	P-Application	found at (476, 335)	28	on_prefmaint	prefmaint.script
+2018-01-29 12:39:48.647 +0530	Exception		Could Not Open Image: 	29	on_prefmaint	prefmaint.script
+2018-01-29 12:39:48.676 +0530	EndTestCase		(Duration:"29.982", Errors:"1", Exceptions:"1", StartTime:"2018-01-29 12:39:18 +0530", Successes:"0", TestCase:"prefmaint.script", Warnings:"0")
+2018-01-29 12:39:48.877 +0530	FAILURE	Screen_Error.png	File Not Found click Error - Could Not Open Image:  -- Execution Time 0:00:30 prefmaint.script

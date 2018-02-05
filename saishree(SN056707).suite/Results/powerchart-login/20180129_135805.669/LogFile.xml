@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="powerchart-login.script" package="powerchart.suite" timestamp="2018-01-29 13:58:05.669 +0530"
+ tests="1" successes="0" errors="1" time="8.907000">
+  <properties>
+   <property name="RunDate" value="2018-01-29 13:58:05.669 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="powerchart-login.script" assertions="1" successes="0" errors="1" time="8.907">
+  </testcase>
+ </testsuite>
+</testsuites>

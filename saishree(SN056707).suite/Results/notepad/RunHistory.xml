@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<runHistory script="notepad">
+ <run>
+  <RunDate>2018-01-29 17:34:25.159 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>1.422000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_173425.159/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- imagefound Error - Could Not Open Image: icon_notpad</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 17:44:25.492 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>10.845000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_174425.492/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 17:45:36.672 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>11.126000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180129_174536.672/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>
