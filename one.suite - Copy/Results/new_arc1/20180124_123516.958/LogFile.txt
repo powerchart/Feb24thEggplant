@@ -1,0 +1,15 @@
+﻿2018-01-24 12:35:16.958 +0530	START		Running new_arc1.script
+2018-01-24 12:35:17.242 +0530	doubleclick	image0001	at (35, 229)	6	on_new_arc1	new_arc1.script
+2018-01-24 12:35:17.242 +0530	Log		chrome launched	8	on_new_arc1	new_arc1.script
+2018-01-24 12:35:19.794 +0530	waitfor	offset	found at (335, 405)	11	on_new_arc1	new_arc1.script
+2018-01-24 12:35:20.093 +0530	click	offset	at (335, 405)	13	on_new_arc1	new_arc1.script
+2018-01-24 12:35:21.340 +0530	typetext		www.amazon.in[returnKey]	14	on_new_arc1	new_arc1.script
+2018-01-24 12:35:21.340 +0530	Log		amazon is launched	15	on_new_arc1	new_arc1.script
+2018-01-24 12:35:23.323 +0530	waitfor	amazon_search	found at (264, 94)	16	on_new_arc1	new_arc1.script
+2018-01-24 12:35:23.562 +0530	click	amazon_search	at (264, 94)	18	on_new_arc1	new_arc1.script
+2018-01-24 12:35:23.577 +0530	waitfor	amazon_search	found at (264, 94)	19	on_new_arc1	new_arc1.script
+2018-01-24 12:35:23.577 +0530	Log		type iphone	21	on_new_arc1	new_arc1.script
+2018-01-24 12:35:24.508 +0530	typetext		iphone[returnKey]	22	on_new_arc1	new_arc1.script
+2018-01-24 12:36:56.185 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	24	on_new_arc1	new_arc1.script
+2018-01-24 12:36:56.248 +0530	EndTestCase		(Duration:"99.29", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 12:35:16 +0530", Successes:"0", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 12:36:56.248 +0530	ABORTED		Execution Time 0:01:40 new_arc1.script

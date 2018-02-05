@@ -1,0 +1,6 @@
+﻿2018-01-24 11:21:26.438 +0530	START		Running new_arc1.script
+2018-01-24 11:21:26.701 +0530	doubleclick	image0001	at (35, 229)	6	on_new_arc1	new_arc1.script
+2018-01-24 11:21:28.702 +0530	click	address bar	at (134, 69)	8	on_new_arc1	new_arc1.script
+2018-01-24 11:21:29.971 +0530	typetext		www.google.com	9	on_new_arc1	new_arc1.script
+2018-01-24 11:21:30.040 +0530	EndTestCase		(Duration:"3.602", Errors:"1", Exceptions:"0", StartTime:"2018-01-24 11:21:26 +0530", Successes:"0", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 11:21:30.187 +0530	FAILURE	Screen_Error.png	NoWebObject SendKeys must be called with (or on) a WebElement or WebDriver object. -- Execution Time 0:00:04 new_arc1.script

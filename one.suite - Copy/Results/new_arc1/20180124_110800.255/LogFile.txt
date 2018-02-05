@@ -1,0 +1,4 @@
+﻿2018-01-24 11:08:00.255 +0530	START		Running new_arc1.script
+2018-01-24 11:08:00.519 +0530	doubleclick	image0001	at (35, 229)	6	on_new_arc1	new_arc1.script
+2018-01-24 11:08:00.556 +0530	EndTestCase		(Duration:"0.301", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 11:08:00 +0530", Successes:"1", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 11:08:00.588 +0530	SUCCESS		Execution Time 0:00:00 new_arc1.script

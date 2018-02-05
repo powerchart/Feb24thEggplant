@@ -1,0 +1,29 @@
+﻿--click"QGoogleChrome"
+--click"QGoogleChrome"
+--DoubleClick  "QGoogleChrome"
+(*RightClick  "QGoogleChrome"*)
+
+DoubleClick "image0001"
+
+log "chrome launched"
+
+--Click "address bar"
+WaitFor 10, "offset"
+
+Click "offset"
+TypeText "www.amazon.in",returnKey
+log "amazon is launched"
+WaitFor 180,  "amazon_refresh"
+(*WaitFor 20, "amazon_search"*)
+
+click  "amazon_search"
+--WaitFor 30, "amazon_search"
+TypeText "iphone" & returnKey
+log "type iphone"
+--WaitFor 20, (Text:"iphone")
+
+--click "maximize", (Image:"amazon_search", WaitFor:12.6)
+
+
+
+--Click "close", "amazon_search"

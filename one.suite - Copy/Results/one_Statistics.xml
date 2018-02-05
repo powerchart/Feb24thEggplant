@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="new_arc1">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>28</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2018-01-24 11:44:49 +0530</FirstRun>
+  <LastRun>2018-01-24 14:31:37 +0530</LastRun>
+  <TotalTimeOnSuccess>620.048000</TotalTimeOnSuccess>
+ </script>
+</statistics>

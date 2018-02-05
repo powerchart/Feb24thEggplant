@@ -1,0 +1,4 @@
+﻿2018-01-24 12:07:52.713 +0530	START		Running new_arc1.script
+2018-01-24 12:07:58.451 +0530	Exception	image0001	No Image Found On Screen: "image0001"	6	on_new_arc1	new_arc1.script
+2018-01-24 12:07:58.511 +0530	EndTestCase		(Duration:"5.781", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 12:07:52 +0530", Successes:"0", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 12:07:58.513 +0530	ABORTED		Execution Time 0:00:06 new_arc1.script

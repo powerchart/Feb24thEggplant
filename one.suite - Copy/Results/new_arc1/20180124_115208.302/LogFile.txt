@@ -1,0 +1,6 @@
+﻿2018-01-24 11:52:08.302 +0530	START		Running new_arc1.script
+2018-01-24 11:52:08.534 +0530	doubleclick	image0001	at (35, 229)	6	on_new_arc1	new_arc1.script
+2018-01-24 11:52:10.749 +0530	click	offset	at (222, 469)	9	on_new_arc1	new_arc1.script
+2018-01-24 11:52:11.664 +0530	typetext		google	10	on_new_arc1	new_arc1.script
+2018-01-24 11:52:11.732 +0530	EndTestCase		(Duration:"3.43", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 11:52:08 +0530", Successes:"1", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 11:52:11.848 +0530	SUCCESS		Execution Time 0:00:03 new_arc1.script

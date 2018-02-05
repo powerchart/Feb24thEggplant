@@ -1,0 +1,10 @@
+﻿2018-01-24 12:08:16.976 +0530	START		Running new_arc1.script
+2018-01-24 12:08:17.229 +0530	doubleclick	image0001	at (35, 229)	6	on_new_arc1	new_arc1.script
+2018-01-24 12:08:17.229 +0530	Log		chrome launched	8	on_new_arc1	new_arc1.script
+2018-01-24 12:08:19.434 +0530	waitfor	offset	found at (222, 430)	11	on_new_arc1	new_arc1.script
+2018-01-24 12:08:19.599 +0530	click	offset	at (222, 430)	13	on_new_arc1	new_arc1.script
+2018-01-24 12:08:20.856 +0530	typetext		www.amazon.in[returnKey]	14	on_new_arc1	new_arc1.script
+2018-01-24 12:08:20.856 +0530	Log		amazon is launched	15	on_new_arc1	new_arc1.script
+2018-01-24 12:09:12.342 +0530	Exception	amazon_search	Unable To Find Any Image On Screen "amazon_search" within 10.00 seconds	16	on_new_arc1	new_arc1.script
+2018-01-24 12:09:12.442 +0530	EndTestCase		(Duration:"55.466", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 12:08:16 +0530", Successes:"0", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 12:09:12.690 +0530	FAILURE	Screen_Error.png	Image Not Found waitfor Error - Unable To Find Any Image On Screen "amazon_search" within 10.00 seconds -- Execution Time 0:00:56 new_arc1.script
