@@ -1,0 +1,4 @@
+﻿2018-01-24 11:06:55.701 +0530	START		Running new_arc1.script
+2018-01-24 11:07:05.911 +0530	Exception	QGoogleChrome	No Image Found On Screen: "QGoogleChrome"	3	on_new_arc1	new_arc1.script
+2018-01-24 11:07:05.949 +0530	EndTestCase		(Duration:"10.248", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 11:06:55 +0530", Successes:"0", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 11:07:05.949 +0530	ABORTED		Execution Time 0:00:10 new_arc1.script

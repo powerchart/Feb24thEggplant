@@ -1,0 +1,13 @@
+﻿2018-01-24 14:31:37.709 +0530	START		Running new_arc1.script
+2018-01-24 14:31:37.925 +0530	doubleclick	image0001	at (35, 229)	6	on_new_arc1	new_arc1.script
+2018-01-24 14:31:37.925 +0530	Log		chrome launched	8	on_new_arc1	new_arc1.script
+2018-01-24 14:31:40.005 +0530	waitfor	offset	found at (335, 405)	11	on_new_arc1	new_arc1.script
+2018-01-24 14:31:40.226 +0530	click	offset	at (335, 405)	13	on_new_arc1	new_arc1.script
+2018-01-24 14:31:41.526 +0530	typetext		www.amazon.in[returnKey]	14	on_new_arc1	new_arc1.script
+2018-01-24 14:31:41.526 +0530	Log		amazon is launched	15	on_new_arc1	new_arc1.script
+2018-01-24 14:32:41.381 +0530	waitfor	amazon_refresh	found at (191, 45)	16	on_new_arc1	new_arc1.script
+2018-01-24 14:32:55.668 +0530	click	amazon_search	at (301, 90)	19	on_new_arc1	new_arc1.script
+2018-01-24 14:32:58.556 +0530	typetext		iphone[returnKey]	21	on_new_arc1	new_arc1.script
+2018-01-24 14:32:58.556 +0530	Log		type iphone	22	on_new_arc1	new_arc1.script
+2018-01-24 14:32:58.624 +0530	EndTestCase		(Duration:"80.915", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 14:31:37 +0530", Successes:"1", TestCase:"new_arc1.script", Warnings:"0")
+2018-01-24 14:32:58.656 +0530	SUCCESS		Execution Time 0:01:21 new_arc1.script

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="new_arc1.script" package="one.suite" timestamp="2018-01-24 11:15:36.779 +0530"
+ tests="1" successes="1" errors="0" time="2.359000">
+  <properties>
+   <property name="RunDate" value="2018-01-24 11:15:36.779 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="new_arc1.script" assertions="1" successes="1" errors="0" time="2.352">
+  </testcase>
+ </testsuite>
+</testsuites>
