@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="amazon">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>8</NumberOfRuns>
+  <NumberOfFails>4</NumberOfFails>
+  <FirstRun>2018-01-24 12:29:07 +0530</FirstRun>
+  <LastRun>2018-01-29 16:07:55 +0530</LastRun>
+  <TotalTimeOnSuccess>44.444000</TotalTimeOnSuccess>
+ </script>
+ <script name="variables">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-24 16:30:29 +0530</FirstRun>
+  <LastRun>2018-01-24 16:30:29 +0530</LastRun>
+  <TotalTimeOnSuccess>0.905000</TotalTimeOnSuccess>
+ </script>
+ <script name="practice session">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2018-01-29 14:29:43 +0530</FirstRun>
+  <LastRun>2018-01-29 15:47:12 +0530</LastRun>
+  <TotalTimeOnSuccess>91.301000</TotalTimeOnSuccess>
+ </script>
+</statistics>

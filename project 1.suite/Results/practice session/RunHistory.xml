@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<runHistory script="practice session">
+ <run>
+  <RunDate>2018-01-29 14:29:43.134 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.529000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180129_142943.134/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: (empty)</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 15:22:20.247 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>46.864000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20180129_152220.247/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 15:26:09.877 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>47.097000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20180129_152609.877/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-29 15:47:12.114 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>44.204000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>4</Successes>
+  <LogFile>20180129_154712.114/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

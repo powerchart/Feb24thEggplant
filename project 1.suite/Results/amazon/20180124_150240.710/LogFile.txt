@@ -1,0 +1,20 @@
+﻿2018-01-24 15:02:40.788 +0530	START		Running amazon.script
+2018-01-24 15:02:41.270 +0530	doubleclick	chrome-Image	at (111, 31)	2	on_amazon	amazon.script
+2018-01-24 15:02:41.316 +0530	Log		launch chrome	4	on_amazon	amazon.script
+2018-01-24 15:02:41.363 +0530	waitfor	chrome-Image	found at (111, 31)	5	on_amazon	amazon.script
+2018-01-24 15:02:44.562 +0530	imagefound	chrome Maximize	Unable to Find Image chrome Maximize	9	on_amazon	amazon.script
+2018-01-24 15:02:44.827 +0530	capturescreen	application chrome launched.png		17	on_amazon	amazon.script
+2018-01-24 15:02:44.937 +0530	Log		browser maximized	19	on_amazon	amazon.script
+2018-01-24 15:02:47.271 +0530	click	refresh-icon	at (196, 47)	23	on_amazon	amazon.script
+2018-01-24 15:02:47.318 +0530	Log		locate search icon	25	on_amazon	amazon.script
+2018-01-24 15:02:48.550 +0530	typetext		amazon.in[return]	28	on_amazon	amazon.script
+2018-01-24 15:02:48.597 +0530	Log		amazon.in website loaded	31	on_amazon	amazon.script
+2018-01-24 15:02:53.995 +0530	click	amazon-Search	at (271, 131)	35	on_amazon	amazon.script
+2018-01-24 15:02:54.042 +0530	Log		search box located	37	on_amazon	amazon.script
+2018-01-24 15:02:54.978 +0530	typetext		iphone x[returnKey]	40	on_amazon	amazon.script
+2018-01-24 15:02:55.010 +0530	Log		list of items are returned	42	on_amazon	amazon.script
+2018-01-24 15:02:58.308 +0530	click	AmazonSortby	at (1062, 182)	46	on_amazon	amazon.script
+2018-01-24 15:02:58.339 +0530	Log		sorting	48	on_amazon	amazon.script
+2018-01-24 15:02:59.587 +0530	typetext		Price High to Low	51	on_amazon	amazon.script
+2018-01-24 15:02:59.774 +0530	EndTestCase		(Duration:"18.939", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 15:02:40 +0530", Successes:"1", TestCase:"amazon.script", Warnings:"0")
+2018-01-24 15:03:00.090 +0530	SUCCESS		Execution Time 0:00:19 amazon.script

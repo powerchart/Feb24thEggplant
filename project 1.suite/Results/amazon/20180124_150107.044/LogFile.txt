@@ -1,0 +1,8 @@
+﻿2018-01-24 15:01:07.122 +0530	START		Running amazon.script
+2018-01-24 15:01:07.739 +0530	doubleclick	chrome-Image	at (111, 31)	2	on_amazon	amazon.script
+2018-01-24 15:01:07.786 +0530	Log		launch chrome	4	on_amazon	amazon.script
+2018-01-24 15:01:07.864 +0530	waitfor	chrome-Image	found at (111, 31)	5	on_amazon	amazon.script
+2018-01-24 15:01:11.234 +0530	imagefound	chrome Maximize	Unable to Find Image chrome Maximize	9	on_amazon	amazon.script
+2018-01-24 15:01:35.071 +0530	Exception	chrome Maximize	No Image Found On Screen: "chrome Maximize"	17	on_amazon	amazon.script
+2018-01-24 15:01:35.252 +0530	EndTestCase		(Duration:"28.083", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 15:01:07 +0530", Successes:"0", TestCase:"amazon.script", Warnings:"0")
+2018-01-24 15:01:35.283 +0530	ABORTED		Execution Time 0:00:28 amazon.script

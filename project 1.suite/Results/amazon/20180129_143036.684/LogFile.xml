@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="amazon.script" package="project 1.suite" timestamp="2018-01-29 14:30:36.684 +0530"
+ tests="1" successes="1" errors="1" time="3.620000">
+  <properties>
+   <property name="RunDate" value="2018-01-29 14:30:36.684 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="amazon.script" assertions="2" successes="1" errors="1" time="3.477">
+  </testcase>
+ </testsuite>
+</testsuites>

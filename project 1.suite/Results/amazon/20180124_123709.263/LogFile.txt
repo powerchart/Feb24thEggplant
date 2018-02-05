@@ -1,0 +1,12 @@
+﻿2018-01-24 12:37:09.341 +0530	START		Running amazon.script
+2018-01-24 12:37:09.785 +0530	doubleclick	chrome-Image	at (111, 31)	1	on_amazon	amazon.script
+2018-01-24 12:37:09.832 +0530	Log		launch chrome	3	on_amazon	amazon.script
+2018-01-24 12:37:09.894 +0530	waitfor	chrome-Image	found at (111, 31)	4	on_amazon	amazon.script
+2018-01-24 12:37:12.654 +0530	click	chrome Maximize	at (745, 22)	6	on_amazon	amazon.script
+2018-01-24 12:37:12.700 +0530	Log		browser maximized	8	on_amazon	amazon.script
+2018-01-24 12:37:15.086 +0530	click	refresh-icon	at (196, 47)	11	on_amazon	amazon.script
+2018-01-24 12:37:15.101 +0530	Log		locate search icon	13	on_amazon	amazon.script
+2018-01-24 12:37:16.099 +0530	typetext		amazon.in[return]	15	on_amazon	amazon.script
+2018-01-24 12:37:21.135 +0530	Log		amazon.in website loaded	18	on_amazon	amazon.script
+2018-01-24 12:37:21.326 +0530	EndTestCase		(Duration:"11.908", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 12:37:09 +0530", Successes:"1", TestCase:"amazon.script", Warnings:"0")
+2018-01-24 12:37:21.528 +0530	SUCCESS		Execution Time 0:00:12 amazon.script

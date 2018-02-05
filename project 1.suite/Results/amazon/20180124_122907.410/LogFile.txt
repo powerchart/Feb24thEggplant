@@ -1,0 +1,6 @@
+﻿2018-01-24 12:29:07.504 +0530	START		Running amazon.script
+2018-01-24 12:29:07.832 +0530	click	chrome-Image	at (111, 31)	1	on_amazon	amazon.script
+2018-01-24 12:29:07.879 +0530	Log		launch chrome	2	on_amazon	amazon.script
+2018-01-24 12:29:07.941 +0530	waitfor	chrome-Image	found at (111, 31)	3	on_amazon	amazon.script
+2018-01-24 12:29:08.159 +0530	EndTestCase		(Duration:"0.593", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 12:29:07 +0530", Successes:"1", TestCase:"amazon.script", Warnings:"0")
+2018-01-24 12:29:08.384 +0530	SUCCESS		Execution Time 0:00:01 amazon.script

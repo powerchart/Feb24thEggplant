@@ -1,0 +1,4 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+amazon,Failure,8,4,2018-01-24 12:29:07 +0530,2018-01-29 16:07:55 +0530,0:00:11
+variables,Success,1,0,2018-01-24 16:30:29 +0530,2018-01-24 16:30:29 +0530,0:00:00
+practice session,Success,4,2,2018-01-29 14:29:43 +0530,2018-01-29 15:47:12 +0530,0:00:45

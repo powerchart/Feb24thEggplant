@@ -1,0 +1,104 @@
+﻿
+
+//open chrome browser
+DoubleClick "chrome-Image"
+
+Log "launch chrome"
+WaitFor 5, "chrome-Image"
+
+//validate for chrome launched
+If imagefound("refresh-icon") then
+	LogSuccess "chrome launched"
+else
+	LogError "chrome did'nt launch"
+end if
+
+
+//captues screen shot
+CaptureScreen (Name: "application chrome launched")
+
+//if restored maximize the window"valid"
+BeginTestCase "click"
+If imagefound("chrome Maximize") then
+	
+	//maximize chrome browser
+	Click (Image:"chrome Maximize", WaitFor:17.8)
+	
+End if
+EndTestCase "click"
+
+
+//captues screen shot
+CaptureScreen (Name: "application chrome launched")
+
+log "browser maximized"
+wait 2
+
+//locate search textbox in chrome
+Click "refresh-icon"
+
+Log "locate search icon"
+
+//enter website name and load
+TypeText "amazon.in", return
+
+
+Log "amazon.in website loaded"
+wait 5
+
+//locate search box in amazon main 
+Click "amazon-Search"
+
+Log "search box located"
+
+//search for items
+TypeText "iphone x", returnKey
+
+Log "list of items are returned"
+wait 3
+
+//sort by different filters
+Click "AmazonSortby"
+
+Log "sorting"
+
+//select New and popular
+TypeText "Price High to Low", returnKey
+wait 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

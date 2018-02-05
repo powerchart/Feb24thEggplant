@@ -1,0 +1,117 @@
+﻿//open chrome browser
+DoubleClick "chrome-Image"
+
+Log "launch chrome"
+WaitFor 5, "chrome-Image"
+
+//validate for chrome launched
+If imagefound("refresh-icon") then
+	LogSuccess "chrome launched"
+else
+	LogError "chrome did'nt launch"
+end if
+
+
+//captues screen shot
+//CaptureScreen (Name: "application chrome launched")
+
+//if restored maximize the window"valid"
+
+If imagefound("chrome Maximize") then
+	
+	//maximize chrome browser
+	Click (Image:"chrome Maximize", WaitFor:17.8)
+	
+End if
+
+//CaptureScreen (Name: "application chrome launched")
+
+log "browser maximized"
+wait 2
+
+//locate search textbox in chrome
+Click "refresh-icon"
+
+Log "locate search icon"
+
+//enter website name and load
+TypeText "amazon.in", return
+
+//select movies and tv from all dropdown
+If imagefound("MoviesTVShows") then
+	log "movieTvshows selected"
+else
+	Click "add down arrow", 
+	
+	//try to loctate moviestv show from dorp down
+	Repeat until ImageFound(Image:"MoviesTVShows_1From Dropdown", WaitFor:1)
+		TypeText pageDown
+		
+	End repeat
+	//select movietv show from dropdown
+	Click "MoviesTVShows_1From Dropdown"
+	
+End If
+
+//validate for movies and tv show selected
+if ImageFound(2, "MoviesTVShows") then
+	LogSuccess "Movies and tv serials selected"
+else
+	LogError "Movies and tv serials value from dropdown not selected"
+	
+end if
+
+//type the bigbang theory - seasons in search box
+click "MoviesTVShows_searchbox"
+TypeText "The big bang theor - seasons", returnKey
+
+wait 10
+
+//validate for TheBigBangTheoryTheCompleteSeason
+if ImageFound (2, "TheBigBangTheoryTheCompleteSeason")
+	
+	logsuccess "TheBigBangTheoryTheCompleteSeason image found"
+	
+else
+	Repeat until ImageFound(Image:"TheBigBangTheoryTheCompleteSeason", waitfor:1)
+		typetext pageDown
+		
+	End repeat
+	
+end if
+
+//select TheBigBangTheoryTheCompleteSeason image
+
+Click "TheBigBangTheoryTheCompleteSeason"
+
+wait 5
+
+//locate Customerswhoviewedthisitemalso text
+if ImageFound (2, "Customerswhoviewedthisitemalso")
+	
+	
+	
+else
+	Repeat until ImageFound(Image:"Customerswhoviewedthisitemalso", waitfor:1)
+		typetext pageDown
+		logsuccess "Customerswhoviewedthisitemalso image found"
+		
+	End repeat
+	
+end if
+//capture screen
+CaptureScreen (Name: "Customerswhoviewedthisitemalso")
+
+
+
+
+
+
+
+
+
+
+
+
+
+

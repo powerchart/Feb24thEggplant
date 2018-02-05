@@ -1,0 +1,5 @@
+﻿2018-01-24 16:46:00.618 +0530	START		Running variables.script
+2018-01-24 16:46:01.070 +0530	doubleclick	chrome-Image	at (111, 31)	3	on_variables	variables.script
+2018-01-24 16:46:10.774 +0530	Exception	putty	No Image Found On Screen: "putty"	16	on_variables	variables.script
+2018-01-24 16:46:11.039 +0530	EndTestCase		(Duration:"10.359", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 16:46:00 +0530", Successes:"0", TestCase:"variables.script", Warnings:"0")
+2018-01-24 16:46:11.086 +0530	ABORTED		Execution Time 0:00:11 variables.script

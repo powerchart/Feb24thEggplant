@@ -1,0 +1,4 @@
+﻿2018-01-24 12:36:12.730 +0530	START		Running amazon.script
+2018-01-24 12:36:21.268 +0530	Exception	chrome-Image	No Image Found On Screen: "chrome-Image"	1	on_amazon	amazon.script
+2018-01-24 12:36:21.489 +0530	EndTestCase		(Duration:"8.696", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 12:36:12 +0530", Successes:"0", TestCase:"amazon.script", Warnings:"0")
+2018-01-24 12:36:21.552 +0530	ABORTED		Execution Time 0:00:09 amazon.script

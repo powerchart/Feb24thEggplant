@@ -1,0 +1,33 @@
+﻿2018-01-29 15:47:12.295 +0530	START		Running practice session.script
+2018-01-29 15:47:12.817 +0530	doubleclick	chrome-Image	at (336, 130)	2	on_practice_session	practice session.script
+2018-01-29 15:47:12.864 +0530	Log		launch chrome	4	on_practice_session	practice session.script
+2018-01-29 15:47:12.958 +0530	waitfor	chrome-Image	found at (261, 130)	5	on_practice_session	practice session.script
+2018-01-29 15:47:14.362 +0530	imagefound	refresh-icon	found at (196, 47)	8	on_practice_session	practice session.script
+2018-01-29 15:47:14.408 +0530	LogSuccess		chrome launched	9	on_practice_session	practice session.script
+2018-01-29 15:47:17.045 +0530	imagefound	chrome Maximize	Unable to Find Image chrome Maximize	20	on_practice_session	practice session.script
+2018-01-29 15:47:17.092 +0530	Log		browser maximized	29	on_practice_session	practice session.script
+2018-01-29 15:47:19.354 +0530	click	refresh-icon	at (196, 47)	33	on_practice_session	practice session.script
+2018-01-29 15:47:19.400 +0530	Log		locate search icon	35	on_practice_session	practice session.script
+2018-01-29 15:47:20.368 +0530	typetext		amazon.in[return]	38	on_practice_session	practice session.script
+2018-01-29 15:47:24.517 +0530	imagefound	MoviesTVShows	Unable to Find Image MoviesTVShows	41	on_practice_session	practice session.script
+2018-01-29 15:47:25.048 +0530	click	add down arrow	at (225, 94)	44	on_practice_session	practice session.script
+2018-01-29 15:47:26.764 +0530	imagefound	MoviesTVShows_1From Dropdown	Unable to Find Image MoviesTVShows_1From Dropdown	47	on_practice_session	practice session.script
+2018-01-29 15:47:26.857 +0530	typetext		[pageDown]	48	on_practice_session	practice session.script
+2018-01-29 15:47:28.667 +0530	imagefound	MoviesTVShows_1From Dropdown	Unable to Find Image MoviesTVShows_1From Dropdown	50	on_practice_session	practice session.script
+2018-01-29 15:47:28.823 +0530	typetext		[pageDown]	48	on_practice_session	practice session.script
+2018-01-29 15:47:30.008 +0530	imagefound	MoviesTVShows_1From Dropdown	found at (260, 245)	50	on_practice_session	practice session.script
+2018-01-29 15:47:30.523 +0530	click	MoviesTVShows_1From Dropdown	at (260, 245)	52	on_practice_session	practice session.script
+2018-01-29 15:47:31.116 +0530	imagefound	MoviesTVShows	found at (262, 93)	57	on_practice_session	practice session.script
+2018-01-29 15:47:31.147 +0530	LogSuccess		Movies and tv serials selected	58	on_practice_session	practice session.script
+2018-01-29 15:47:31.586 +0530	click	MoviesTVShows_searchbox	at (365, 92)	65	on_practice_session	practice session.script
+2018-01-29 15:47:33.308 +0530	typetext		The big bang theor - seasons[returnKey]	66	on_practice_session	practice session.script
+2018-01-29 15:47:44.883 +0530	imagefound	TheBigBangTheoryTheCompleteSeason	found at (391, 525)	71	on_practice_session	practice session.script
+2018-01-29 15:47:44.914 +0530	LogSuccess		TheBigBangTheoryTheCompleteSeason image found	73	on_practice_session	practice session.script
+2018-01-29 15:47:46.599 +0530	click	TheBigBangTheoryTheCompleteSeason	at (391, 525)	85	on_practice_session	practice session.script
+2018-01-29 15:47:53.884 +0530	imagefound	Customerswhoviewedthisitemalso	Unable to Find Image Customerswhoviewedthisitemalso within 2.00 seconds	90	on_practice_session	practice session.script
+2018-01-29 15:47:55.319 +0530	imagefound	Customerswhoviewedthisitemalso	Unable to Find Image Customerswhoviewedthisitemalso	95	on_practice_session	practice session.script
+2018-01-29 15:47:55.413 +0530	typetext		[pageDown]	96	on_practice_session	practice session.script
+2018-01-29 15:47:55.444 +0530	LogSuccess		Customerswhoviewedthisitemalso image found	97	on_practice_session	practice session.script
+2018-01-29 15:47:56.099 +0530	imagefound	Customerswhoviewedthisitemalso	found at (222, 169)	99	on_practice_session	practice session.script
+2018-01-29 15:47:56.318 +0530	EndTestCase		(Duration:"43.969", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 15:47:12 +0530", Successes:"4", TestCase:"practice session.script", Warnings:"0")
+2018-01-29 15:47:56.903 +0530	SUCCESS		Execution Time 0:00:44 practice session.script
