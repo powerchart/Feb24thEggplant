@@ -3,16 +3,11 @@
 function lauchApplication appPath
 
 	//* Open Run Window
-	
 	TypeText windowsKey ,"r"
 	WaitFor 8.0, "Textbox_OpenRunDialog"
-	
 	click "Textbox_OpenRunDialog"
-	
 	TypeText controlKey & a & backspace	
-	
 	//*Enter aplication full Path and Enter
-	
 	TypeText appPath,returnKey
 	
 end lauchApplication
@@ -24,6 +19,7 @@ function waitForLoginWindow waitTime
 	if ImageFound("Tag_Username")
 	then
 		LogSuccess "login window displays"
+		CaptureScreen (Name: "Login Dialog")		
 		
 	else
 		LogError "Not launched"
@@ -34,22 +30,16 @@ end waitForLoginWindow
 (* Enter Username, Password and domain *)
 
 function loginIntoApp userName, passWord,domain
-
 	//* Enter Username
 	click "TextBox_userName"
 	TypeText userName
-	
 	//*Enter passWord
 	Click "TextBox_passWord"
 	TypeText passWord
-	
 	//*Check Domain field is dithered
-	
 	put ImageLocation("TextBox_Domain") into DomainLoc
 	insert DomainLoc+(-29,29) into SR
-	log SR
 	insert DomainLoc+(45,4) into SR
-	log SR
 	put  ReadText(SR) into SR
 	set the searchRectangle to ()
 	if SR=domain
@@ -63,12 +53,19 @@ end loginIntoApp
 (* Click on OK Button- login dialog *)
 
 function clickOKButtonLogin
-
 	put ImageLocation("TextBox_Domain") into DomainLoc
 	put DomainLoc+(1,70) into OK
-	click OK
-	
+	click OK	
 end clickOKButtonLogin
+
+(* Verify Application is launched *)
+function verifyAppLaunched
+	put ImageLocation("Icon_Minimize") into winTag
+	put winTag+(-110,0) into winTag
+	MoveTo winTag
+	
+end verifyAppLaunched
+
 
 
 

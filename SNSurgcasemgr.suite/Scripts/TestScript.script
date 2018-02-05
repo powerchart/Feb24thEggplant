@@ -8,7 +8,10 @@ log Utilities.lauchApplication ("C:\Program Files\Cerner\snsurgcasemgr.exe")
 log Utilities.waitForLoginWindow(20)
 
 
-
+(* Enter application login credentials like Username, Password and Domain *)
 log Utilities.loginIntoApp("BUILD01","cerner01","solm64")
+
+
+(* Click Ok Button login login *)
 
 log Utilities.clickOKButtonLogin

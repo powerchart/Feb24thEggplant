@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="TestScript.script" package="SNSurgcasemgr.suite" timestamp="2018-02-05 15:42:29.994 +0530"
+ tests="1" successes="2" errors="0" time="20.444000">
+  <properties>
+   <property name="RunDate" value="2018-02-05 15:42:29.994 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="TestScript.script" assertions="2" successes="2" errors="0" time="20.421">
+  </testcase>
+ </testsuite>
+</testsuites>

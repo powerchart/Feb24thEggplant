@@ -1,0 +1,26 @@
+﻿2018-02-05 15:42:30.014 +0530	START		Running TestScript.script
+2018-02-05 15:42:30.412 +0530	typetext		[windowsKey]r	5	function_lauchapplication	Utilities.script
+2018-02-05 15:42:35.675 +0530	waitfor	Textbox_OpenRunDialog	found at (105, 731)	6	function_lauchapplication	Utilities.script
+2018-02-05 15:42:35.847 +0530	click	Textbox_OpenRunDialog	at (105, 731)	8	function_lauchapplication	Utilities.script
+2018-02-05 15:42:36.648 +0530	typetext		[controlKey]a[backspace]	10	function_lauchapplication	Utilities.script
+2018-02-05 15:42:38.849 +0530	typetext		C:\Program Files\Cerner\snsurgcasemgr.exe[returnKey]	14	function_lauchapplication	Utilities.script
+2018-02-05 15:42:38.849 +0530	Log			3	on_testscript	TestScript.script
+2018-02-05 15:42:45.367 +0530	waitfor	Tag_Username	found at (753, 355)	2	function_waitforloginwindow	Utilities.script
+2018-02-05 15:42:45.405 +0530	imagefound	Tag_Username	found at (753, 355)	3	function_waitforloginwindow	Utilities.script
+2018-02-05 15:42:45.405 +0530	LogSuccess		login window displays	5	function_waitforloginwindow	Utilities.script
+2018-02-05 15:42:45.647 +0530	capturescreen	Login Dialog.png		6	function_waitforloginwindow	Utilities.script
+2018-02-05 15:42:45.651 +0530	Log			8	on_testscript	TestScript.script
+2018-02-05 15:42:45.939 +0530	click	TextBox_userName	at (743, 376)	4	function_loginintoapp	Utilities.script
+2018-02-05 15:42:46.993 +0530	typetext		BUILD01	5	function_loginintoapp	Utilities.script
+2018-02-05 15:42:47.842 +0530	click	TextBox_passWord	at (746, 429)	8	function_loginintoapp	Utilities.script
+2018-02-05 15:42:48.806 +0530	typetext		cerner01	9	function_loginintoapp	Utilities.script
+2018-02-05 15:42:49.627 +0530	imagelocation	TextBox_Domain	at (744, 463)	13	function_loginintoapp	Utilities.script
+2018-02-05 15:42:49.829 +0530	readtext		(715,467,789,492)
+2018-02-05 15:42:49.832 +0530	set		SEARCHRECTANGLE = ()	17	function_loginintoapp	Utilities.script
+2018-02-05 15:42:49.834 +0530	LogSuccess		Domain field is dithered	20	function_loginintoapp	Utilities.script
+2018-02-05 15:42:49.838 +0530	Log			12	on_testscript	TestScript.script
+2018-02-05 15:42:49.993 +0530	imagelocation	TextBox_Domain	at (744, 463)	3	function_clickokbuttonlogin	Utilities.script
+2018-02-05 15:42:50.078 +0530	click		at (745, 533)	5	function_clickokbuttonlogin	Utilities.script
+2018-02-05 15:42:50.081 +0530	Log			14	on_testscript	TestScript.script
+2018-02-05 15:42:50.440 +0530	EndTestCase		(Duration:"20.421", Errors:"0", Exceptions:"0", StartTime:"2018-02-05 15:42:30 +0530", Successes:"2", TestCase:"TestScript.script", Warnings:"0")
+2018-02-05 15:42:50.489 +0530	SUCCESS		Execution Time 0:00:21 TestScript.script
