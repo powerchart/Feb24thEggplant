@@ -1,0 +1,6 @@
+﻿2018-01-24 15:16:25.763 +0530	START		Running Script1-Beginner.script
+2018-01-24 15:16:25.825 +0530	Log		Launch a web browser and Open Amazon.com	1	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:16:25.966 +0530	click	Googlechrome	at (36, 226)	2	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:16:44.434 +0530	Exception	Refreshicon	Unable To Find Any Image On Screen "Refreshicon" within 10.00 seconds	3	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:16:44.512 +0530	EndTestCase		(Duration:"18.749", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 15:16:25 +0530", Successes:"0", TestCase:"Script1-Beginner.script", Warnings:"0")
+2018-01-24 15:16:44.512 +0530	ABORTED		Execution Time 0:00:19 Script1-Beginner.script

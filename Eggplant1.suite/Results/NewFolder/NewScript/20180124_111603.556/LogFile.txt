@@ -1,0 +1,4 @@
+﻿2018-01-24 11:16:03.572 +0530	START		Running NewScript.script
+2018-01-24 11:16:03.828 +0530	doubleclick	image0002_new	at (64, 220)	4	on_newscript	NewScript.script
+2018-01-24 11:16:03.943 +0530	EndTestCase		(Duration:"0.371", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 11:16:03 +0530", Successes:"1", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 11:16:04.005 +0530	SUCCESS		Execution Time 0:00:00 NewScript.script

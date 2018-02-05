@@ -1,0 +1,5 @@
+﻿2018-01-24 12:11:31.932 +0530	START		Running NewScript.script
+2018-01-24 12:11:32.176 +0530	click	oogle.png	at (396, 404)	3	on_newscript	NewScript.script
+2018-01-24 12:11:33.333 +0530	typetext		www.amazon.com[returnKey]	4	on_newscript	NewScript.script
+2018-01-24 12:11:33.411 +0530	EndTestCase		(Duration:"1.463", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 12:11:31 +0530", Successes:"1", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 12:11:33.479 +0530	SUCCESS		Execution Time 0:00:02 NewScript.script

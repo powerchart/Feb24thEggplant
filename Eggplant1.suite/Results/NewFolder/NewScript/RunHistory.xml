@@ -1,0 +1,405 @@
+﻿<?xml version="1.0"?>
+<runHistory script="NewScript">
+ <run>
+  <RunDate>2018-01-24 11:05:25.709 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>23.500000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_110525.709/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;image0001&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:06:27.298 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>23.248000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_110627.298/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;image0001&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:07:13.696 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>23.111000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_110713.696/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- doubleclick Error - No Image Found On Screen: &quot;image0002&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:07:46.024 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_110746.024/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:09:12.597 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>24.085000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_110912.597/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- doubleclick Error - No Image Found On Screen: &quot;image0002&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:11:09.527 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>23.236000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_111109.527/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- doubleclick Error - No Image Found On Screen: &quot;image0002&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:11:42.635 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_111142.635/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:13:02.842 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_111302.842/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:16:03.556 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.387000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_111603.556/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:18:13.679 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>1.298000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_111813.679/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:30:50.407 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>22.926000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_113050.407/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- doubleclick Error - No Image Found On Screen: &quot;image0002_new&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:35:25.933 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.299000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_113525.933/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: image0002_new</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:36:37.751 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.240000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_113637.751/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: image0002_new</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:37:06.237 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.227000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_113706.237/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: image0002_new</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:40:59.881 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.302000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_114059.881/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: image0002_new</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:45:13.369 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.031000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_114513.369/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in newscript:
+Syntax Error at line 1: Syntax Error - can&#x27;t understand &quot;oogle&quot; at or near character 16</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:53:03.544 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.440000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_115303.544/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 11:54:35.100 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.213000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_115435.100/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:09:59.751 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>1.238000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_120959.751/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:10:31.736 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.236000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_121031.736/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:10:47.566 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.185000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_121047.566/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:11:31.932 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>1.479000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180124_121131.932/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:12:22.495 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_121222.495/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:12:53.582 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_121253.582/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:15:03.803 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.015000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_121503.803/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in newscript:
+Syntax Error at line 4: Syntax Error - can&#x27;t understand [matching quote not found] at or near character 56</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:15:48.084 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.016000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_121548.084/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in newscript:
+Syntax Error at line 4: Syntax Error - can&#x27;t understand [matching quote not found] at or near character 56</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:24:48.279 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.016000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_122448.279/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in newscript:
+Syntax Error at line 4: Syntax Error - can&#x27;t understand [matching quote not found] at or near character 56</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:27:04.900 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.016000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_122704.900/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in newscript:
+Syntax Error at line 4: Syntax Error - can&#x27;t understand [matching quote not found] at or near character 56</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:27:21.812 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.015000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_122721.812/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Compiler Exception -- in newscript:
+Syntax Error at line 4: Syntax Error - can&#x27;t understand [matching quote not found] at or near character 56</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 12:27:55.011 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>28.434000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_122755.011/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;image0004&quot;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 14:22:16.559 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_142216.559/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 14:22:35.382 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180124_142235.382/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 14:23:00.313 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>22.671000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_142300.313/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Image Not Found -- click Error - No Image Found On Screen: &quot;oogle.png&quot;</ErrorMessage>
+ </run>
+</runHistory>

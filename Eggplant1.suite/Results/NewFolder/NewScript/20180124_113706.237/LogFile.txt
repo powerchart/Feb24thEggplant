@@ -1,0 +1,4 @@
+﻿2018-01-24 11:37:06.237 +0530	START		Running NewScript.script
+2018-01-24 11:37:06.377 +0530	Exception	image0002_new	Could Not Open Image: image0002_new	4	on_newscript	NewScript.script
+2018-01-24 11:37:06.464 +0530	EndTestCase		(Duration:"0.212", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 11:37:06 +0530", Successes:"0", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 11:37:06.591 +0530	FAILURE	Screen_Error.png	File Not Found doubleclick Error - Could Not Open Image: image0002_new -- Execution Time 0:00:00 NewScript.script

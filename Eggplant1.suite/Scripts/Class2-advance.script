@@ -1,0 +1,41 @@
+﻿run "NewFolder/NewScript"
+
+run "New script"
+//Extract new script
+
+RunWithNewResults "New script"
+
+
+//Click on particular text Using OCR
+
+
+Click (Text:"FLOWERS" )
+
+log readtext("Candy")
+
+Rightclick(Text:"FLOWERS",searchRectangle:(628,525,899,789))
+
+//Search rectangle
+
+
+
+Set the SearchRectangle to ("Rect1_A","Rect1_B")
+
+
+Set the SearchRectangle to ("Rect1_A","Rect1_B")
+Click(text: "Thank you")
+
+//Search rectanle using xy cordinates and read text
+
+put imagelocation("YourAmazoncom") into referenceimage
+
+log referenceimage
+
+insert referenceimage+(490, 110) into SR
+
+log SR
+
+log ReadText(SR)
+
+
+Click (Text: "See all deals",ValidCharacters:"*",IgnoreSpaces:"YES")

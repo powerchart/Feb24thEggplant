@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="NewFolder/Variables using image">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2018-01-24 17:02:37 +0530</FirstRun>
+  <LastRun>2018-01-24 17:14:27 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="NewFolder/Record and play">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2018-01-24 13:52:59 +0530</FirstRun>
+  <LastRun>2018-01-24 13:52:59 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="DataScript">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 14:51:23 +0530</FirstRun>
+  <LastRun>2018-01-31 14:51:23 +0530</LastRun>
+  <TotalTimeOnSuccess>0.256000</TotalTimeOnSuccess>
+ </script>
+ <script name="NewFolder/Script1-Beginner">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-24 15:05:55 +0530</FirstRun>
+  <LastRun>2018-01-24 15:28:50 +0530</LastRun>
+  <TotalTimeOnSuccess>65.502000</TotalTimeOnSuccess>
+ </script>
+ <script name="NewFolder/NewScript">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>26</NumberOfRuns>
+  <NumberOfFails>18</NumberOfFails>
+  <FirstRun>2018-01-24 11:05:25 +0530</FirstRun>
+  <LastRun>2018-01-24 14:23:00 +0530</LastRun>
+  <TotalTimeOnSuccess>7.476000</TotalTimeOnSuccess>
+ </script>
+ <script name="New script">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 10:46:53 +0530</FirstRun>
+  <LastRun>2018-01-31 10:46:53 +0530</LastRun>
+  <TotalTimeOnSuccess>0.031000</TotalTimeOnSuccess>
+ </script>
+</statistics>

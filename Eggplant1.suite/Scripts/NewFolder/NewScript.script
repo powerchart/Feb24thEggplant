@@ -1,0 +1,17 @@
+﻿Click "oogle.png"
+TypeText "www.amazon.com",returnKey
+WaitFor 12, "AmazoncomOnlineShophttpswwwama"
+Click "AmazoncomOnlineShophttpswwwama"
+Click "GiftCards"
+Click "image0004"
+Click "ThankYouTag"
+Click  "image0005"
+WaitFor 15, "image0005.png"
+Click "MiniAmazonBox"
+
+
+
+
+
+
+Begin test

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<runHistory script="DataScript">
+ <run>
+  <RunDate>2018-01-31 14:51:23.207 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.256000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_145123.207/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,9 @@
+﻿2018-01-24 12:27:55.026 +0530	START		Running NewScript.script
+2018-01-24 12:27:55.336 +0530	click	oogle.png	at (396, 404)	1	on_newscript	NewScript.script
+2018-01-24 12:27:56.592 +0530	typetext		www.amazon.com[returnKey]	2	on_newscript	NewScript.script
+2018-01-24 12:27:57.964 +0530	waitfor	AmazoncomOnlineShophttpswwwama	found at (218, 373)	3	on_newscript	NewScript.script
+2018-01-24 12:27:58.281 +0530	click	AmazoncomOnlineShophttpswwwama	at (218, 373)	4	on_newscript	NewScript.script
+2018-01-24 12:27:59.557 +0530	click	GiftCards	at (443, 200)	5	on_newscript	NewScript.script
+2018-01-24 12:28:23.347 +0530	Exception	image0004	No Image Found On Screen: "image0004"	6	on_newscript	NewScript.script
+2018-01-24 12:28:23.445 +0530	EndTestCase		(Duration:"28.419", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 12:27:55 +0530", Successes:"0", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 12:28:23.638 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "image0004" -- Execution Time 0:00:28 NewScript.script

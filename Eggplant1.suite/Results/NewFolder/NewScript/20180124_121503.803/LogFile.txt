@@ -1,0 +1,3 @@
+﻿2018-01-24 12:15:03.803 +0530	START		Running NewScript.script
+2018-01-24 12:15:03.818 +0530	EndTestCase		(Duration:"-0", Errors:"1", Exceptions:"0", StartTime:"2018-01-24 12:15:03 +0530", Successes:"0", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 12:15:04.110 +0530	FAILURE	Screen_Error.png	SenseTalk Compiler Exception in newscript:\nSyntax Error at line 4: Syntax Error - can't understand [matching quote not found] at or near character 56 -- Execution Time 0:00:00 NewScript.script

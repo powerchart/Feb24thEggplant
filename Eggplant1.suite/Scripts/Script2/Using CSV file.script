@@ -1,0 +1,74 @@
+﻿//	Launch a web browser and open Wikipedia.com\
+
+Log "lauch web browser"
+If ImageFound("Googlechrome")
+	LogSuccess "Image found sucessfully"
+	DoubleClick "Googlechrome"
+	
+else
+	LogError "Image didint found"
+end if
+
+Click "image0002"
+TypeText "Wikipedia.com", returnKey
+put  ReadText((501,85,738,173)) into SA
+log SA
+If ImageFound("WikipediATheFreeEncyclopedia")
+	LogSuccess "Image found sucessfully wikipedia page launched"
+	
+else
+	LogError "Image didint found"
+end if
+
+//	Type "The Big Bang Theory Season" 
+
+Click "image0012"
+
+TypeText "The Big Bang Theory Season"
+Set the SearchRectangle to ("Rect1_A","Rect1_B")
+Click (Text:"Theory (season 11)")
+
+//	Type "CTRL+f" 
+
+TypeText controlKey & f
+
+TypeText "Ratings"
+
+put ImageLocation("Contents") into location
+moveto location
+insert location+(130,185) into location
+log location
+Click (Text:"Ratings",searchRectangle:(location))
+log location
+
+//	Isolate row for text "Tesla Recoil" and verify rating 2.6 over 11 is displayed in that row.
+
+put ImageLocation("Number") into AR
+put "2.6/11" into Lookingname
+wait 5
+insert AR+(45,33) into SS
+log SS
+insert AR+(271,410) into SS
+log SS
+
+put readtext(SS)into list
+log list
+
+put number of lines of list into max
+log max
+
+repeat max times
+	put line repeatIndex() of list into NS
+	log NS
+	put imagelocation(text:NS,searchRectangle:(SS)) into NL
+	log NL
+	insert NL+(317,-6) into SR2
+	insert NL+(407,12) into SR2
+	put readtext(SR2) into name
+	log name
+	if name= Lookingname then
+		log "Name found"
+		Exit repeat
+	end if
+	put() into SR2
+end repeat

@@ -1,0 +1,4 @@
+﻿2018-01-24 11:06:27.313 +0530	START		Running NewScript.script
+2018-01-24 11:06:50.415 +0530	Exception	image0001	No Image Found On Screen: "image0001"	1	on_newscript	NewScript.script
+2018-01-24 11:06:50.546 +0530	EndTestCase		(Duration:"23.233", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 11:06:27 +0530", Successes:"0", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 11:06:50.844 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "image0001" -- Execution Time 0:00:23 NewScript.script

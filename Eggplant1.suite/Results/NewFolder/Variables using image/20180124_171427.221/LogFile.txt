@@ -1,0 +1,5 @@
+﻿2018-01-24 17:14:27.237 +0530	START		Running Variables using image.script
+2018-01-24 17:14:27.534 +0530	doubleclick	Googlechrome	at (36, 227)	2	on_variables_using_image	Variables using image.script
+2018-01-24 17:14:27.549 +0530	Exception	internetexplorer	Could Not Open Image: internetexplorer	5	on_variables_using_image	Variables using image.script
+2018-01-24 17:14:27.643 +0530	EndTestCase		(Duration:"0.406", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 17:14:27 +0530", Successes:"0", TestCase:"Variables using image.script", Warnings:"0")
+2018-01-24 17:14:27.873 +0530	FAILURE	Screen_Error.png	File Not Found doubleclick Error - Could Not Open Image: internetexplorer -- Execution Time 0:00:00 Variables using image.script

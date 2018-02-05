@@ -1,0 +1,15 @@
+﻿(* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+  Script generated:  2018-01-24 12:51:35
+  From session:  Record and play
+  Captured on:  2018-01-24 12:47:10
+  From server:  VINVDM
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *)
+
+Click "YourAmazoncomTodaysDealsGiftCa"
+Click (Image:"image0011", WaitFor:4.1)
+Click (Image:"ciSecure", WaitFor:5.4)
+Click (Image:"image0010", WaitFor:12.1)
+Click (Image:"Furniture", WaitFor:2.9)
+Drag "image0009"
+Drop "image0008"
+Click "image0007"

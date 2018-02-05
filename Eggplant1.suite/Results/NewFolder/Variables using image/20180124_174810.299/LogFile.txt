@@ -1,0 +1,3 @@
+﻿2018-01-24 17:48:10.299 +0530	START		Running Variables using image.script
+2018-01-24 17:48:16.360 +0530	EndTestCase		(Duration:"6.045", Errors:"1", Exceptions:"0", StartTime:"2018-01-24 17:48:10 +0530", Successes:"0", TestCase:"Variables using image.script", Warnings:"0")
+2018-01-24 17:48:16.360 +0530	ABORTED		Execution Time 0:00:06 Variables using image.script

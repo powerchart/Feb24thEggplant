@@ -1,0 +1,35 @@
+﻿put  file ResourcePath("Eggplant.txt") into myfile
+log myfile
+put the number of lines of myfile into linecount
+log linecount 
+log line 2 of myfile
+
+//Using CSV File
+
+put  file ResourcePath("PatientInformation.csv") into myfile
+log myfile
+log item 5 of line 2 of myfile 
+
+//Interacting with csv file
+
+put  file ResourcePath("PatientInformation.csv") into myfile
+put the number of lines of myfile into linecount
+log linecount 
+Repeat linecount times
+	log item  repeatIndex() of myfile
+End Repeat
+
+
+put  file ResourcePath("PatientInformation.csv") into myfile
+put the number of lines of myfile into linecount
+log linecount 
+put the number of items  of line 1 of myfile into columncount
+log columncount
+
+Repeat columncount times
+	log item 1 of line repeatIndex() of myfile
+End Repeat
+
+put(name:"vinay",comp:"cerner",last:"kini") into demographics
+put name of demographics
+log comp of demographics

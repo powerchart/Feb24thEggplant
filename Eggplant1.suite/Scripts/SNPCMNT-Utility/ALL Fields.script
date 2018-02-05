@@ -1,0 +1,36 @@
+﻿//Launch SNPCMNT APPLICATION
+
+typetext windowsKey,r
+typetext snpcmnt,returnKey
+log  "application launched"
+wait 30
+
+TypeText "cerner01",returnKey
+//Validate application launched sucessfully
+wait 30
+if ImageFound( "General-tab")
+	LogSuccess "Application launched sucessfully"
+else
+	LogError "Application not launched "
+	
+end if
+
+
+//SELECT AREA 
+
+Click "AREA"
+Repeat until (ImageFound(5, (text:"SRG TSORGONE SA")))
+	log "Text found Sucessfully"
+	typetext pageDown
+End repeat
+Click (Text:"SRG TSORGONE SA")
+LogSuccess "AREA Found Sucessfully"
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Variables using image">
+ <run>
+  <RunDate>2018-01-24 17:02:37.188 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.453000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_170237.188/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: internetexplorer</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-24 17:14:27.221 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.422000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>1</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180124_171427.221/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>File Not Found -- doubleclick Error - Could Not Open Image: internetexplorer</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,5 @@
+﻿2018-01-24 15:05:04.258 +0530	START		Running Script1-Beginner.script
+2018-01-24 15:05:04.383 +0530	Log		Launch a web browser and Open Amazon.com	1	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:05:15.252 +0530	Exception	Googlechrome	No Image Found On Screen: "Googlechrome"	2	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:05:15.331 +0530	EndTestCase		(Duration:"11.057", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 15:05:04 +0530", Successes:"0", TestCase:"Script1-Beginner.script", Warnings:"0")
+2018-01-24 15:05:15.331 +0530	ABORTED		Execution Time 0:00:11 Script1-Beginner.script

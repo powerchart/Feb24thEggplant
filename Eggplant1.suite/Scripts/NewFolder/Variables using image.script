@@ -1,0 +1,121 @@
+﻿put "Googlechrome"  into chromevar
+DoubleClick chromevar
+
+put "internetexplorer" into ibrowser
+Doubleclick ibrowser
+
+put ("Googlechrome", "internetexplorer") into ibrowserlist
+put the number of items of ibrowserlist into browsercount 
+
+log item 2 of ibrowserlist
+
+
+//get the x,y coordinates of the particular image
+
+put ImageLocation("Googlechrome") into ibrowserlocation
+
+log ibrowserlocation
+
+//find image anywhere in the screen 
+
+if ImageFound(10,"Googlechrome")
+	doubleclick FoundImageLocation()
+else
+	LogError "Image not found"
+end if
+put FoundImageLocation() into x
+
+log x
+
+//using text 
+
+put EveryImageLocation("Googlechrome") into imagelist
+log imagelist
+put the number of items of imagelist into imagecount
+log imagecount
+
+//Repeate
+
+put 3 into count
+repeat count times 
+	TypeText "vinay",returnKey
+end repeat
+
+
+//repeate using list
+
+put (1,2,3,4) into list
+put the  number of items of list into count
+put 1 into flag
+repeat count times
+	TypeText item flag of list
+	typetext returnKey
+	put flag+1 into flag
+end repeat
+
+
+//using repeat index
+
+put (1,2,3,4) into list
+put the  number of items of list into count
+put 1 into flag
+repeat count times
+	TypeText item repeatIndex() of list
+	typetext returnKey
+end repeat
+
+
+
+
+put 5 into x
+put 6 into y
+log x-y
+
+
+Put "VINAY " into First_Name
+Put "ss" into last_name
+
+TypeText First_Name &" "& last_name
+TypeText return
+
+
+put 5 into x
+put 6 into y
+put 15 into y
+
+if x is greater than y then
+	log "x is greater"
+else
+	log "y is greater"
+end if
+
+put (5,10,13,15,14) into x
+
+put the number of items of x into xcount
+log xcount
+
+log item 4 of x
+
+//Every image location 
+
+put EveryImageLocation("Googlechrome") into googlelist
+
+log googlelist
+
+click item 2 of googlelist
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

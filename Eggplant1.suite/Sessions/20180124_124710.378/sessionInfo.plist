@@ -1,0 +1,35 @@
+{
+    commandList = "[{captureRect:[189, 812, 624, 829], command:@\"Click\", eventNum:2, hotSpot:[436, 201], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"YourAmazoncomTodaysDealsGiftCa\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRText:@\"YourAmazon.com Today's Deals Gift Cards Registry Sell Help\", screenShotFile:@\"Screen0002.png\", useOCR:@\"NO\"}, {captureRect:[715, 467, 729, 505], command:@\"Click\", eventNum:4, hotSpot:[722, 539], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0011\", searchType:@\"Tolerant\", waitFor:@\"4.1\"}, screenShotFile:@\"Screen0004.png\", waitFor:@\"4.1\"}, {captureRect:[8, 968, 161, 986], command:@\"Click\", eventNum:6, hotSpot:[12.951096, 51], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"ciSecure\", searchType:@\"Smooth\", waitFor:@\"5.4\"}, OCRText:@\"<- c i Secure\", screenShotFile:@\"Screen0006.png\", useOCR:@\"NO\", waitFor:@\"5.4\"}, {captureRect:[86, 803, 156, 833], command:@\"Click\", eventNum:8, hotSpot:[121, 206], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0010\", searchType:@\"Tolerant\", waitFor:@\"12.1\"}, screenShotFile:@\"Screen0008.png\", waitFor:@\"12.1\"}, {captureRect:[661, 532, 718, 545], command:@\"Click\", eventNum:10, hotSpot:[682, 485], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"Furniture\", searchType:@\"Smooth\", waitFor:@\"2.9\"}, screenShotFile:@\"Screen0010.png\", waitFor:@\"2.9\"}, {captureRect:[1233, 762, 1280, 792], command:@\"Drag\", eventNum:12, hotSpot:[1268, 247], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0009\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0012.png\"}, {captureRect:[1225, 593, 1280, 623], command:@\"Drop\", eventNum:12, hotSpot:[1260, 416], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0008\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0013.png\"}, {captureRect:[621, 142, 691, 172], command:@\"Click\", eventNum:14, hotSpot:[656, 867], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0007\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0014.png\"}]";
+    generatedCommands = (
+	"Click \"YourAmazoncomTodaysDealsGiftCa\"",
+	"Click (Image:\"image0011\", WaitFor:4.1)",
+	"Click (Image:\"ciSecure\", WaitFor:5.4)",
+	"Click (Image:\"image0010\", WaitFor:12.1)",
+	"Click (Image:\"Furniture\", WaitFor:2.9)",
+	"Drag \"image0009\"",
+	"Drop \"image0008\"",
+	"Click \"image0007\""
+    );
+    locallyAddedFiles = {
+	"" = (
+	    "YourAmazoncomTodaysDealsGiftCa.png",
+	    "image0007.png",
+	    "image0008.png",
+	    "image0009.png",
+	    "Furniture.png",
+	    "ciSecure.png",
+	    "image0011.png",
+	    "image0010.png",
+	    "YourAmazoncomTodaysDealsGiftCa.png",
+	    "image0011.png",
+	    "ciSecure.png",
+	    "image0010.png",
+	    "Furniture.png",
+	    "image0009.png",
+	    "image0008.png",
+	    "image0007.png"
+	);
+    };
+    sessionType = turboSession;
+    unnamedImageCount = <*I0>;
+}

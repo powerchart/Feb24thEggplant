@@ -1,0 +1,9 @@
+﻿2018-01-24 15:28:50.689 +0530	START		Running Script1-Beginner.script
+2018-01-24 15:28:50.767 +0530	Log		Launch a web browser and Open Amazon.com	1	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:28:50.970 +0530	doubleclick	Googlechrome	at (36, 226)	2	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:28:52.892 +0530	waitfor	Refreshicon	found at (72, 46)	3	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:28:52.924 +0530	imagefound	Refreshicon	found at (72, 46)	4	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:28:52.924 +0530	LogSuccess		Image found sucessfully	5	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:28:53.111 +0530	click	Search icon	at (145, 46)	11	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:28:53.220 +0530	EndTestCase		(Duration:"2.531", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 15:28:50 +0530", Successes:"1", TestCase:"Script1-Beginner.script", Warnings:"0")
+2018-01-24 15:28:53.267 +0530	SUCCESS		Execution Time 0:00:03 Script1-Beginner.script

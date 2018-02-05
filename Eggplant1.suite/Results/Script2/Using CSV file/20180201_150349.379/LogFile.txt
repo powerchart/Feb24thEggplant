@@ -1,0 +1,7 @@
+﻿2018-02-01 15:03:49.394 +0530	START		Running Script2/Using CSV file.script
+2018-02-01 15:03:49.582 +0530	Log		lauch web browser	3	on_script2_using_csv_file	Script2/Using CSV file.script
+2018-02-01 15:03:52.102 +0530	imagefound	Googlechrome	Unable to Find Image Googlechrome	4	on_script2_using_csv_file	Script2/Using CSV file.script
+2018-02-01 15:03:52.102 +0530	LogError		Image didint found	9	on_script2_using_csv_file	Script2/Using CSV file.script
+2018-02-01 15:04:00.744 +0530	Exception	image0002	No Image Found On Screen: "image0002"	12	on_script2_using_csv_file	Script2/Using CSV file.script
+2018-02-01 15:04:00.838 +0530	EndTestCase		(Duration:"11.444", Errors:"2", Exceptions:"1", StartTime:"2018-02-01 15:03:49 +0530", Successes:"0", TestCase:"Script2/Using CSV file.script", Warnings:"0")
+2018-02-01 15:04:00.838 +0530	ABORTED		Execution Time 0:00:11 Script2/Using CSV file.script

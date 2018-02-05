@@ -1,0 +1,6 @@
+﻿2018-01-24 15:07:05.560 +0530	START		Running Script1-Beginner.script
+2018-01-24 15:07:05.666 +0530	Log		Launch a web browser and Open Amazon.com	1	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:07:05.806 +0530	click	Googlechrome	at (36, 226)	2	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:07:06.961 +0530	typetext		www.amazon.com[returnKey]	3	on_script1_beginner	Script1-Beginner.script
+2018-01-24 15:07:37.043 +0530	EndTestCase		(Duration:"31.483", Errors:"0", Exceptions:"0", StartTime:"2018-01-24 15:07:05 +0530", Successes:"1", TestCase:"Script1-Beginner.script", Warnings:"0")
+2018-01-24 15:07:37.106 +0530	SUCCESS		Execution Time 0:00:32 Script1-Beginner.script

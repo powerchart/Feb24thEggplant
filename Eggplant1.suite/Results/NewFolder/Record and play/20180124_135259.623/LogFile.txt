@@ -1,0 +1,8 @@
+﻿2018-01-24 13:52:59.639 +0530	START		Running Record and play.script
+2018-01-24 13:52:59.904 +0530	click	YourAmazoncomTodaysDealsGiftCa	at (436, 201)	8	on_record_and_play	Record and play.script
+2018-01-24 13:53:02.703 +0530	click	image0011	at (731, 539)	9	on_record_and_play	Record and play.script
+2018-01-24 13:53:05.274 +0530	click	ciSecure	at (12, 51)	10	on_record_and_play	Record and play.script
+2018-01-24 13:53:07.660 +0530	click	image0010	at (121, 206)	11	on_record_and_play	Record and play.script
+2018-01-24 13:53:21.623 +0530	Exception	Furniture	No Image Found On Screen: "Furniture"	12	on_record_and_play	Record and play.script
+2018-01-24 13:53:21.669 +0530	EndTestCase		(Duration:"22.03", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 13:52:59 +0530", Successes:"0", TestCase:"Record and play.script", Warnings:"0")
+2018-01-24 13:53:21.888 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Furniture" -- Execution Time 0:00:22 Record and play.script

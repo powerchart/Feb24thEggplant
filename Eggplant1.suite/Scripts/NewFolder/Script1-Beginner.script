@@ -1,0 +1,81 @@
+﻿Log "Launch a web browser and Open Amazon.com"
+DoubleClick "Googlechrome"
+WaitFor 10, "Refreshicon",
+If ImageFound("Refreshicon")
+	LogSuccess "Image found sucessfully"
+	
+else
+	LogError "Image didint found"
+	
+End If
+TypeText "www.amazon.com", returnKey
+WaitFor 30, "Cartimage"
+if ImageFound("Cartimage")
+	LogSuccess "Image found sucessfully"
+else
+	LogError "Image didnt found"
+	
+end if
+if ImageFound("ALL")
+	
+	LogSuccess "Image found sucessfully"
+	Click "ALL"
+else
+	LogError "Image didnt found"
+	
+end if
+
+Repeat until ImageFound(10, "MoviesTV")
+	Typetext pageDown
+End repeat
+Click "MoviesTV"
+Repeat until ImageFound(2, "TheBigBangTheoryTheCompleteTen")
+	if ImageFound(2, "TheBigBangTheoryTheCompleteTen")
+		log "The given image found successfully "
+		Click "TheBigBangTheoryTheCompleteTen"
+	else 
+		ScrollWheelDown 2
+		if(ImageFound(2, "NextPage"))
+			log "we  almost reached end of the page ,the given image not found"
+			exit script
+		end if
+	end if 
+End repeat
+//click second instance of DVD
+WaitFor 10, "DVD"
+
+put EveryImageLocation("DVD") into dvdlist
+log dvdlist
+click item 2 of dvdlist
+//scrool down until you find "customers who bought this item "-using while repeat
+
+Repeat while true
+	if ImageFound(2, "Customerswhoboughtthisitemalso")
+		log "The given image found successfully "
+		exit repeat
+		
+	else 
+		ScrollWheelDown 1
+		if(ImageFound(2, "UnitedStates"))
+			log "we  almost reached end of the page ,the given image not found"
+			exit script
+		end if
+	end if 
+End repeat
+
+//using until ,above step 
+Repeat until ImageFound(2, "Customerswhoboughtthisitemalso")
+	if ImageFound(2, "Customerswhoboughtthisitemalso")
+		log "The given image found successfully "
+	else
+		ScrollWheelDown 1
+		if(ImageFound(2, "UnitedStates"))
+			log "we  almost reached end of the page ,the given image not found"
+			exit script
+		end if
+	end if 
+End repeat
+
+//take a screen print of the page 
+CaptureScreen (Name: "pageimage ")
+

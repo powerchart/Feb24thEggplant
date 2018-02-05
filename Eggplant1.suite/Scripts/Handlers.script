@@ -1,0 +1,8 @@
+﻿on house 
+	log "My house"
+end house
+
+
+on door
+log "Door opened"
+end door

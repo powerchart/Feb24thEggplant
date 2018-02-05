@@ -1,0 +1,3 @@
+﻿2018-01-31 14:13:59.110 +0530	START		Running Class2-advance.script
+2018-01-31 14:14:00.079 +0530	EndTestCase		(Duration:"0.969", Errors:"1", Exceptions:"0", StartTime:"2018-01-31 14:13:59 +0530", Successes:"0", TestCase:"Class2-advance.script", Warnings:"0")
+2018-01-31 14:14:00.079 +0530	ABORTED		Execution Time 0:00:01 Class2-advance.script

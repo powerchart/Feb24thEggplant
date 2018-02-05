@@ -1,0 +1,8 @@
+﻿function add x, y
+
+	put x+y into add
+	log x
+	log y
+	return add
+	
+end add

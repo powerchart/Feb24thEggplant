@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Script2/Using CSV file.script" package="Eggplant1.suite" timestamp="2018-02-01 15:03:49.379 +0530"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2018-02-01 15:03:49.379 +0530"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="Script2/Using CSV file.script" assertions="2" successes="0" errors="2" time="11.444">
+    <failure type="LogError">Image didint found</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

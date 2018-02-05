@@ -1,0 +1,4 @@
+﻿2018-01-24 14:23:00.313 +0530	START		Running NewScript.script
+2018-01-24 14:23:22.874 +0530	Exception	oogle.png	No Image Found On Screen: "oogle.png"	1	on_newscript	NewScript.script
+2018-01-24 14:23:22.984 +0530	EndTestCase		(Duration:"22.655", Errors:"1", Exceptions:"1", StartTime:"2018-01-24 14:23:00 +0530", Successes:"0", TestCase:"NewScript.script", Warnings:"0")
+2018-01-24 14:23:23.265 +0530	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "oogle.png" -- Execution Time 0:00:22 NewScript.script

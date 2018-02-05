@@ -1,0 +1,4 @@
+﻿2018-01-31 10:46:53.519 +0530	START		Running New script.script	1	on_class2_advance	Class2-advance.script<SELECTION>
+2018-01-31 10:46:53.534 +0530	Log		hi good morning	1	on_new_script	New script.script
+2018-01-31 10:46:53.550 +0530	EndTestCase		(Duration:"0.015", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 10:46:53 +0530", Successes:"1", TestCase:"New script.script", Warnings:"0")	1	on_class2_advance	Class2-advance.script<SELECTION>
+2018-01-31 10:46:53.597 +0530	SUCCESS		Execution Time 0:00:00 New script.script	1	on_class2_advance	Class2-advance.script<SELECTION>
