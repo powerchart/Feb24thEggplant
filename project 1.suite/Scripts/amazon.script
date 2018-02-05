@@ -3,6 +3,8 @@
 //open chrome browser
 DoubleClick "chrome-Image"
 
+//comment
+
 Log "launch chrome"
 WaitFor 5, "chrome-Image"
 
