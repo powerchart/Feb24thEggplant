@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Test">
+ <run>
+  <RunDate>2018-01-30 16:38:34.050 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.828000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180130_163834.050/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 16:39:27.332 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>2.110000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180130_163927.332/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-30 16:47:01.357 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>3.625000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180130_164701.357/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

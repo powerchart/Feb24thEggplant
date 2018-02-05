@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Try To Create a Folder/Test1-OCR.script" package="new.suite" timestamp="2018-01-31 10:53:14.507 +0530"
+ tests="1" successes="0" errors="1" time="0.031000">
+  <properties>
+   <property name="RunDate" value="2018-01-31 10:53:14.507 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Try To Create a Folder/Test1-OCR.script" assertions="1" successes="0" errors="1" time="0.016">
+    <failure type="LogError">Error Logged</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

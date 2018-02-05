@@ -1,0 +1,10 @@
+﻿2018-02-02 15:13:02.307 +0530	START		Running VR-Test.script
+2018-02-02 15:13:02.494 +0530	typetext		[windowsKey]r	3	on_vr_test	VR-Test.script
+2018-02-02 15:13:05.885 +0530	typetext		C:\Program Files\Cerner\powerchart.exe[returnKey]	7	on_vr_test	VR-Test.script
+2018-02-02 15:13:06.885 +0530	click	Username	at (570, 443)	23	on_vr_test	VR-Test.script
+2018-02-02 15:13:07.995 +0530	typetext		PSOPHYS02	24	on_vr_test	VR-Test.script
+2018-02-02 15:13:09.026 +0530	click	Password	at (567, 499)	27	on_vr_test	VR-Test.script
+2018-02-02 15:13:09.932 +0530	typetext		phys01	28	on_vr_test	VR-Test.script
+2018-02-02 15:13:10.885 +0530	click	OkButton	at (588, 598)	30	on_vr_test	VR-Test.script
+2018-02-02 15:13:11.385 +0530	EndTestCase		(Duration:"9.078", Errors:"0", Exceptions:"0", StartTime:"2018-02-02 15:13:02 +0530", Successes:"1", TestCase:"VR-Test.script", Warnings:"0")
+2018-02-02 15:13:11.448 +0530	SUCCESS		Execution Time 0:00:09 VR-Test.script

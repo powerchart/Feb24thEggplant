@@ -1,0 +1,4 @@
+﻿2018-01-30 16:38:34.050 +0530	START		Running Test.script
+2018-01-30 16:38:34.612 +0530	click	StrengthDose	at (910, 671)	1	on_test	Test.script
+2018-01-30 16:38:34.878 +0530	EndTestCase		(Duration:"0.828", Errors:"0", Exceptions:"0", StartTime:"2018-01-30 16:38:34 +0530", Successes:"1", TestCase:"Test.script", Warnings:"0")
+2018-01-30 16:38:34.940 +0530	SUCCESS		Execution Time 0:00:00 Test.script

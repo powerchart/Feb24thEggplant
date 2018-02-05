@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Try To Create a Folder/Test1-OCR">
+ <run>
+  <RunDate>2018-01-31 09:50:56.714 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.750000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_095056.714/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:50:19.771 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.031000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180131_105019.771/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:51:32.864 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.031000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180131_105132.864/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:53:14.507 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.031000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180131_105314.507/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+</runHistory>

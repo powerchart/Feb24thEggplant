@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<runHistory script="File Read">
+ <run>
+  <RunDate>2018-01-31 14:51:41.105 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.610000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180131_145141.105/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>STUnknownMessage -- ERROR: No Such Function: &#x27;resourcepathresourcepath&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 14:51:53.949 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>0.625000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_145153.949/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-01 13:04:17.632 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.641000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180201_130417.632/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got &#x27;https://www.wikipedia.org&#x27; and &#x27;Medical Record Number&#x27;</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-02-01 13:04:37.180 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.578000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>0</Successes>
+  <LogFile>20180201_130437.180/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got &#x27;https://www.wikipedia.org&#x27; and &#x27;Medical Record Number&#x27;</ErrorMessage>
+ </run>
+</runHistory>

@@ -1,0 +1,43 @@
+﻿DoubleClick (Text:"Google")
+
+Click (Text: "EXPLORE",searchRectangle:(495,68,625,132))
+
+
+DoubleClick (Text:"Google")
+
+log readtext("HElloGoodMorningl")
+
+RightClick (Text:"EXPLORE")
+
+Set the SearchRectangle to ("Rect2_A","Rect2_B")
+RightClick (Text:"EXPLORE")
+
+
+Set the SearchRectangle to ("R2_A","R2_B")
+RightClick (Text:"EXPLORE")
+
+
+set the searchRectangle to ()
+Set the SearchRectangle to ("SetRect_A","SetRect_B")
+RightClick(Text:"Book")
+set the searchRectangle to ()
+Set the SearchRectangle to ("rec_A","rec_B")
+RightClick(Text:"Book")
+
+Set the SearchRectangle to ("op_A","op_B")
+wait 2
+Click (Text:"Sports")
+Set the SearchRectangle to ("rr_A","rr_B")
+Click (Text:"Home")
+
+
+put ImageLocation("Icon-1") into RefImage
+
+insert RefImage+(20,-35) into SR
+
+insert RefImage+(399,17) into SR
+
+log ReadText(SR,ValidCharacters: "", IgnoreSpaces: "")
+
+
+Click(Text: "See all deals")

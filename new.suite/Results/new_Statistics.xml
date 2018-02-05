@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="VR-Test">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-02-02 15:13:02 +0530</FirstRun>
+  <LastRun>2018-02-02 15:40:49 +0530</LastRun>
+  <TotalTimeOnSuccess>39.908000</TotalTimeOnSuccess>
+ </script>
+ <script name="new">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>13</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2018-01-29 10:38:13 +0530</FirstRun>
+  <LastRun>2018-01-31 10:02:23 +0530</LastRun>
+  <TotalTimeOnSuccess>451.057000</TotalTimeOnSuccess>
+ </script>
+ <script name="Try To Create a Folder/Hello">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 10:50:19 +0530</FirstRun>
+  <LastRun>2018-01-31 10:53:14 +0530</LastRun>
+  <TotalTimeOnSuccess>0.296000</TotalTimeOnSuccess>
+ </script>
+ <script name="OCR-Test">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-31 10:56:50 +0530</FirstRun>
+  <LastRun>2018-01-31 10:56:50 +0530</LastRun>
+  <TotalTimeOnSuccess>10.270000</TotalTimeOnSuccess>
+ </script>
+ <script name="Practise-Day2">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-02-01 12:22:57 +0530</FirstRun>
+  <LastRun>2018-02-01 12:22:57 +0530</LastRun>
+  <TotalTimeOnSuccess>4.360000</TotalTimeOnSuccess>
+ </script>
+ <script name="Try To Create a Folder/Test1-OCR">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2018-01-31 09:50:56 +0530</FirstRun>
+  <LastRun>2018-01-31 10:53:14 +0530</LastRun>
+  <TotalTimeOnSuccess>0.750000</TotalTimeOnSuccess>
+ </script>
+ <script name="Master-Script">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>2</NumberOfFails>
+  <FirstRun>2018-01-31 09:55:43 +0530</FirstRun>
+  <LastRun>2018-01-31 10:53:14 +0530</LastRun>
+  <TotalTimeOnSuccess>2.329000</TotalTimeOnSuccess>
+ </script>
+ <script name="File Read">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>4</NumberOfRuns>
+  <NumberOfFails>3</NumberOfFails>
+  <FirstRun>2018-01-31 14:51:41 +0530</FirstRun>
+  <LastRun>2018-02-01 13:04:37 +0530</LastRun>
+  <TotalTimeOnSuccess>0.625000</TotalTimeOnSuccess>
+ </script>
+ <script name="Test">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>3</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2018-01-30 16:38:34 +0530</FirstRun>
+  <LastRun>2018-01-30 16:47:01 +0530</LastRun>
+  <TotalTimeOnSuccess>6.563000</TotalTimeOnSuccess>
+ </script>
+</statistics>

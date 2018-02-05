@@ -1,0 +1,30 @@
+﻿2018-01-29 16:18:47.771 +0530	START		Running new.script
+2018-01-29 16:18:47.958 +0530	BeginTestCase		ClassRoom1	1	on_new	new.script
+2018-01-29 16:18:48.317 +0530	doubleclick	chrome_icon	at (257, 326)	5	on_new	new.script
+2018-01-29 16:18:49.489 +0530	click	refresh_icon	at (121, 44)	6	on_new	new.script
+2018-01-29 16:18:50.771 +0530	typetext		www.amazon.com[returnKey]	8	on_new	new.script
+2018-01-29 16:18:51.958 +0530	imagefound	cart_icon.png	found at (1188, 198)	12	on_new	new.script
+2018-01-29 16:18:51.958 +0530	LogSuccess		Image Found	13	on_new	new.script
+2018-01-29 16:19:02.208 +0530	click	All	at (221, 148)	33	on_new	new.script
+2018-01-29 16:19:03.521 +0530	typetext		Movies & TV[returnKey]	35	on_new	new.script
+2018-01-29 16:19:04.552 +0530	click	SearchBar	at (392, 148)	38	on_new	new.script
+2018-01-29 16:19:06.443 +0530	typetext		The Big Bang Theory - Seasons	39	on_new	new.script
+2018-01-29 16:19:07.490 +0530	click	thebigbangtheoryseasons	at (417, 223)	42	on_new	new.script
+2018-01-29 16:19:20.521 +0530	imagefound	TheBigBangTheoryTheCompleteTen	Unable to Find Image TheBigBangTheoryTheCompleteTen within 10.00 seconds	47	on_new	new.script
+2018-01-29 16:19:20.568 +0530	typetext		[pageDown]	51	on_new	new.script
+2018-01-29 16:19:33.662 +0530	imagefound	TheBigBangTheoryTheCompleteTen	Unable to Find Image TheBigBangTheoryTheCompleteTen within 10.00 seconds	47	on_new	new.script
+2018-01-29 16:19:33.881 +0530	typetext		[pageDown]	51	on_new	new.script
+2018-01-29 16:19:46.194 +0530	imagefound	TheBigBangTheoryTheCompleteTen	Unable to Find Image TheBigBangTheoryTheCompleteTen within 10.00 seconds	47	on_new	new.script
+2018-01-29 16:19:46.397 +0530	typetext		[pageDown]	51	on_new	new.script
+2018-01-29 16:19:53.241 +0530	imagefound	TheBigBangTheoryTheCompleteTen	found at (653, 983)	47	on_new	new.script
+2018-01-29 16:19:53.241 +0530	LogSuccess		The Big Bang Theory - The Complete Tenth Season - Image Found	48	on_new	new.script
+2018-01-29 16:19:55.303 +0530	click	TheBigBangTheoryTheCompleteTen	at (653, 983)	56	on_new	new.script
+2018-01-29 16:20:00.991 +0530	doubleclick	DVD/DVD-2	at (368, 548)	59	on_new	new.script
+2018-01-29 16:20:11.116 +0530	imagefound	Customerswhoboughtthisitem	Unable to Find Image Customerswhoboughtthisitem within 10.00 seconds	63	on_new	new.script
+2018-01-29 16:20:11.350 +0530	typetext		[pageDown]	67	on_new	new.script
+2018-01-29 16:20:12.022 +0530	imagefound	Customerswhoboughtthisitem	found at (167, 683)	63	on_new	new.script
+2018-01-29 16:20:12.022 +0530	LogSuccess		Customers who bought this item - Image Found	64	on_new	new.script
+2018-01-29 16:20:12.569 +0530	capturescreen	ImageCapture.png		73	on_new	new.script
+2018-01-29 16:20:12.569 +0530	EndTestCase		(Duration:"84.611", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 16:18:47 +0530", Successes:"3", TestCase:"ClassRoom1", Warnings:"0")	76	on_new	new.script
+2018-01-29 16:20:12.725 +0530	EndTestCase		(Duration:"84.939", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 16:18:47 +0530", Successes:"3", TestCase:"new.script", Warnings:"0")
+2018-01-29 16:20:12.757 +0530	SUCCESS		Execution Time 0:01:25 new.script

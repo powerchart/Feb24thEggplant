@@ -1,0 +1,25 @@
+﻿//Capture reference image location
+if(ImageFound(2, "AddtoPhase")) then
+	put ImageLocation("AddtoPhase") into refAddtoPhaseImage
+	log refAddtoPhaseImage
+else
+	LogError "Reference Image not found"	
+End if
+
+//(326,262)
+
+//insert refAddtoPhaseImage+(374,28) into SR
+
+insert refAddtoPhaseImage+(425,65) into SR
+
+MoveTo SR
+insert refAddtoPhaseImage+(500,85) into SR
+log SR
+
+log read(Image:"Days1FuturePendingEst252018121", WaitFor:74)
+put ReadText(SR) into DotItems
+log DotItems
+//(699,295,830,363)
+
+
+Log ReadText("Days1FuturePendingEst252018121") 

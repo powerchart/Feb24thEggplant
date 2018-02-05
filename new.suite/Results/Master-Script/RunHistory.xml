@@ -1,0 +1,75 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Master-Script">
+ <run>
+  <RunDate>2018-01-31 09:53:31.327 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180131_095331.327/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 09:54:16.703 +0530</RunDate>
+  <Status>Running</Status>
+  <Duration>0.000000</Duration>
+  <Errors></Errors>
+  <Warnings></Warnings>
+  <Exceptions></Exceptions>
+  <Successes></Successes>
+  <LogFile>20180131_095416.703/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 09:55:43.158 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.750000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_095543.158/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:07:17.094 +0530</RunDate>
+  <Status>Failure</Status>
+  <Duration>0.719000</Duration>
+  <Errors>1</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>2</Successes>
+  <LogFile>20180131_100717.094/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage>Script Error -- Number of Errors logged: 1</ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:51:32.442 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>1.172000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_105132.442/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2018-01-31 10:53:14.100 +0530</RunDate>
+  <Status>Success</Status>
+  <Duration>1.157000</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20180131_105314.100/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

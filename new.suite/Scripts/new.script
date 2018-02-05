@@ -1,0 +1,62 @@
+﻿BeginTestCase ClassRoom1
+
+//Step1 
+DoubleClick "chrome_icon"
+Click "refresh_icon"
+
+TypeText "www.amazon.com",returnKey
+
+//Step 2 - ImageFound("cart_icon")
+if ImageFound(30, "cart_icon.png") then
+	LogSuccess "Cart - Image Found"	
+	
+else 
+	LogError "Oops Image not found"
+	Exit all
+	
+end if
+
+//Step 3
+Click  "All"
+TypeText "Movies & TV", returnKey
+
+//Step 4
+Click "SearchBar"
+TypeText "The Big Bang Theory - Seasons", 
+
+
+Click "thebigbangtheoryseasons"
+
+//Step 5
+Repeat forever
+	if ImageFound(10, "TheBigBangTheoryTheCompleteTen") then
+		LogSuccess "The Big Bang Theory - The Complete Tenth Season - Image Found"
+		Exit repeat
+	else
+		TypeText pageDown
+	end if
+	
+End repeat
+
+click "TheBigBangTheoryTheCompleteTen"
+
+Put ("DVD/DVD-1","DVD/DVD-2") into DVDInstances
+Doubleclick items 2 of DVDInstances
+
+//Step 6
+Repeat forever
+	if ImageFound(10, "Customerswhoboughtthisitem") then
+		LogSuccess "Customers who bought this item - Image Found"
+		Exit repeat
+	else
+		TypeText pageDown
+	end if
+	
+End repeat
+
+//Step 7
+CaptureScreen (Name: "ImageCapture")
+
+
+EndTestCase ClassRoom1
+

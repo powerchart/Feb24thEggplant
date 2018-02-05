@@ -1,0 +1,6 @@
+﻿2018-01-31 10:07:17.094 +0530	START		Running Master-Script.script
+2018-01-31 10:07:17.391 +0530	LogSuccess		Hello Success	1	on_try_to_create_a_folder_hello	Try To Create a Folder/Hello.script
+2018-01-31 10:07:17.422 +0530	LogError		Error Logged	1	on_try_to_create_a_folder_test1_ocr	Try To Create a Folder/Test1-OCR.script
+2018-01-31 10:07:17.454 +0530	LogSuccess		Folder Inside the Folder	1	on_try_to_create_a_folder_folder2_test_folder	Try To Create a Folder/Folder2/Test-Folder.script
+2018-01-31 10:07:17.813 +0530	EndTestCase		(Duration:"0.703", Errors:"1", Exceptions:"0", StartTime:"2018-01-31 10:07:17 +0530", Successes:"2", TestCase:"Master-Script.script", Warnings:"0")
+2018-01-31 10:07:18.297 +0530	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:00:00 Master-Script.script

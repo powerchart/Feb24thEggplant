@@ -1,0 +1,3 @@
+﻿2018-01-31 09:50:56.730 +0530	START		Running Try To Create a Folder/Test1-OCR.script
+2018-01-31 09:50:57.464 +0530	EndTestCase		(Duration:"0.719", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 09:50:56 +0530", Successes:"1", TestCase:"Try To Create a Folder/Test1-OCR.script", Warnings:"0")
+2018-01-31 09:50:57.511 +0530	SUCCESS		Execution Time 0:00:01 Try To Create a Folder/Test1-OCR.script

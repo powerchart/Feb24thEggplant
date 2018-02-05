@@ -1,0 +1,5 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-01-31 14:51:41.105 +0530,"Failure",0:00:00,1,0,0,"20180131_145141.105/LogFile.txt","","STUnknownMessage -- ERROR: No Such Function: 'resourcepathresourcepath'",0
+2018-01-31 14:51:53.949 +0530,"Success",0:00:00,0,0,0,"20180131_145153.949/LogFile.txt","","",1
+2018-02-01 13:04:17.632 +0530,"Failure",0:00:00,1,0,0,"20180201_130417.632/LogFile.txt","","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'https://www.wikipedia.org' and 'Medical Record Number'",0
+2018-02-01 13:04:37.180 +0530,"Failure",0:00:00,1,0,0,"20180201_130437.180/LogFile.txt","","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'https://www.wikipedia.org' and 'Medical Record Number'",0

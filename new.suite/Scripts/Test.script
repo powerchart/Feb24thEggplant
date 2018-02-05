@@ -1,0 +1,22 @@
+﻿
+Click "StrengthDose"
+Typetext "100"
+
+
+Click "DrugForm"
+TypeText "Cap"
+
+
+
+put ("chrome_icon", \                          //1
+		"cart_icon",\                           //2
+		"refresh_icon"\                        //3
+		,"Order details/DrugForm",\       //4 - Drug Form
+		"Order details/StrengthDose",\    //5
+		"chrome_icon" \                       //6 - Dose (KDMO 1)
+		) into OrderDetailsList
+
+Click Item 6  of OrderDetailsList
+TypeText "Cap", returnKey
+
+Image

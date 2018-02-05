@@ -1,0 +1,6 @@
+﻿2018-01-29 10:49:15.348 +0530	START		Running new.script
+2018-01-29 10:49:15.785 +0530	doubleclick	chrome_icon	at (257, 326)	1	on_new	new.script
+2018-01-29 10:49:16.723 +0530	click	refresh_icon	at (121, 44)	2	on_new	new.script
+2018-01-29 10:49:18.082 +0530	typetext		www.amazon.com[returnKey]	4	on_new	new.script
+2018-01-29 10:49:18.176 +0530	EndTestCase		(Duration:"2.828", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 10:49:15 +0530", Successes:"1", TestCase:"new.script", Warnings:"0")
+2018-01-29 10:49:18.223 +0530	SUCCESS		Execution Time 0:00:03 new.script

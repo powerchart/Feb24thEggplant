@@ -1,0 +1,10 @@
+﻿2018-01-29 11:10:19.278 +0530	START		Running new.script
+2018-01-29 11:10:19.403 +0530	BeginTestCase		ClassRoom1	1	on_new	new.script
+2018-01-29 11:10:19.793 +0530	doubleclick	chrome_icon	at (257, 326)	5	on_new	new.script
+2018-01-29 11:10:21.246 +0530	click	refresh_icon	at (121, 44)	6	on_new	new.script
+2018-01-29 11:10:22.606 +0530	typetext		www.amazon.com[returnKey]	8	on_new	new.script
+2018-01-29 11:10:23.856 +0530	imagefound	cart_icon.png	found at (1188, 198)	10	on_new	new.script
+2018-01-29 11:10:23.856 +0530	LogSuccess		Image Found	11	on_new	new.script
+2018-01-29 11:10:23.997 +0530	EndTestCase		(Duration:"4.594", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 11:10:19 +0530", Successes:"1", TestCase:"ClassRoom1", Warnings:"0")
+2018-01-29 11:10:23.997 +0530	EndTestCase		(Duration:"4.719", Errors:"0", Exceptions:"0", StartTime:"2018-01-29 11:10:19 +0530", Successes:"1", TestCase:"new.script", Warnings:"0")
+2018-01-29 11:10:24.059 +0530	SUCCESS		Execution Time 0:00:04 new.script

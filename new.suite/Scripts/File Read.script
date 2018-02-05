@@ -1,0 +1,36 @@
+﻿(* 
+put file ResourcePath("PatInfo.txt") into myFile
+log myFile
+
+put the number of lines of myFile into LineCount
+log LineCount
+
+log line 1 of myFile
+log line 2 of myFile *)
+
+
+put file ResourcePath("Wiki.csv") into myCSVFile
+put the number of lines of myCSVFile into LineCount
+log LineCount
+//Put item 1 of line 11 of myCSVFile into URL
+//Log URL
+//typetext URL, returnKey
+
+Repeat LineCount times
+	put item 1 of line repeatIndex() of myCSVFile into ItemName
+	if ItemName = "https://www.wikipedia.org" then
+		//log ItemName
+		//log repeatIndex()
+		typetext URL, returnKey
+		Exit repeat		
+	end if
+End Repeat
+
+(*
+log myCSVFile
+log item 5 of line 3 of myCSVFile
+
+put (SL:"1",name:"Pawan",age:"27",sex:"Male") into Map
+log SL of Map
+log name of Map*)
+

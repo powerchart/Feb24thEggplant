@@ -1,0 +1,6 @@
+﻿2018-01-31 10:01:47.993 +0530	START		Running new.script
+2018-01-31 10:01:48.165 +0530	BeginTestCase		ClassRoom1	1	on_new	new.script
+2018-01-31 10:01:48.572 +0530	doubleclick	chrome_icon	at (257, 326)	4	on_new	new.script
+2018-01-31 10:01:48.962 +0530	EndTestCase		(Duration:"0.782", Errors:"1", Exceptions:"0", StartTime:"2018-01-31 10:01:48 +0530", Successes:"0", TestCase:"ClassRoom1", Warnings:"0")
+2018-01-31 10:01:48.962 +0530	EndTestCase		(Duration:"0.969", Errors:"1", Exceptions:"0", StartTime:"2018-01-31 10:01:47 +0530", Successes:"0", TestCase:"new.script", Warnings:"0")
+2018-01-31 10:01:49.228 +0530	FAILURE	Screen_Error.png	STUnknownMessage ERROR: No Such Function: 'imagefoundinfo' -- Execution Time 0:00:01 new.script

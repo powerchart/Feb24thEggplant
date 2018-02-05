@@ -1,0 +1,4 @@
+﻿2018-02-01 13:04:37.180 +0530	START		Running File Read.script
+2018-02-01 13:04:37.305 +0530	Log		11	14	on_file_read	File Read.script
+2018-02-01 13:04:37.773 +0530	EndTestCase		(Duration:"0.563", Errors:"1", Exceptions:"0", StartTime:"2018-02-01 13:04:37 +0530", Successes:"0", TestCase:"File Read.script", Warnings:"0")
+2018-02-01 13:04:38.055 +0530	FAILURE	Screen_Error.png	SenseTalk Runtime Exception Invalid operands for addition: expected numbers, dates and/or lists; got 'https://www.wikipedia.org' and 'Medical Record Number' -- Execution Time 0:00:00 File Read.script

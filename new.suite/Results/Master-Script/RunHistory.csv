@@ -1,0 +1,7 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-01-31 09:53:31.327 +0530,"Running",0:00:00,0,0,0,"20180131_095331.327/LogFile.txt","","",0
+2018-01-31 09:54:16.703 +0530,"Running",0:00:00,0,0,0,"20180131_095416.703/LogFile.txt","","",0
+2018-01-31 09:55:43.158 +0530,"Failure",0:00:00,1,0,0,"20180131_095543.158/LogFile.txt","","Script Error -- Number of Errors logged: 1",1
+2018-01-31 10:07:17.094 +0530,"Failure",0:00:00,1,0,0,"20180131_100717.094/LogFile.txt","","Script Error -- Number of Errors logged: 1",2
+2018-01-31 10:51:32.442 +0530,"Success",0:00:01,0,0,0,"20180131_105132.442/LogFile.txt","","",1
+2018-01-31 10:53:14.100 +0530,"Success",0:00:01,0,0,0,"20180131_105314.100/LogFile.txt","","",1

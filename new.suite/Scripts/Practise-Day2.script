@@ -1,0 +1,68 @@
+﻿//Step 1 -  Launch Chrome 
+Run LaunchChromeTypeAmazon
+Run "File Read"
+
+//Step -  255 270
+
+TypeText "The Big Bang theory Season"
+
+put ImageLocation("SearchIcon") into SearchIconLocation
+log SearchIconLocation
+
+insert SearchIconLocation+(20,37) into SR
+Log SR
+MoveTo SR
+Click SR
+TypeText returnKey
+
+TypeText controlKey, "f", "Rating",returnKey
+
+
+put ImageLocation("Ratings") into RatingLocation
+set NameSearch to"The Tesla Recoil"
+
+Log RatingLocation
+
+put format ("Test",123) into Temp
+log Temp
+
+insert RatingLocation+(22,80) into SR
+Log SR
+insert RatingLocation+(235,450) into SR
+Log SR
+Wait 2
+Log ReadText(SR)
+
+put ReadText(SR) into NameList
+put the number of lines of NameList into NameCount
+log NameCount
+
+Repeat NameCount times
+	put line repeatIndex() of NameList into Var1
+	log Var1
+	
+	//log Var1
+	if Var1 = NameSearch then
+		log "Enter into If cond"
+		Log Var1
+		
+		put ImageLocation(Text:Var1,searchRectangle:SR) into NameLoc
+		Log NameLoc
+		Exit Repeat
+	end if
+End Repeat
+
+put ImageLocation(Text:NameSearch,searchRectangle:SR) into NameLocation
+Log NameLocation
+
+insert NameLocation+(291,-12) into NumLocation
+insert NameLocation+(405,12) into NumLocation
+log NumLocation
+put ReadText(NumLocation) into Avg
+
+if Avg = "2.6/11" then
+	LogSuccess "Done"
+else
+	LogError "Error"
+	
+end if

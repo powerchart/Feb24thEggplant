@@ -1,0 +1,4 @@
+﻿2018-01-31 14:51:53.965 +0530	START		Running File Read.script
+2018-01-31 14:51:54.090 +0530	Log		Hello Pat\nNo 1	2	on_file_read	File Read.script
+2018-01-31 14:51:54.574 +0530	EndTestCase		(Duration:"0.609", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 14:51:53 +0530", Successes:"1", TestCase:"File Read.script", Warnings:"0")
+2018-01-31 14:51:54.637 +0530	SUCCESS		Execution Time 0:00:01 File Read.script

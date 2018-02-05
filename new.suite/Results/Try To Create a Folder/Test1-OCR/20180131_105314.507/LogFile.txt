@@ -1,0 +1,4 @@
+﻿2018-01-31 10:53:14.522 +0530	START		Running Try To Create a Folder/Test1-OCR.script	6	on_master_script	Master-Script.script
+2018-01-31 10:53:14.538 +0530	LogError		Error Logged	1	on_try_to_create_a_folder_test1_ocr	Try To Create a Folder/Test1-OCR.script
+2018-01-31 10:53:14.538 +0530	EndTestCase		(Duration:"0.016", Errors:"1", Exceptions:"0", StartTime:"2018-01-31 10:53:14 +0530", Successes:"0", TestCase:"Try To Create a Folder/Test1-OCR.script", Warnings:"0")	6	on_master_script	Master-Script.script
+2018-01-31 10:53:14.819 +0530	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:00:00 Try To Create a Folder/Test1-OCR.script	6	on_master_script	Master-Script.script

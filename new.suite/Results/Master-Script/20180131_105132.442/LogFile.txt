@@ -1,0 +1,5 @@
+﻿2018-01-31 10:51:32.458 +0530	START		Running Master-Script.script
+2018-01-31 10:51:32.614 +0530	runwithnewresults		Hello.script (C:/Temp/new.suite/Results/Try To Create a Folder/Hello/20180131_105132.614/LogFile.txt)	5	on_master_script	Master-Script.script
+2018-01-31 10:51:32.879 +0530	runwithnewresults		Test1-OCR.script (C:/Temp/new.suite/Results/Try To Create a Folder/Test1-OCR/20180131_105132.864/LogFile.txt)	6	on_master_script	Master-Script.script
+2018-01-31 10:51:33.614 +0530	EndTestCase		(Duration:"1.156", Errors:"1", Exceptions:"0", StartTime:"2018-01-31 10:51:32 +0530", Successes:"2", TestCase:"Master-Script.script", Warnings:"0")
+2018-01-31 10:51:33.661 +0530	SUCCESS		Execution Time 0:00:01 Master-Script.script

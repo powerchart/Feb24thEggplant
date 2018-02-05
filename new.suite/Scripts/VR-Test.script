@@ -1,0 +1,42 @@
+﻿//on OpenApp appToLaunch
+
+TypeText WindowsKey,"r" -- open the Run panel
+
+Wait 2
+
+TypeText "C:\Program Files\Cerner\powerchart.exe", returnkey -- enter the name of the app to run and press return
+
+
+put ImageLocation("CernerIcon") into IconLocation
+Log IconLocation
+//end OpenApp
+
+
+(*on LoginCredentails (Username,
+
+TypeText WindowsKey,"r" -- open the Run panel
+
+Wait 2
+
+TypeText "C:\Program Files\Cerner\powerchart.exe", returnkey -- enter the name of the app to run and press return
+
+end OpenApp"Password"*)
+
+if ImageFound(Username) then	
+	Click "Username"
+	TypeText backspace
+	TypeText "PSOPHYS01"
+	LogSuccess "Entered user name"
+else
+	LogError "Oops! UserName Image is not found"	
+end if
+
+
+Click "Username"
+TypeText "PSOPHYS01"
+
+
+Click "Password"
+TypeText "phys01"
+
+DoubleClick "OkButton", "CernerIcon"

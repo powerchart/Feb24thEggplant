@@ -1,0 +1,15 @@
+﻿on A var1, var2 
+	return var1 plus var2 
+end A
+
+on AB 
+
+	LogSuccess "Success"
+	
+	
+end AB
+
+
+put A(3,4)
+
+put AB

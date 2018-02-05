@@ -1,0 +1,4 @@
+﻿2018-01-31 10:51:32.629 +0530	START		Running Try To Create a Folder/Hello.script	5	on_master_script	Master-Script.script
+2018-01-31 10:51:32.754 +0530	LogSuccess		Hello Success	1	on_try_to_create_a_folder_hello	Try To Create a Folder/Hello.script
+2018-01-31 10:51:32.770 +0530	EndTestCase		(Duration:"0.141", Errors:"0", Exceptions:"0", StartTime:"2018-01-31 10:51:32 +0530", Successes:"1", TestCase:"Try To Create a Folder/Hello.script", Warnings:"0")	5	on_master_script	Master-Script.script
+2018-01-31 10:51:32.833 +0530	SUCCESS		Execution Time 0:00:00 Try To Create a Folder/Hello.script	5	on_master_script	Master-Script.script

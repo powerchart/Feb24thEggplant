@@ -1,0 +1,4 @@
+﻿function Add x, y
+	put x + y into var
+	return var
+end Add

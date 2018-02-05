@@ -1,0 +1,4 @@
+﻿DoubleClick "chrome_icon"
+Click "refresh_icon"
+
+//TypeText "www.amazon.com",returnKey

@@ -1,0 +1,16 @@
+﻿//Run "Try To Create a Folder/Hello"
+//Run "Try To Create a Folder/Test1-OCR"
+//Run "Try To Create a Folder/Folder2/Test-Folder"
+
+RunWithNewResults "Try To Create a Folder/Hello"
+RunWithNewResults "Try To Create a Folder/Test1-OCR"
+
+Handlers.Window
+
+Run "Handlers".Window
+Run "Handlers".Door
+
+Run "Handlers".Add 6,5,1
+
+put  Functions1.Add(10,5) into Result
+log Result

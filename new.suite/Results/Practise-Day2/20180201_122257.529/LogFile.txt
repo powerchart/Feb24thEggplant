@@ -1,0 +1,6 @@
+﻿2018-02-01 12:22:57.529 +0530	START		Running Practise-Day2.script
+2018-02-01 12:22:58.139 +0530	doubleclick	chrome_icon	at (257, 326)	1	on_launchchrometypeamazon	LaunchChromeTypeAmazon.script
+2018-02-01 12:23:00.045 +0530	click	refresh_icon	at (121, 44)	2	on_launchchrometypeamazon	LaunchChromeTypeAmazon.script
+2018-02-01 12:23:01.436 +0530	typetext		www.amazon.com[returnKey]	4	on_launchchrometypeamazon	LaunchChromeTypeAmazon.script
+2018-02-01 12:23:01.889 +0530	EndTestCase		(Duration:"4.344", Errors:"0", Exceptions:"0", StartTime:"2018-02-01 12:22:57 +0530", Successes:"1", TestCase:"Practise-Day2.script", Warnings:"0")
+2018-02-01 12:23:01.967 +0530	SUCCESS		Execution Time 0:00:04 Practise-Day2.script

@@ -1,0 +1,21 @@
+﻿on Window
+	log "Hanlde a window"
+end Window
+
+on Door
+	log "Handle a Door"
+end Door
+
+on Test
+	log "Handle a Test"
+end Test
+
+on Car
+	log "Handle a Car"
+end Car
+
+
+on Add x,y,z
+	put x + y + z into var1
+	log var1
+end Add

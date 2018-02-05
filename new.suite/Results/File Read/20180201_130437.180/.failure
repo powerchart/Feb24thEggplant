@@ -1,0 +1,1 @@
+2018-02-01 13:04:37.180 +0530,Failure,0:00:00,1,0,0,20180201_130437.180/LogFile.txt,"","SenseTalk Runtime Exception -- Invalid operands for addition: expected numbers, dates and/or lists; got 'https://www.wikipedia.org' and 'Medical Record Number'",0
