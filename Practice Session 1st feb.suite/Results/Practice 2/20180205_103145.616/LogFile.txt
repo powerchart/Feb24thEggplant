@@ -1,0 +1,4 @@
+﻿2018-02-05 10:31:45.632 +0530	START		Running Practice 2.script
+2018-02-05 10:31:45.804 +0530	Exception	Google chrome	Could Not Open Image: Google chrome	1	on_practice_2	C://userprofiles01/XDdata01/ht049330/Desktop/eggplant/Practice Session 1st feb.suite/Scripts/Practice 2.script
+2018-02-05 10:31:45.913 +0530	EndTestCase		(Duration:"0.265", Errors:"1", Exceptions:"1", StartTime:"2018-02-05 10:31:45 +0530", Successes:"0", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-05 10:31:46.195 +0530	FAILURE	Screen_Error.png	File Not Found doubleclick Error - Could Not Open Image: Google chrome -- Execution Time 0:00:00 Practice 2.script

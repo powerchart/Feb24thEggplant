@@ -1,0 +1,36 @@
+﻿2018-02-02 14:39:37.906 +0530	START		Running Practice 2.script
+2018-02-02 14:39:38.625 +0530	doubleclick	Google chrome	at (32, 436)	1	on_practice_2	Practice 2.script
+2018-02-02 14:39:40.281 +0530	waitfor	Refresh	found at (76, 42)	3	on_practice_2	Practice 2.script
+2018-02-02 14:39:40.766 +0530	typetext		wikipedia[returnKey]	10	on_practice_2	Practice 2.script
+2018-02-02 14:39:41.906 +0530	waitfor	(TEXT:"Wikipedia")	found at (146, 47)	14	on_practice_2	Practice 2.script
+2018-02-02 14:39:43.750 +0530	click	(TEXT:"Wikipedia")	at (204, 290)	17	on_practice_2	Practice 2.script
+2018-02-02 14:39:45.422 +0530	imagefound	Textbox	found at (599, 576)	23	on_practice_2	Practice 2.script
+2018-02-02 14:39:45.641 +0530	click	Textbox	at (599, 576)	25	on_practice_2	Practice 2.script
+2018-02-02 14:39:47.578 +0530	typetext		The Big Bang Theory Season 1	29	on_practice_2	Practice 2.script
+2018-02-02 14:39:49.234 +0530	click	(TEXT:"The Big Bang Theory (season 1)")	at (605, 685)	32	on_practice_2	Practice 2.script
+2018-02-02 14:39:54.281 +0530	keydown		[controlKey]f	36	on_practice_2	Practice 2.script
+2018-02-02 14:39:55.266 +0530	typetext		Ratings[returnKey]	38	on_practice_2	Practice 2.script
+2018-02-02 14:40:05.432 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	42	on_practice_2	Practice 2.script
+2018-02-02 14:40:05.479 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:40:15.792 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:40:15.854 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:40:26.026 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:40:26.089 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:40:36.292 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:40:36.339 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:40:46.542 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:40:46.605 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:40:56.824 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:40:56.886 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:41:07.027 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:41:07.105 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:41:17.274 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:41:17.321 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:41:27.450 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:41:27.575 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:41:37.654 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:41:37.732 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:41:47.904 +0530	imagefound	TheBigBangTheoryimage	Unable to Find Image TheBigBangTheoryimage within 10.00 seconds	44	on_practice_2	Practice 2.script
+2018-02-02 14:41:47.967 +0530	typetext		[pageUp]	43	on_practice_2	Practice 2.script
+2018-02-02 14:41:53.576 +0530	EndTestCase		(Duration:"135.639", Errors:"1", Exceptions:"0", StartTime:"2018-02-02 14:39:37 +0530", Successes:"0", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-02 14:41:53.592 +0530	ABORTED		Execution Time 0:02:16 Practice 2.script

@@ -1,0 +1,4 @@
+﻿2018-02-01 11:42:04.543 +0530	START		Running Practice 2.script
+2018-02-01 11:42:06.293 +0530	doubleclick	(TEXT:"Chrome")	at (36, 475)	1	on_practice_2	Practice 2.script
+2018-02-01 11:42:07.153 +0530	EndTestCase		(Duration:"2.594", Errors:"0", Exceptions:"0", StartTime:"2018-02-01 11:42:04 +0530", Successes:"1", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-01 11:42:09.106 +0530	SUCCESS		Execution Time 0:00:03 Practice 2.script

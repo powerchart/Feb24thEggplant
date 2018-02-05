@@ -1,0 +1,17 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2018-02-02 15:47:10.507 +0530,"Success",0:00:01,0,0,0,"20180202_154710.507/LogFile.txt","","",1
+2018-02-02 15:51:33.638 +0530,"Success",0:00:01,0,0,0,"20180202_155133.638/LogFile.txt","","",1
+2018-02-02 15:52:24.545 +0530,"Success",0:00:02,0,0,0,"20180202_155224.545/LogFile.txt","","",1
+2018-02-02 16:03:32.392 +0530,"Failure",0:00:17,1,0,1,"20180202_160332.392/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Username""",0
+2018-02-02 16:07:53.837 +0530,"Success",0:00:08,0,0,0,"20180202_160753.837/LogFile.txt","","",1
+2018-02-02 16:14:03.026 +0530,"Success",0:00:09,0,0,0,"20180202_161403.026/LogFile.txt","","",1
+2018-02-02 16:18:56.315 +0530,"Success",0:00:13,0,0,0,"20180202_161856.315/LogFile.txt","","",1
+2018-02-02 16:21:11.359 +0530,"Success",0:00:17,0,0,0,"20180202_162111.359/LogFile.txt","","",1
+2018-02-02 16:24:53.978 +0530,"Failure",0:00:52,1,0,1,"20180202_162453.978/LogFile.txt","","Image Not Found -- waitfor Error - Unable To Find Any Image On Screen ""InteractiveViewandlO"" within 15.00 seconds",0
+2018-02-02 16:26:08.881 +0530,"Success",0:00:26,0,0,0,"20180202_162608.881/LogFile.txt","","",1
+2018-02-02 16:33:52.149 +0530,"Success",0:00:29,0,0,0,"20180202_163352.149/LogFile.txt","","",1
+2018-02-02 16:37:21.942 +0530,"Running",0:00:00,0,0,0,"20180202_163721.942/LogFile.txt","","",0
+2018-02-02 16:38:46.693 +0530,"Failure",0:00:08,1,0,1,"20180202_163846.693/LogFile.txt","","Error Running Script Command -- waitfor Error - Too Few Parameters, please use waitfor time, image1[, imageX]",0
+2018-02-05 10:14:08.695 +0530,"Failure",0:00:00,1,0,1,"20180205_101408.695/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: Start Button",0
+2018-02-05 10:14:33.402 +0530,"Failure",0:00:00,1,0,1,"20180205_101433.402/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: Start Button",0
+2018-02-05 10:16:57.118 +0530,"Failure",0:00:01,1,0,1,"20180205_101657.118/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: Username1",0

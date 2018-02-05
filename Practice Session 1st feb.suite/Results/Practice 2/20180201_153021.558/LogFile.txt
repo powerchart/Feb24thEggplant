@@ -1,0 +1,7 @@
+﻿2018-02-01 15:30:21.605 +0530	START		Running Practice 2.script
+2018-02-01 15:30:22.105 +0530	doubleclick	Google chrome	at (32, 436)	1	on_practice_2	Practice 2.script
+2018-02-01 15:30:23.403 +0530	waitfor	Refresh	found at (76, 42)	3	on_practice_2	Practice 2.script
+2018-02-01 15:30:24.091 +0530	typetext		wikipedia[returnKey]	10	on_practice_2	Practice 2.script
+2018-02-01 15:31:06.685 +0530	Exception	(TEXT:"Wikipedia")	Unable To Find Any Image On Screen "(TEXT:"Wikipedia")" within 5.00 seconds	14	on_practice_2	Practice 2.script
+2018-02-01 15:31:07.607 +0530	EndTestCase		(Duration:"45.987", Errors:"1", Exceptions:"1", StartTime:"2018-02-01 15:30:21 +0530", Successes:"0", TestCase:"Practice 2.script", Warnings:"0")
+2018-02-01 15:31:07.623 +0530	ABORTED		Execution Time 0:00:46 Practice 2.script
