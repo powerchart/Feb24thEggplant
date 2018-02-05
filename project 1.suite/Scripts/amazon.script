@@ -5,6 +5,8 @@ DoubleClick "chrome-Image"
 
 //comment
 
+//commit
+
 Log "launch chrome"
 WaitFor 5, "chrome-Image"
 
