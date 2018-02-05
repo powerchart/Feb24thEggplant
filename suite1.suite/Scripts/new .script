@@ -1,0 +1,31 @@
+﻿(*
+--testing 
+//try with comments
+--DoubleClick "GoogleChrome"
+--DoubleClick "image0001"
+*)
+
+(*
+DoubleClick "croppedChrome"
+*)
+DoubleClick "goolglechrome"
+
+log "chrome is launched"
+(*DoubleClick (Text:"GoogleChrome")*)
+
+WaitFor 2, "refresh.png"
+
+CaptureScreen (Name: "googlechrome")
+
+Click "refresh"
+
+log"clicked on refresh button"
+
+TypeText "https://www.amazon.com",returnKey
+
+log "amazon has been launched"
+
+(*Click (Image:"Departments", WaitFor:19.3)
+log "clicked on the department dropdown"*)
+
+
